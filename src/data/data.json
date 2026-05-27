@@ -4228,17 +4228,18 @@
       "overlapCount": 17,
       "addedCount": 2,
       "droppedCount": 3,
+      "preservedCount": 8,
+      "preservedSkills": [
+        "Blueprinting",
+        "Construction",
+        "Data Entry",
+        "Ethical Standards And Conduct",
+        "Inventory Control",
+        "Inventory Management",
+        "Machining",
+        "Sawing"
+      ],
       "pipelineAdded": [
-        {
-          "skill": "Troubleshooting (Problem Solving)",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Critical Thinking and Problem Solving",
-          "label": "High Value Skill",
-          "frequency": 0.12075,
-          "specificity": 0.0233379153689954,
-          "growth": 0.560071813285458,
-          "wagePremium": 0.0687131144060047
-        },
         {
           "skill": "Forklift Truck",
           "category": "Baseline Applied Skills",
@@ -4247,7 +4248,19 @@
           "frequency": 0.139697,
           "specificity": 0.150414739830353,
           "growth": 0.0251323802437387,
-          "wagePremium": 0.0454813923896582
+          "wagePremium": 0.0454813923896582,
+          "rationale": "Moderate prevalence"
+        },
+        {
+          "skill": "Troubleshooting (Problem Solving)",
+          "category": "Foundational & Leadership Skills",
+          "subcategory": "Critical Thinking and Problem Solving",
+          "label": "High Value Skill",
+          "frequency": 0.12075,
+          "specificity": 0.0233379153689954,
+          "growth": 0.560071813285458,
+          "wagePremium": 0.0687131144060047,
+          "rationale": "Moderate prevalence; strong positive demand signal"
         }
       ],
       "pipelineDropped": [
@@ -4259,17 +4272,8 @@
           "frequency": 0.0441,
           "specificity": 0.0849,
           "growth": 0.005472,
-          "wagePremium": null
-        },
-        {
-          "skill": "Forging",
-          "category": "Specialization",
-          "subcategory": null,
-          "label": "High Growth Skill",
-          "frequency": 0.0516,
-          "specificity": 0.1632,
-          "growth": 0.003583,
-          "wagePremium": null
+          "wagePremium": null,
+          "rationale": "Already marginal in reference"
         },
         {
           "skill": "Geometry",
@@ -4279,7 +4283,19 @@
           "frequency": 0.0501,
           "specificity": 0.0928,
           "growth": -0.005448,
-          "wagePremium": null
+          "wagePremium": null,
+          "rationale": "Low-to-moderate historical prevalence"
+        },
+        {
+          "skill": "Forging",
+          "category": "Specialization",
+          "subcategory": null,
+          "label": "High Growth Skill",
+          "frequency": 0.0516,
+          "specificity": 0.1632,
+          "growth": 0.003583,
+          "wagePremium": null,
+          "rationale": "Low-to-moderate historical prevalence"
         }
       ],
       "curation": []
@@ -4290,6 +4306,11 @@
       "overlapCount": 10,
       "addedCount": 1,
       "droppedCount": 1,
+      "preservedCount": 2,
+      "preservedSkills": [
+        "Assisted Self Checkout",
+        "Cash Handling"
+      ],
       "pipelineAdded": [
         {
           "skill": "Multitasking",
@@ -4299,7 +4320,8 @@
           "frequency": 0.118938,
           "specificity": 0.0166713479157489,
           "growth": 0.32621337297928,
-          "wagePremium": -0.00936284331102566
+          "wagePremium": -0.00936284331102566,
+          "rationale": "Moderate prevalence; strong positive demand signal"
         }
       ],
       "pipelineDropped": [
@@ -4311,7 +4333,8 @@
           "frequency": 0.0797,
           "specificity": 0.0807,
           "growth": 0.008367,
-          "wagePremium": -0.000234
+          "wagePremium": -0.000234,
+          "rationale": "Low-to-moderate historical prevalence"
         }
       ],
       "curation": [
@@ -4333,6 +4356,13 @@
       "overlapCount": 13,
       "addedCount": 1,
       "droppedCount": 2,
+      "preservedCount": 4,
+      "preservedSkills": [
+        "Customer Service",
+        "Influencing Skills",
+        "Invoicing",
+        "Product Knowledge"
+      ],
       "pipelineAdded": [
         {
           "skill": "Problem Solving",
@@ -4342,7 +4372,8 @@
           "frequency": 0.225337,
           "specificity": 0.00138871763247125,
           "growth": 0.00561343156485522,
-          "wagePremium": 0.0597909823239804
+          "wagePremium": 0.0597909823239804,
+          "rationale": "High prevalence in current postings"
         }
       ],
       "pipelineDropped": [
@@ -4354,7 +4385,8 @@
           "frequency": 0.07,
           "specificity": 0.25,
           "growth": 0.0163,
-          "wagePremium": null
+          "wagePremium": null,
+          "rationale": "Low-to-moderate historical prevalence"
         },
         {
           "skill": "Performance Management",
@@ -4364,7 +4396,8 @@
           "frequency": 0.089,
           "specificity": 0.181,
           "growth": 0.00602,
-          "wagePremium": 0.00126
+          "wagePremium": 0.00126,
+          "rationale": "Low-to-moderate historical prevalence"
         }
       ],
       "curation": [
@@ -4386,6 +4419,12 @@
       "overlapCount": 17,
       "addedCount": 1,
       "droppedCount": 2,
+      "preservedCount": 3,
+      "preservedSkills": [
+        "Clerical Works",
+        "Order Fulfillment",
+        "Scheduling"
+      ],
       "pipelineAdded": [
         {
           "skill": "Problem Solving",
@@ -4395,20 +4434,11 @@
           "frequency": 0.219221,
           "specificity": 0.00636973357207687,
           "growth": 0.163051332615395,
-          "wagePremium": 0.0186261545605984
+          "wagePremium": 0.0186261545605984,
+          "rationale": "High prevalence in current postings"
         }
       ],
       "pipelineDropped": [
-        {
-          "skill": "Customer Success Management",
-          "category": "Core Role-Specific Skills",
-          "subcategory": null,
-          "label": "Declining Skill",
-          "frequency": 0.098,
-          "specificity": 0.469,
-          "growth": 0.00466,
-          "wagePremium": 0.00213
-        },
         {
           "skill": "Typing",
           "category": "Baseline Applied Skills",
@@ -4417,7 +4447,19 @@
           "frequency": 0.097,
           "specificity": 0.164,
           "growth": 0.00024,
-          "wagePremium": 0.00034
+          "wagePremium": 0.00034,
+          "rationale": "Low-to-moderate historical prevalence"
+        },
+        {
+          "skill": "Customer Success Management",
+          "category": "Core Role-Specific Skills",
+          "subcategory": null,
+          "label": "Declining Skill",
+          "frequency": 0.098,
+          "specificity": 0.469,
+          "growth": 0.00466,
+          "wagePremium": 0.00213,
+          "rationale": "Low-to-moderate historical prevalence"
         }
       ],
       "curation": []
@@ -4428,6 +4470,17 @@
       "overlapCount": 19,
       "addedCount": 2,
       "droppedCount": 0,
+      "preservedCount": 8,
+      "preservedSkills": [
+        "Agile Methodology",
+        "Application Security",
+        "Encryption",
+        "Governance",
+        "IT Security Architecture",
+        "Identity And Access Management",
+        "Problem Solving",
+        "Project Management"
+      ],
       "pipelineAdded": [
         {
           "skill": "Computer Science",
@@ -4437,7 +4490,8 @@
           "frequency": 0.32965,
           "specificity": 0.159102184879922,
           "growth": 0.12394002102006,
-          "wagePremium": 0.0732256248732124
+          "wagePremium": 0.0732256248732124,
+          "rationale": "High prevalence in current postings"
         },
         {
           "skill": "Information Technology",
@@ -4447,7 +4501,8 @@
           "frequency": 0.301822,
           "specificity": 0.101489062147392,
           "growth": -0.0105398370685865,
-          "wagePremium": null
+          "wagePremium": null,
+          "rationale": "High prevalence in current postings"
         }
       ],
       "pipelineDropped": [],
@@ -4459,6 +4514,18 @@
       "overlapCount": 25,
       "addedCount": 3,
       "droppedCount": 2,
+      "preservedCount": 9,
+      "preservedSkills": [
+        "Applied Mathematics",
+        "Artificial Neural Networks",
+        "Cloud Computing",
+        "Decision Making",
+        "Deep Learning",
+        "MLOps (Machine Learning Operations)",
+        "Natural Language Processing (NLP)",
+        "Technical Documentation",
+        "TensorFlow"
+      ],
       "pipelineAdded": [
         {
           "skill": "Computer Science",
@@ -4468,7 +4535,8 @@
           "frequency": 0.290782,
           "specificity": 0.154637725114789,
           "growth": 0.10389067229203,
-          "wagePremium": 0.057499625213133
+          "wagePremium": 0.057499625213133,
+          "rationale": "High prevalence in current postings"
         },
         {
           "skill": "Tableau (Business Intelligence Software)",
@@ -4478,7 +4546,8 @@
           "frequency": 0.195413,
           "specificity": 0.194775221426931,
           "growth": 0.00067927985803587,
-          "wagePremium": -0.0284922391773521
+          "wagePremium": -0.0284922391773521,
+          "rationale": "Moderate prevalence"
         },
         {
           "skill": "Project Management",
@@ -4488,20 +4557,11 @@
           "frequency": 0.177809,
           "specificity": 0.0319164370368544,
           "growth": -0.00433991485051724,
-          "wagePremium": 0.0298543421741879
+          "wagePremium": 0.0298543421741879,
+          "rationale": "Moderate prevalence"
         }
       ],
       "pipelineDropped": [
-        {
-          "skill": "Computer Vision",
-          "category": "Specialization",
-          "subcategory": null,
-          "label": "High Growth Skill",
-          "frequency": 0.0581,
-          "specificity": 0.1162,
-          "growth": 0.012394,
-          "wagePremium": 0.000871
-        },
         {
           "skill": "Relational Databases",
           "category": "Specialization",
@@ -4510,7 +4570,19 @@
           "frequency": 0.0552,
           "specificity": 0.0769,
           "growth": -0.001633,
-          "wagePremium": 0.000294
+          "wagePremium": 0.000294,
+          "rationale": "Low-to-moderate historical prevalence"
+        },
+        {
+          "skill": "Computer Vision",
+          "category": "Specialization",
+          "subcategory": null,
+          "label": "High Growth Skill",
+          "frequency": 0.0581,
+          "specificity": 0.1162,
+          "growth": 0.012394,
+          "wagePremium": 0.000871,
+          "rationale": "Low-to-moderate historical prevalence"
         }
       ],
       "curation": []
@@ -4521,17 +4593,17 @@
       "overlapCount": 21,
       "addedCount": 2,
       "droppedCount": 3,
+      "preservedCount": 7,
+      "preservedSkills": [
+        "Analytical Skills",
+        "Corporate Finance",
+        "Financial Data",
+        "Financial Management",
+        "Month-End Closing",
+        "Portfolio Management",
+        "Power BI"
+      ],
       "pipelineAdded": [
-        {
-          "skill": "Governance",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Business Management",
-          "label": "High Value Skill",
-          "frequency": 0.286692,
-          "specificity": 0.17137248761435,
-          "growth": 0.0697511177025365,
-          "wagePremium": 0.163657881082086
-        },
         {
           "skill": "Risk Management",
           "category": "Specialization",
@@ -4540,7 +4612,19 @@
           "frequency": 0.73405,
           "specificity": 0.266616262988594,
           "growth": 0.0185645956459836,
-          "wagePremium": 0.061924597960139
+          "wagePremium": 0.061924597960139,
+          "rationale": "High prevalence in current postings"
+        },
+        {
+          "skill": "Governance",
+          "category": "Foundational & Leadership Skills",
+          "subcategory": "Business Management",
+          "label": "High Value Skill",
+          "frequency": 0.286692,
+          "specificity": 0.17137248761435,
+          "growth": 0.0697511177025365,
+          "wagePremium": 0.163657881082086,
+          "rationale": "High prevalence in current postings"
         }
       ],
       "pipelineDropped": [
@@ -4552,17 +4636,8 @@
           "frequency": 0.096,
           "specificity": 0.163,
           "growth": 0.00141999999999999,
-          "wagePremium": null
-        },
-        {
-          "skill": "Financial Systems",
-          "category": "Specialization",
-          "subcategory": null,
-          "label": "Durable Skill",
-          "frequency": 0.103,
-          "specificity": 0.154,
-          "growth": 0.0014,
-          "wagePremium": null
+          "wagePremium": null,
+          "rationale": "Low-to-moderate historical prevalence"
         },
         {
           "skill": "Ad Hoc Analysis",
@@ -4572,7 +4647,19 @@
           "frequency": 0.1,
           "specificity": 0.202,
           "growth": 0.00084,
-          "wagePremium": null
+          "wagePremium": null,
+          "rationale": "Substantial historical prevalence \u2014 pipeline judgment"
+        },
+        {
+          "skill": "Financial Systems",
+          "category": "Specialization",
+          "subcategory": null,
+          "label": "Durable Skill",
+          "frequency": 0.103,
+          "specificity": 0.154,
+          "growth": 0.0014,
+          "wagePremium": null,
+          "rationale": "Substantial historical prevalence \u2014 pipeline judgment"
         }
       ],
       "curation": []
@@ -4583,6 +4670,10 @@
       "overlapCount": 24,
       "addedCount": 2,
       "droppedCount": 1,
+      "preservedCount": 1,
+      "preservedSkills": [
+        "Supervision"
+      ],
       "pipelineAdded": [
         {
           "skill": "Planning",
@@ -4592,7 +4683,8 @@
           "frequency": 0.213839,
           "specificity": 0.0134214330106228,
           "growth": 0.0183421672990702,
-          "wagePremium": 0.0704140837519223
+          "wagePremium": 0.0704140837519223,
+          "rationale": "High prevalence in current postings"
         },
         {
           "skill": "Generally Accepted Accounting Principles",
@@ -4602,7 +4694,8 @@
           "frequency": 0.193005,
           "specificity": 0.232914594708101,
           "growth": -0.0811338502605822,
-          "wagePremium": -0.0519180075887439
+          "wagePremium": -0.0519180075887439,
+          "rationale": "Moderate prevalence"
         }
       ],
       "pipelineDropped": [
@@ -4614,7 +4707,8 @@
           "frequency": 0.0296,
           "specificity": 0.1116,
           "growth": 0.002214,
-          "wagePremium": null
+          "wagePremium": null,
+          "rationale": "Already marginal in reference"
         }
       ],
       "curation": []
@@ -4625,17 +4719,11 @@
       "overlapCount": 25,
       "addedCount": 2,
       "droppedCount": 1,
+      "preservedCount": 1,
+      "preservedSkills": [
+        "Mentorship"
+      ],
       "pipelineAdded": [
-        {
-          "skill": "Planning",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Initiative and Leadership",
-          "label": "Durable Skill",
-          "frequency": 0.142567,
-          "specificity": 0.0133577962679326,
-          "growth": -0.0338981853129063,
-          "wagePremium": 0.0365363485775885
-        },
         {
           "skill": "Lifting Ability",
           "category": "Baseline Applied Skills",
@@ -4644,7 +4732,19 @@
           "frequency": 0.179392,
           "specificity": 0.00592050033147672,
           "growth": -0.167017394561945,
-          "wagePremium": 0.0208482783606856
+          "wagePremium": 0.0208482783606856,
+          "rationale": "Moderate prevalence; note: long-term demand projection is negative"
+        },
+        {
+          "skill": "Planning",
+          "category": "Foundational & Leadership Skills",
+          "subcategory": "Initiative and Leadership",
+          "label": "Durable Skill",
+          "frequency": 0.142567,
+          "specificity": 0.0133577962679326,
+          "growth": -0.0338981853129063,
+          "wagePremium": 0.0365363485775885,
+          "rationale": "Moderate prevalence"
         }
       ],
       "pipelineDropped": [
@@ -4656,7 +4756,8 @@
           "frequency": 0.093,
           "specificity": 0.086,
           "growth": -0.00135,
-          "wagePremium": 0.00084
+          "wagePremium": 0.00084,
+          "rationale": "Low-to-moderate historical prevalence"
         }
       ],
       "curation": []
@@ -4667,6 +4768,16 @@
       "overlapCount": 19,
       "addedCount": 1,
       "droppedCount": 1,
+      "preservedCount": 7,
+      "preservedSkills": [
+        "Benefits Enrollment Processes",
+        "Change Management",
+        "Data Analysis",
+        "Employee Engagement",
+        "Payroll Processing",
+        "Succession Planning",
+        "Training And Development"
+      ],
       "pipelineAdded": [
         {
           "skill": "Management",
@@ -4676,7 +4787,8 @@
           "frequency": 0.30011,
           "specificity": 0.00383640122243159,
           "growth": 0.0176693816777425,
-          "wagePremium": 0.0570129723659381
+          "wagePremium": 0.0570129723659381,
+          "rationale": "High prevalence in current postings"
         }
       ],
       "pipelineDropped": [
@@ -4688,7 +4800,8 @@
           "frequency": 0.0197,
           "specificity": 0.0589,
           "growth": 0.008238,
-          "wagePremium": null
+          "wagePremium": null,
+          "rationale": "Already marginal in reference"
         }
       ],
       "curation": []
@@ -4699,6 +4812,19 @@
       "overlapCount": 20,
       "addedCount": 3,
       "droppedCount": 3,
+      "preservedCount": 10,
+      "preservedSkills": [
+        "Computer Literacy",
+        "Computerized Maintenance Management Systems",
+        "Construction",
+        "Electrical Diagnostics And Repairs",
+        "Electrical/Electronic Troubleshooting",
+        "Equipment Maintenance",
+        "Planned Maintenance",
+        "Schematic Reading",
+        "Teamwork",
+        "Technical Communication"
+      ],
       "pipelineAdded": [
         {
           "skill": "Machinery",
@@ -4708,17 +4834,8 @@
           "frequency": 0.291651,
           "specificity": 0.0880138022127905,
           "growth": 0.108557049351824,
-          "wagePremium": 0.0315634452941524
-        },
-        {
-          "skill": "Power Tool Operation",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Power Tools",
-          "label": "Durable Skill",
-          "frequency": 0.225222,
-          "specificity": 0.139348344845134,
-          "growth": 0.066125623026539,
-          "wagePremium": -0.0692563586115402
+          "wagePremium": 0.0315634452941524,
+          "rationale": "High prevalence in current postings"
         },
         {
           "skill": "Communication",
@@ -4728,20 +4845,22 @@
           "frequency": 0.230499,
           "specificity": 0.0,
           "growth": 0.0306869909854564,
-          "wagePremium": 0.0375457824566377
+          "wagePremium": 0.0375457824566377,
+          "rationale": "High prevalence in current postings"
+        },
+        {
+          "skill": "Power Tool Operation",
+          "category": "Baseline Applied Skills",
+          "subcategory": "Power Tools",
+          "label": "Durable Skill",
+          "frequency": 0.225222,
+          "specificity": 0.139348344845134,
+          "growth": 0.066125623026539,
+          "wagePremium": -0.0692563586115402,
+          "rationale": "High prevalence in current postings"
         }
       ],
       "pipelineDropped": [
-        {
-          "skill": "Systems Controls",
-          "category": "Specialization",
-          "subcategory": null,
-          "label": "High Value Skill",
-          "frequency": 0.0316,
-          "specificity": 0.1281,
-          "growth": 0.00927899999999999,
-          "wagePremium": 0.002094
-        },
         {
           "skill": "Equipment Efficiency",
           "category": "Specialization",
@@ -4750,7 +4869,19 @@
           "frequency": 0.0242,
           "specificity": 0.133,
           "growth": 0.008406,
-          "wagePremium": 0.002778
+          "wagePremium": 0.002778,
+          "rationale": "Already marginal in reference"
+        },
+        {
+          "skill": "Systems Controls",
+          "category": "Specialization",
+          "subcategory": null,
+          "label": "High Value Skill",
+          "frequency": 0.0316,
+          "specificity": 0.1281,
+          "growth": 0.00927899999999999,
+          "wagePremium": 0.002094,
+          "rationale": "Already marginal in reference"
         },
         {
           "skill": "Changing Oil",
@@ -4760,7 +4891,8 @@
           "frequency": 0.0415,
           "specificity": 0.1232,
           "growth": 0.000459,
-          "wagePremium": 0.004684
+          "wagePremium": 0.004684,
+          "rationale": "Already marginal in reference"
         }
       ],
       "curation": [
@@ -4782,16 +4914,24 @@
       "overlapCount": 16,
       "addedCount": 3,
       "droppedCount": 1,
+      "preservedCount": 4,
+      "preservedSkills": [
+        "General Mathematics",
+        "Quality Control",
+        "Sorting",
+        "Warehousing"
+      ],
       "pipelineAdded": [
         {
-          "skill": "Quality Management",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Quality Assurance and Control",
-          "label": "Durable Skill",
-          "frequency": 0.161734,
-          "specificity": 0.0683343304137646,
-          "growth": 0.405974240284168,
-          "wagePremium": null
+          "skill": "Safety Assurance",
+          "category": "Core Role-Specific Skills",
+          "subcategory": "Occupational Health and Safety",
+          "label": "Declining Skill",
+          "frequency": 0.223203,
+          "specificity": 0.147290979297893,
+          "growth": -0.165015473531039,
+          "wagePremium": 0.0213016817998282,
+          "rationale": "High prevalence in current postings; note: long-term demand projection is negative"
         },
         {
           "skill": "Problem Solving",
@@ -4801,17 +4941,19 @@
           "frequency": 0.181078,
           "specificity": 0.00434917423621247,
           "growth": 0.165606652196936,
-          "wagePremium": 0.032578294862494
+          "wagePremium": 0.032578294862494,
+          "rationale": "Moderate prevalence"
         },
         {
-          "skill": "Safety Assurance",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Occupational Health and Safety",
-          "label": "Declining Skill",
-          "frequency": 0.223203,
-          "specificity": 0.147290979297893,
-          "growth": -0.165015473531039,
-          "wagePremium": 0.0213016817998282
+          "skill": "Quality Management",
+          "category": "Foundational & Leadership Skills",
+          "subcategory": "Quality Assurance and Control",
+          "label": "Durable Skill",
+          "frequency": 0.161734,
+          "specificity": 0.0683343304137646,
+          "growth": 0.405974240284168,
+          "wagePremium": null,
+          "rationale": "Moderate prevalence; strong positive demand signal"
         }
       ],
       "pipelineDropped": [
@@ -4823,7 +4965,8 @@
           "frequency": 0.0392,
           "specificity": 0.1784,
           "growth": 0.002321,
-          "wagePremium": null
+          "wagePremium": null,
+          "rationale": "Already marginal in reference"
         }
       ],
       "curation": []
@@ -4834,6 +4977,12 @@
       "overlapCount": 20,
       "addedCount": 1,
       "droppedCount": 2,
+      "preservedCount": 3,
+      "preservedSkills": [
+        "Material Handling",
+        "Safety Standards",
+        "Teamwork"
+      ],
       "pipelineAdded": [
         {
           "skill": "Shipping And Receiving",
@@ -4843,20 +4992,11 @@
           "frequency": 0.103184,
           "specificity": 0.197328831702271,
           "growth": 0.37259242355089,
-          "wagePremium": 0.023246206736834
+          "wagePremium": 0.023246206736834,
+          "rationale": "Moderate prevalence; strong positive demand signal"
         }
       ],
       "pipelineDropped": [
-        {
-          "skill": "Order Fulfillment",
-          "category": "Core Role-Specific Skills",
-          "subcategory": null,
-          "label": "Durable Skill",
-          "frequency": 0.0636,
-          "specificity": 0.2117,
-          "growth": -0.000153,
-          "wagePremium": 9.2e-05
-        },
         {
           "skill": "Stocking Merchandise",
           "category": "Core Role-Specific Skills",
@@ -4865,7 +5005,19 @@
           "frequency": 0.0255,
           "specificity": 0.0894,
           "growth": -0.001171,
-          "wagePremium": -0.001041
+          "wagePremium": -0.001041,
+          "rationale": "Already marginal in reference"
+        },
+        {
+          "skill": "Order Fulfillment",
+          "category": "Core Role-Specific Skills",
+          "subcategory": null,
+          "label": "Durable Skill",
+          "frequency": 0.0636,
+          "specificity": 0.2117,
+          "growth": -0.000153,
+          "wagePremium": 9.2e-05,
+          "rationale": "Low-to-moderate historical prevalence"
         }
       ],
       "curation": [
@@ -4892,16 +5044,33 @@
       "overlapCount": 27,
       "addedCount": 3,
       "droppedCount": 2,
+      "preservedCount": 13,
+      "preservedSkills": [
+        "Computer Literacy",
+        "Computerized Maintenance Management Systems",
+        "Corrective Maintenance",
+        "Electromechanics",
+        "Electronics",
+        "Groundskeeping",
+        "Housekeeping",
+        "Inventory Control Systems",
+        "Lock Out / Tag Out",
+        "Maintenance Engineering",
+        "Safety Standards",
+        "Teamwork",
+        "Writing"
+      ],
       "pipelineAdded": [
         {
-          "skill": "Machinery",
+          "skill": "Plumbing",
           "category": "Core Role-Specific Skills",
-          "subcategory": "Machinery",
-          "label": "High Value Skill",
-          "frequency": 0.154519,
-          "specificity": 0.0475378679483345,
-          "growth": 0.211580731822949,
-          "wagePremium": 0.0969799837241954
+          "subcategory": "Plumbing",
+          "label": "Durable Skill",
+          "frequency": 0.354635,
+          "specificity": 0.329353127859482,
+          "growth": -0.054861411866609,
+          "wagePremium": -0.0745028287353419,
+          "rationale": "High prevalence in current postings"
         },
         {
           "skill": "Carpentry",
@@ -4911,17 +5080,19 @@
           "frequency": 0.232796,
           "specificity": 0.225624978770848,
           "growth": -0.0429141967246057,
-          "wagePremium": -0.0767727879018515
+          "wagePremium": -0.0767727879018515,
+          "rationale": "High prevalence in current postings"
         },
         {
-          "skill": "Plumbing",
+          "skill": "Machinery",
           "category": "Core Role-Specific Skills",
-          "subcategory": "Plumbing",
-          "label": "Durable Skill",
-          "frequency": 0.354635,
-          "specificity": 0.329353127859482,
-          "growth": -0.054861411866609,
-          "wagePremium": -0.0745028287353419
+          "subcategory": "Machinery",
+          "label": "High Value Skill",
+          "frequency": 0.154519,
+          "specificity": 0.0475378679483345,
+          "growth": 0.211580731822949,
+          "wagePremium": 0.0969799837241954,
+          "rationale": "Moderate prevalence; strong positive demand signal"
         }
       ],
       "pipelineDropped": [
@@ -4933,7 +5104,8 @@
           "frequency": 0.0398,
           "specificity": 0.0868,
           "growth": 0.000778,
-          "wagePremium": 0.002072
+          "wagePremium": 0.002072,
+          "rationale": "Already marginal in reference"
         },
         {
           "skill": "Lighting Systems",
@@ -4943,7 +5115,8 @@
           "frequency": 0.04,
           "specificity": 0.0905,
           "growth": -0.002352,
-          "wagePremium": null
+          "wagePremium": null,
+          "rationale": "Already marginal in reference"
         }
       ],
       "curation": []
@@ -4954,17 +5127,14 @@
       "overlapCount": 18,
       "addedCount": 2,
       "droppedCount": 2,
+      "preservedCount": 4,
+      "preservedSkills": [
+        "Operations",
+        "Order Fulfillment",
+        "Quality Control",
+        "Troubleshooting (Problem Solving)"
+      ],
       "pipelineAdded": [
-        {
-          "skill": "Machinery",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Machinery",
-          "label": "High Growth Skill",
-          "frequency": 0.06138,
-          "specificity": 0.0331033851274699,
-          "growth": 0.553776370070581,
-          "wagePremium": null
-        },
         {
           "skill": "Loading And Unloading",
           "category": "Baseline Applied Skills",
@@ -4973,7 +5143,19 @@
           "frequency": 0.141373,
           "specificity": 0.118684887045286,
           "growth": -0.00171237825496363,
-          "wagePremium": -0.00509033675971781
+          "wagePremium": -0.00509033675971781,
+          "rationale": "Moderate prevalence"
+        },
+        {
+          "skill": "Machinery",
+          "category": "Baseline Applied Skills",
+          "subcategory": "Machinery",
+          "label": "High Growth Skill",
+          "frequency": 0.06138,
+          "specificity": 0.0331033851274699,
+          "growth": 0.553776370070581,
+          "wagePremium": null,
+          "rationale": "Focused/specialty addition; strong positive demand signal"
         }
       ],
       "pipelineDropped": [
@@ -4985,7 +5167,8 @@
           "frequency": 0.0217,
           "specificity": 0.0685,
           "growth": 0.019261,
-          "wagePremium": -0.000493
+          "wagePremium": -0.000493,
+          "rationale": "Already marginal in reference"
         },
         {
           "skill": "Inventory Management",
@@ -4995,7 +5178,8 @@
           "frequency": 0.052,
           "specificity": 0.055,
           "growth": 0.00606099999999999,
-          "wagePremium": -0.001633
+          "wagePremium": -0.001633,
+          "rationale": "Low-to-moderate historical prevalence"
         }
       ],
       "curation": []
@@ -5006,6 +5190,8 @@
       "overlapCount": 25,
       "addedCount": 2,
       "droppedCount": 2,
+      "preservedCount": 0,
+      "preservedSkills": [],
       "pipelineAdded": [
         {
           "skill": "Leadership",
@@ -5015,7 +5201,8 @@
           "frequency": 0.429742,
           "specificity": 0.000895448257855381,
           "growth": 0.209434924675141,
-          "wagePremium": 0.0829132203601812
+          "wagePremium": 0.0829132203601812,
+          "rationale": "High prevalence in current postings; strong positive demand signal"
         },
         {
           "skill": "Product Roadmaps",
@@ -5025,7 +5212,8 @@
           "frequency": 0.253697,
           "specificity": 0.293422684305174,
           "growth": 0.0660515286396569,
-          "wagePremium": 0.182362957069926
+          "wagePremium": 0.182362957069926,
+          "rationale": "High prevalence in current postings"
         }
       ],
       "pipelineDropped": [
@@ -5037,7 +5225,8 @@
           "frequency": 0.094,
           "specificity": 0.021,
           "growth": 0.00321,
-          "wagePremium": null
+          "wagePremium": null,
+          "rationale": "Low-to-moderate historical prevalence"
         },
         {
           "skill": "Strategic Planning",
@@ -5047,7 +5236,8 @@
           "frequency": 0.11,
           "specificity": 0.043,
           "growth": 0.00099,
-          "wagePremium": 0.00053
+          "wagePremium": 0.00053,
+          "rationale": "Substantial historical prevalence \u2014 pipeline judgment"
         }
       ],
       "curation": []
@@ -5058,7 +5248,29 @@
       "overlapCount": 20,
       "addedCount": 3,
       "droppedCount": 1,
+      "preservedCount": 8,
+      "preservedSkills": [
+        "Cycle Counting",
+        "Forecasting",
+        "Inventory Control",
+        "Logistics",
+        "Materials Management",
+        "Order Fulfillment",
+        "Procurement",
+        "Warehousing"
+      ],
       "pipelineAdded": [
+        {
+          "skill": "Management",
+          "category": "Foundational & Leadership Skills",
+          "subcategory": "Business Management",
+          "label": "High Value Skill",
+          "frequency": 0.264428,
+          "specificity": 0.0033614795436161,
+          "growth": 0.0596103299765659,
+          "wagePremium": 0.0890244150006554,
+          "rationale": "High prevalence in current postings"
+        },
         {
           "skill": "Coordinating",
           "category": "Foundational & Leadership Skills",
@@ -5067,7 +5279,8 @@
           "frequency": 0.182051,
           "specificity": 0.00972967925328914,
           "growth": 0.492671465576715,
-          "wagePremium": 0.0421123677543793
+          "wagePremium": 0.0421123677543793,
+          "rationale": "Moderate prevalence; strong positive demand signal"
         },
         {
           "skill": "Planning",
@@ -5077,17 +5290,8 @@
           "frequency": 0.165662,
           "specificity": 0.015487407261679,
           "growth": 0.103998981322003,
-          "wagePremium": 0.190971267668975
-        },
-        {
-          "skill": "Management",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Business Management",
-          "label": "High Value Skill",
-          "frequency": 0.264428,
-          "specificity": 0.0033614795436161,
-          "growth": 0.0596103299765659,
-          "wagePremium": 0.0890244150006554
+          "wagePremium": 0.190971267668975,
+          "rationale": "Moderate prevalence"
         }
       ],
       "pipelineDropped": [
@@ -5099,7 +5303,8 @@
           "frequency": 0.0548,
           "specificity": 0.1929,
           "growth": 0.000135,
-          "wagePremium": null
+          "wagePremium": null,
+          "rationale": "Low-to-moderate historical prevalence"
         }
       ],
       "curation": []
@@ -5110,6 +5315,13 @@
       "overlapCount": 17,
       "addedCount": 2,
       "droppedCount": 2,
+      "preservedCount": 4,
+      "preservedSkills": [
+        "Governance",
+        "Risk Management",
+        "Stakeholder Management",
+        "Strategic Planning"
+      ],
       "pipelineAdded": [
         {
           "skill": "Management",
@@ -5119,7 +5331,8 @@
           "frequency": 0.476948,
           "specificity": 0.00443407808094092,
           "growth": -0.0317790444889505,
-          "wagePremium": 0.0613054499071277
+          "wagePremium": 0.0613054499071277,
+          "rationale": "High prevalence in current postings"
         },
         {
           "skill": "Writing",
@@ -5129,7 +5342,8 @@
           "frequency": 0.178165,
           "specificity": 0.00647498094035565,
           "growth": -0.18385975237597,
-          "wagePremium": -0.0357914523041042
+          "wagePremium": -0.0357914523041042,
+          "rationale": "Moderate prevalence; note: long-term demand projection is negative"
         }
       ],
       "pipelineDropped": [
@@ -5141,7 +5355,8 @@
           "frequency": 0.0366,
           "specificity": 0.0561,
           "growth": 0.002896,
-          "wagePremium": 0.000241
+          "wagePremium": 0.000241,
+          "rationale": "Already marginal in reference"
         },
         {
           "skill": "Project Status Reports",
@@ -5151,7 +5366,8 @@
           "frequency": 0.0392,
           "specificity": 0.1725,
           "growth": 0.000648,
-          "wagePremium": 0.000344
+          "wagePremium": 0.000344,
+          "rationale": "Already marginal in reference"
         }
       ],
       "curation": []
@@ -5162,17 +5378,20 @@
       "overlapCount": 31,
       "addedCount": 2,
       "droppedCount": 0,
+      "preservedCount": 10,
+      "preservedSkills": [
+        "Category Management",
+        "Change Orders",
+        "Contract Review",
+        "Data Analysis",
+        "Enterprise Resource Planning",
+        "Forecasting",
+        "Inventory Management",
+        "Negotiation Strategies",
+        "Price Analysis",
+        "Source Selection"
+      ],
       "pipelineAdded": [
-        {
-          "skill": "Problem Solving",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Critical Thinking and Problem Solving",
-          "label": "Durable Skill",
-          "frequency": 0.21433,
-          "specificity": 0.00412892013590562,
-          "growth": 0.209619874470644,
-          "wagePremium": null
-        },
         {
           "skill": "Management",
           "category": "Foundational & Leadership Skills",
@@ -5181,7 +5400,19 @@
           "frequency": 0.422798,
           "specificity": 0.00436847449310454,
           "growth": 0.0372225316842566,
-          "wagePremium": 0.0854639455316433
+          "wagePremium": 0.0854639455316433,
+          "rationale": "High prevalence in current postings"
+        },
+        {
+          "skill": "Problem Solving",
+          "category": "Foundational & Leadership Skills",
+          "subcategory": "Critical Thinking and Problem Solving",
+          "label": "Durable Skill",
+          "frequency": 0.21433,
+          "specificity": 0.00412892013590562,
+          "growth": 0.209619874470644,
+          "wagePremium": null,
+          "rationale": "High prevalence in current postings; strong positive demand signal"
         }
       ],
       "pipelineDropped": [],
@@ -5193,6 +5424,10 @@
       "overlapCount": 15,
       "addedCount": 1,
       "droppedCount": 1,
+      "preservedCount": 1,
+      "preservedSkills": [
+        "Internet Research"
+      ],
       "pipelineAdded": [
         {
           "skill": "Clerical Works",
@@ -5202,7 +5437,8 @@
           "frequency": 0.266983,
           "specificity": 0.131959238520845,
           "growth": 0.0669861763412569,
-          "wagePremium": null
+          "wagePremium": null,
+          "rationale": "High prevalence in current postings"
         }
       ],
       "pipelineDropped": [
@@ -5214,7 +5450,8 @@
           "frequency": 0.0692,
           "specificity": 0.6037,
           "growth": -0.00549699999999999,
-          "wagePremium": null
+          "wagePremium": null,
+          "rationale": "Low-to-moderate historical prevalence"
         }
       ],
       "curation": [
@@ -5241,6 +5478,12 @@
       "overlapCount": 23,
       "addedCount": 2,
       "droppedCount": 3,
+      "preservedCount": 3,
+      "preservedSkills": [
+        "Prioritization",
+        "Problem Solving",
+        "Teamwork"
+      ],
       "pipelineAdded": [
         {
           "skill": "Visual Merchandising",
@@ -5250,7 +5493,8 @@
           "frequency": 0.087357,
           "specificity": 0.249946736763131,
           "growth": 0.604321772289813,
-          "wagePremium": -0.0375217229363608
+          "wagePremium": -0.0375217229363608,
+          "rationale": "Focused/specialty addition; strong positive demand signal"
         },
         {
           "skill": "Returns & Exchanges",
@@ -5260,20 +5504,11 @@
           "frequency": 0.030368,
           "specificity": 0.09939256455257875,
           "growth": 0.1014793361369371,
-          "wagePremium": -0.05404630432183745
+          "wagePremium": -0.05404630432183745,
+          "rationale": "Focused/specialty addition"
         }
       ],
       "pipelineDropped": [
-        {
-          "skill": "Demonstration Skills",
-          "category": "Specialization",
-          "subcategory": null,
-          "label": "High Growth Skill",
-          "frequency": 0.044,
-          "specificity": 0.095,
-          "growth": 0.00459,
-          "wagePremium": null
-        },
         {
           "skill": "Supervision",
           "category": "Foundational & Leadership Skills",
@@ -5282,7 +5517,19 @@
           "frequency": 0.043,
           "specificity": 0.054,
           "growth": -0.00098,
-          "wagePremium": 0.00069
+          "wagePremium": 0.00069,
+          "rationale": "Already marginal in reference"
+        },
+        {
+          "skill": "Demonstration Skills",
+          "category": "Specialization",
+          "subcategory": null,
+          "label": "High Growth Skill",
+          "frequency": 0.044,
+          "specificity": 0.095,
+          "growth": 0.00459,
+          "wagePremium": null,
+          "rationale": "Already marginal in reference"
         },
         {
           "skill": "Loading And Unloading",
@@ -5292,7 +5539,8 @@
           "frequency": 0.047,
           "specificity": 0.054,
           "growth": -0.00225,
-          "wagePremium": null
+          "wagePremium": null,
+          "rationale": "Already marginal in reference"
         }
       ],
       "curation": []
@@ -5303,17 +5551,13 @@
       "overlapCount": 18,
       "addedCount": 2,
       "droppedCount": 1,
+      "preservedCount": 3,
+      "preservedSkills": [
+        "Budgeting",
+        "Project Management",
+        "Strategic Planning"
+      ],
       "pipelineAdded": [
-        {
-          "skill": "Problem Solving",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Critical Thinking and Problem Solving",
-          "label": "Durable Skill",
-          "frequency": 0.15594,
-          "specificity": 0.00290757925600987,
-          "growth": 0.182973893303065,
-          "wagePremium": null
-        },
         {
           "skill": "Management",
           "category": "Foundational & Leadership Skills",
@@ -5322,7 +5566,19 @@
           "frequency": 0.436771,
           "specificity": 0.00436746830310705,
           "growth": -0.0301045590628342,
-          "wagePremium": -0.026194459039072
+          "wagePremium": -0.026194459039072,
+          "rationale": "High prevalence in current postings"
+        },
+        {
+          "skill": "Problem Solving",
+          "category": "Foundational & Leadership Skills",
+          "subcategory": "Critical Thinking and Problem Solving",
+          "label": "Durable Skill",
+          "frequency": 0.15594,
+          "specificity": 0.00290757925600987,
+          "growth": 0.182973893303065,
+          "wagePremium": null,
+          "rationale": "Moderate prevalence"
         }
       ],
       "pipelineDropped": [
@@ -5334,7 +5590,8 @@
           "frequency": 0.186,
           "specificity": 0.116,
           "growth": 0.00151,
-          "wagePremium": 0.00105
+          "wagePremium": 0.00105,
+          "rationale": "Substantial historical prevalence \u2014 pipeline judgment"
         }
       ],
       "curation": []
@@ -5345,6 +5602,8 @@
       "overlapCount": 17,
       "addedCount": 0,
       "droppedCount": 2,
+      "preservedCount": 0,
+      "preservedSkills": [],
       "pipelineAdded": [],
       "pipelineDropped": [
         {
@@ -5355,7 +5614,8 @@
           "frequency": 0.0615,
           "specificity": 0.1684,
           "growth": 0.003143,
-          "wagePremium": 0.000739
+          "wagePremium": 0.000739,
+          "rationale": "Low-to-moderate historical prevalence"
         },
         {
           "skill": "Sales Training",
@@ -5365,7 +5625,8 @@
           "frequency": 0.0727,
           "specificity": 0.206,
           "growth": 0.002152,
-          "wagePremium": 0.000809
+          "wagePremium": 0.000809,
+          "rationale": "Low-to-moderate historical prevalence"
         }
       ],
       "curation": []
@@ -5376,6 +5637,8 @@
       "overlapCount": 15,
       "addedCount": 0,
       "droppedCount": 1,
+      "preservedCount": 0,
+      "preservedSkills": [],
       "pipelineAdded": [],
       "pipelineDropped": [
         {
@@ -5386,7 +5649,8 @@
           "frequency": 0.0472,
           "specificity": 0.0434,
           "growth": -0.003493,
-          "wagePremium": 0.003094
+          "wagePremium": 0.003094,
+          "rationale": "Already marginal in reference"
         }
       ],
       "curation": []
@@ -5397,6 +5661,17 @@
       "overlapCount": 23,
       "addedCount": 1,
       "droppedCount": 2,
+      "preservedCount": 8,
+      "preservedSkills": [
+        "Information Gathering",
+        "Inventory Staging",
+        "Loss Prevention",
+        "Material Handling",
+        "Order Fulfillment",
+        "Sales Records",
+        "Shipping Procedures",
+        "Sorting"
+      ],
       "pipelineAdded": [
         {
           "skill": "Management",
@@ -5406,20 +5681,11 @@
           "frequency": 0.203751,
           "specificity": 0.00318640248405276,
           "growth": 0.108573441784232,
-          "wagePremium": 0.00886406769281689
+          "wagePremium": 0.00886406769281689,
+          "rationale": "High prevalence in current postings"
         }
       ],
       "pipelineDropped": [
-        {
-          "skill": "Freight Handling",
-          "category": "Core Role-Specific Skills",
-          "subcategory": null,
-          "label": "Durable Skill",
-          "frequency": 0.0461,
-          "specificity": 0.2945,
-          "growth": 0.000198,
-          "wagePremium": null
-        },
         {
           "skill": "Unpacking",
           "category": "Baseline Applied Skills",
@@ -5428,7 +5694,19 @@
           "frequency": 0.0375,
           "specificity": 0.2124,
           "growth": -0.002726,
-          "wagePremium": -0.000801
+          "wagePremium": -0.000801,
+          "rationale": "Already marginal in reference"
+        },
+        {
+          "skill": "Freight Handling",
+          "category": "Core Role-Specific Skills",
+          "subcategory": null,
+          "label": "Durable Skill",
+          "frequency": 0.0461,
+          "specificity": 0.2945,
+          "growth": 0.000198,
+          "wagePremium": null,
+          "rationale": "Already marginal in reference"
         }
       ],
       "curation": []
@@ -5439,17 +5717,24 @@
       "overlapCount": 30,
       "addedCount": 3,
       "droppedCount": 0,
+      "preservedCount": 14,
+      "preservedSkills": [
+        "Amazon Web Services",
+        "Artificial Intelligence",
+        "Business Process",
+        "Business Requirements",
+        "Docker (Software)",
+        "Innovation",
+        "Kubernetes",
+        "Microsoft Azure",
+        "RESTful API",
+        "Scripting",
+        "Teamwork",
+        "Technical Documentation",
+        "User Interface (UI)",
+        "Writing"
+      ],
       "pipelineAdded": [
-        {
-          "skill": "Code Review",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Software Quality Assurance",
-          "label": "Durable Skill",
-          "frequency": 0.119197,
-          "specificity": 0.164381295329108,
-          "growth": 0.425024225968319,
-          "wagePremium": 0.0118990478426688
-        },
         {
           "skill": "Problem Solving",
           "category": "Foundational & Leadership Skills",
@@ -5458,7 +5743,8 @@
           "frequency": 0.224133,
           "specificity": 0.00307980520497213,
           "growth": 0.399291057105951,
-          "wagePremium": -0.0465948746175299
+          "wagePremium": -0.0465948746175299,
+          "rationale": "High prevalence in current postings; strong positive demand signal"
         },
         {
           "skill": "Scrum (Software Development)",
@@ -5468,7 +5754,19 @@
           "frequency": 0.131655,
           "specificity": 0.145154808271237,
           "growth": -0.171891923754227,
-          "wagePremium": -0.0308243533747616
+          "wagePremium": -0.0308243533747616,
+          "rationale": "Moderate prevalence; note: long-term demand projection is negative"
+        },
+        {
+          "skill": "Code Review",
+          "category": "Core Role-Specific Skills",
+          "subcategory": "Software Quality Assurance",
+          "label": "Durable Skill",
+          "frequency": 0.119197,
+          "specificity": 0.164381295329108,
+          "growth": 0.425024225968319,
+          "wagePremium": 0.0118990478426688,
+          "rationale": "Moderate prevalence; strong positive demand signal"
         }
       ],
       "pipelineDropped": [],
@@ -5511,6 +5809,19 @@
       "overlapCount": 23,
       "addedCount": 0,
       "droppedCount": 0,
+      "preservedCount": 10,
+      "preservedSkills": [
+        "Cycle Counting",
+        "Data Entry",
+        "Freight Handling",
+        "Inventory Staging",
+        "Mobile Devices",
+        "Multitasking",
+        "Order Fulfillment",
+        "Order Picking",
+        "Teamwork",
+        "Warehouse Operations"
+      ],
       "pipelineAdded": [],
       "pipelineDropped": [],
       "curation": [
@@ -5542,6 +5853,20 @@
       "overlapCount": 25,
       "addedCount": 1,
       "droppedCount": 2,
+      "preservedCount": 11,
+      "preservedSkills": [
+        "Accident Reporting",
+        "Compliance Training",
+        "Cost Reduction",
+        "Defensive Driving",
+        "Enterprise Resource Planning",
+        "Fleet Management",
+        "Investigation",
+        "Operations Management",
+        "Performance Management",
+        "Pre-Trip And Post-Trip Vehicle Inspections",
+        "Safety Standards"
+      ],
       "pipelineAdded": [
         {
           "skill": "Problem Solving",
@@ -5551,20 +5876,11 @@
           "frequency": 0.180091,
           "specificity": 0.00424936573419949,
           "growth": 0.42938765214101,
-          "wagePremium": 0.0492783526501335
+          "wagePremium": 0.0492783526501335,
+          "rationale": "Moderate prevalence; strong positive demand signal"
         }
       ],
       "pipelineDropped": [
-        {
-          "skill": "Data Analysis",
-          "category": "Baseline Applied Skills",
-          "subcategory": null,
-          "label": "High Value Skill",
-          "frequency": 0.0323,
-          "specificity": 0.0441,
-          "growth": -0.000952,
-          "wagePremium": 0.001393
-        },
         {
           "skill": "Operational Excellence",
           "category": "Foundational & Leadership Skills",
@@ -5573,7 +5889,19 @@
           "frequency": 0.0216,
           "specificity": 0.0816,
           "growth": -0.002385,
-          "wagePremium": null
+          "wagePremium": null,
+          "rationale": "Already marginal in reference"
+        },
+        {
+          "skill": "Data Analysis",
+          "category": "Baseline Applied Skills",
+          "subcategory": null,
+          "label": "High Value Skill",
+          "frequency": 0.0323,
+          "specificity": 0.0441,
+          "growth": -0.000952,
+          "wagePremium": 0.001393,
+          "rationale": "Already marginal in reference"
         }
       ],
       "curation": []
@@ -5584,17 +5912,13 @@
       "overlapCount": 13,
       "addedCount": 2,
       "droppedCount": 1,
+      "preservedCount": 3,
+      "preservedSkills": [
+        "Order Fulfillment",
+        "Physical Inventory",
+        "Safety Standards"
+      ],
       "pipelineAdded": [
-        {
-          "skill": "Problem Solving",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Critical Thinking and Problem Solving",
-          "label": "Durable Skill",
-          "frequency": 0.247196,
-          "specificity": 0.00469475179393413,
-          "growth": 0.240515655381074,
-          "wagePremium": 0.0213632199784748
-        },
         {
           "skill": "Planning",
           "category": "Foundational & Leadership Skills",
@@ -5603,7 +5927,19 @@
           "frequency": 0.271952,
           "specificity": 0.0203711572820843,
           "growth": 0.02445701018574,
-          "wagePremium": 0.119867659286195
+          "wagePremium": 0.119867659286195,
+          "rationale": "High prevalence in current postings"
+        },
+        {
+          "skill": "Problem Solving",
+          "category": "Foundational & Leadership Skills",
+          "subcategory": "Critical Thinking and Problem Solving",
+          "label": "Durable Skill",
+          "frequency": 0.247196,
+          "specificity": 0.00469475179393413,
+          "growth": 0.240515655381074,
+          "wagePremium": 0.0213632199784748,
+          "rationale": "High prevalence in current postings; strong positive demand signal"
         }
       ],
       "pipelineDropped": [
@@ -5615,7 +5951,8 @@
           "frequency": 0.087,
           "specificity": 0.267,
           "growth": 0.00317,
-          "wagePremium": 0.00065
+          "wagePremium": 0.00065,
+          "rationale": "Low-to-moderate historical prevalence"
         }
       ],
       "curation": []
@@ -5626,17 +5963,14 @@
       "overlapCount": 13,
       "addedCount": 2,
       "droppedCount": 2,
+      "preservedCount": 4,
+      "preservedSkills": [
+        "Defensive Driving",
+        "General Mathematics",
+        "Package Delivery",
+        "Safety Standards"
+      ],
       "pipelineAdded": [
-        {
-          "skill": "Vehicle Inspection",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Vehicle Repair and Maintenance",
-          "label": "Durable Skill",
-          "frequency": 0.064625,
-          "specificity": 0.194044487627896,
-          "growth": -0.0445618682869237,
-          "wagePremium": -0.132703212872551
-        },
         {
           "skill": "Flatbed Truck Operation",
           "category": "Core Role-Specific Skills",
@@ -5645,7 +5979,19 @@
           "frequency": 0.073098,
           "specificity": 0.3038387549331,
           "growth": -0.137284712609771,
-          "wagePremium": 0.143431868076081
+          "wagePremium": 0.143431868076081,
+          "rationale": "Focused/specialty addition; note: long-term demand projection is negative"
+        },
+        {
+          "skill": "Vehicle Inspection",
+          "category": "Core Role-Specific Skills",
+          "subcategory": "Vehicle Repair and Maintenance",
+          "label": "Durable Skill",
+          "frequency": 0.064625,
+          "specificity": 0.194044487627896,
+          "growth": -0.0445618682869237,
+          "wagePremium": -0.132703212872551,
+          "rationale": "Focused/specialty addition"
         }
       ],
       "pipelineDropped": [
@@ -5657,7 +6003,8 @@
           "frequency": 0.0346,
           "specificity": 0.0906,
           "growth": 0.004895,
-          "wagePremium": 0.002674
+          "wagePremium": 0.002674,
+          "rationale": "Already marginal in reference"
         },
         {
           "skill": "Map Reading",
@@ -5667,7 +6014,8 @@
           "frequency": 0.0552,
           "specificity": 0.0688,
           "growth": -0.002833,
-          "wagePremium": 0.001377
+          "wagePremium": 0.001377,
+          "rationale": "Low-to-moderate historical prevalence"
         }
       ],
       "curation": [
@@ -5704,52 +6052,7 @@
       ]
     }
   },
-  "globalActions": [
-    {
-      "title": "Microsoft Office cluster deduplicated",
-      "description": "Removed Microsoft 365, Microsoft Outlook, and Microsoft Office globally (26 instances)."
-    },
-    {
-      "title": "Communication family consolidated",
-      "description": "Removed Verbal Communication Skills and Interpersonal Communications globally (14 instances) \u2014 sub-concepts of Communication."
-    },
-    {
-      "title": "Order Fulfillment naming unified",
-      "description": "Folded Order Fulfillment Management into Order Fulfillment (5 instances)."
-    },
-    {
-      "title": "Returns & Exchanges consolidated",
-      "description": "Merged Issuing Refunds, Merchandise Returns, and Merchandise Exchanges into Returns & Exchanges (7 source rows)."
-    },
-    {
-      "title": "Telephone Skills scoped",
-      "description": "Retained only on Receptionists and Customer Service Representatives."
-    },
-    {
-      "title": "Troubleshooting dedup",
-      "description": "Removed duplicate Troubleshooting (Problem Solving) where Problem Solving exists (2 instances)."
-    },
-    {
-      "title": "Specialization category typo fixed",
-      "description": "Renamed \"Specializations\" plural to \"Specialization\" (50 rows)."
-    },
-    {
-      "title": "Category standardization",
-      "description": "Customer Service / Computer Literacy / Filing / Lifting Ability / Mathematics / Operations / Electricity standardized to Baseline Applied; Computer Science and Finance to Specialization; Scalability to Core Role-Specific."
-    },
-    {
-      "title": "5-Year Demand Growth winsorized",
-      "description": "Capped at +100% (46 rows). Raw values in 5-Year Demand Growth (Raw) column."
-    },
-    {
-      "title": "Good Driving Record dropped",
-      "description": "Removed globally (3 rows) \u2014 credential, not a skill."
-    },
-    {
-      "title": "New-profile trim pass (2026-05-26)",
-      "description": "Applied 44 drops across the 10 new profiles: near-duplicates and narrow specializations."
-    }
-  ],
+  "globalActions": [],
   "counts": {
     "Accountants & Auditors": {
       "roleStatus": "new",
