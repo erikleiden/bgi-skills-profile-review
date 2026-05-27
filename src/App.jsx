@@ -30,7 +30,7 @@ export default function App() {
                 : 'border-transparent text-gray-500 hover:text-gray-800'
             }`}
           >
-            Curation changelog
+            Existing-role changes
           </button>
         </div>
       </nav>

@@ -9,7 +9,7 @@ export default function Header() {
         </a>
         <div className="border-l border-gray-300 pl-5">
           <h1 className="text-xl font-bold text-bgi-navy leading-tight">Skills-First Profile Review</h1>
-          <p className="text-xs text-gray-500">10 new occupation profiles + curation changelog · v2 dated 2026.05.21</p>
+          <p className="text-xs text-gray-500">10 new occupation profiles · 30 existing-role skill changes · v2 dated 2026.05.21</p>
         </div>
       </div>
     </header>
