@@ -2,7 +2,7 @@
   "profiles": {
     "Accountants & Auditors": {
       "name": "Accountants & Auditors",
-      "totalSkills": 36,
+      "totalSkills": 31,
       "skills": [
         {
           "skill": "Finance",
@@ -309,22 +309,6 @@
           "wagePremium": -0.147352574780973
         },
         {
-          "skill": "Balance Sheet",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Financial Reporting",
-          "definition": "Balance Sheet refers to the ability to understand and work with a statement that presents assets, liabilities, and equity at a specific point in time. It supports clear financial reporting by showing what an organization owns, owes, and retains.",
-          "utilization": "Accountants & Auditors use the balance sheet to review financial position, verify account classifications, and support accurate reporting. They also rely on it to check consistency with supporting records and identify items that need correction or explanation.",
-          "level1": "At Level 1 Proficiency, workers can read a balance sheet, identify major sections, and locate basic account balances. They can compare listed amounts to source documents and flag obvious mismatches for review.",
-          "level2": "At Level 2 Proficiency, workers can prepare or update a balance sheet using established formats and standard account groupings. They can check whether balances are placed correctly, explain routine changes, and resolve common posting issues with limited supervision.",
-          "level3": "At Level 3 Proficiency, workers can independently produce and review a balance sheet that is complete, organized, and ready for reporting. They can ensure accounts are properly classified, reconcile supporting details, and address unusual items with consistent judgment.",
-          "label": "Declining Skill",
-          "frequency": 0.154744,
-          "specificity": 0.266085346415246,
-          "growth": -0.330911205587267,
-          "growthRaw": -0.330911205587267,
-          "wagePremium": -0.0559431457761414
-        },
-        {
           "skill": "Internal Auditing",
           "category": "Specialization",
           "subcategory": "Auditing",
@@ -421,22 +405,6 @@
           "wagePremium": 0.018341361972454
         },
         {
-          "skill": "Bank Reconciliations",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "General Accounting",
-          "definition": "Bank Reconciliations refers to the ability to compare bank statements with internal accounting records and identify differences such as missing entries, timing gaps, or posting errors. It supports accurate cash balances, reliable ledgers, and timely correction of discrepancies.",
-          "utilization": "Accountants and Auditors use bank reconciliations to verify that recorded cash activity matches external bank information and that accounts are complete. They also use the results to flag unusual items, support month-end close, and maintain dependable financial records.",
-          "level1": "At Level 1 Proficiency, workers can match basic bank statement entries to ledger transactions and spot obvious differences such as duplicate postings or missing deposits. They follow established procedures to prepare straightforward reconciliations and pass unresolved items to others for review.",
-          "level2": "At Level 2 Proficiency, workers can complete regular reconciliations for multiple accounts, investigate common timing differences, and explain routine variances using supporting records. They organize outstanding items, correct straightforward errors, and keep reconciliation files accurate and current.",
-          "level3": "At Level 3 Proficiency, workers can independently reconcile complex accounts, resolve recurring discrepancies, and ensure bank balances align with accounting records in a timely manner. They handle exceptions confidently, document conclusions clearly, and maintain reliable reconciliation processes for the role.",
-          "label": "Declining Skill",
-          "frequency": 0.086549,
-          "specificity": 0.192820192028567,
-          "growth": -0.243204221846062,
-          "growthRaw": -0.243204221846062,
-          "wagePremium": -0.128756575022078
-        },
-        {
           "skill": "Accruals",
           "category": "Specialization",
           "subcategory": "General Accounting",
@@ -485,22 +453,6 @@
           "wagePremium": 0.14811769999662
         },
         {
-          "skill": "Income Statement",
-          "category": "Specialization",
-          "subcategory": "Financial Reporting",
-          "definition": "Income Statement refers to the ability to read, prepare, and interpret a report that summarizes revenues, expenses, and resulting profit or loss over a period. It helps accountants and auditors understand financial performance and identify whether reported results align with supporting records and accounting rules.",
-          "utilization": "Accountants & Auditors use the income statement to verify recorded transactions, review revenue and expense classifications, and check that period results are presented consistently. They also rely on it to support audits, explain variances, and communicate financial outcomes to management or clients.",
-          "level1": "At Level 1 Proficiency, workers can locate key income statement lines, recognize basic revenue and expense categories, and compare figures against source documents. They can also spot obvious inconsistencies, such as missing amounts or misclassified items, and raise them for review.",
-          "level2": "At Level 2 Proficiency, workers can prepare and review income statements with moderate independence, ensuring accounts are grouped correctly and period activity is reflected accurately. They can explain common changes in profit or loss and resolve routine issues by checking supporting schedules and records.",
-          "level3": "At Level 3 Proficiency, workers can reliably produce and evaluate income statements for complex reporting periods, applying the format consistently and confirming that results are complete and properly presented. They can handle unusual classifications, coordinate corrections with others, and support final review with confidence.",
-          "label": "Declining Skill",
-          "frequency": 0.050585,
-          "specificity": 0.112707617505592,
-          "growth": -0.353434131366772,
-          "growthRaw": -0.353434131366772,
-          "wagePremium": -0.0634107260382075
-        },
-        {
           "skill": "Cost Accounting",
           "category": "Specialization",
           "subcategory": "Cost Accounting",
@@ -515,38 +467,6 @@
           "growth": 0.18040052138879,
           "growthRaw": 0.18040052138879,
           "wagePremium": null
-        },
-        {
-          "skill": "Depreciation",
-          "category": "Specialization",
-          "subcategory": "Financial Accounting",
-          "definition": "Depreciation refers to the systematic allocation of an asset\u2019s cost over its useful life, reflecting wear, obsolescence, or usage in accounting records. It helps match expenses to the periods that benefit from the asset and supports accurate financial reporting.",
-          "utilization": "Accountants & Auditors use depreciation to record asset values, prepare financial statements, and ensure expenses are recognized in the correct period. They also review schedules for consistency with accounting policies and verify that supporting records are complete.",
-          "level1": "At Level 1 Proficiency, workers can record basic depreciation entries using established schedules and follow standard instructions for fixed assets. They can identify common asset categories and apply routine depreciation methods accurately under supervision.",
-          "level2": "At Level 2 Proficiency, workers can prepare and update depreciation schedules for multiple assets, checking useful lives, start dates, and accumulated depreciation for consistency. They can explain routine adjustments and resolve straightforward discrepancies in asset records.",
-          "level3": "At Level 3 Proficiency, workers can independently manage depreciation for a full asset register, applying policies consistently across reporting periods and ensuring entries align with financial statements. They can review complex asset changes, maintain reliable documentation, and support audit readiness.",
-          "label": "Declining Skill",
-          "frequency": 0.046087,
-          "specificity": 0.108736116616007,
-          "growth": -0.441975602701737,
-          "growthRaw": -0.441975602701737,
-          "wagePremium": -0.1014123444803
-        },
-        {
-          "skill": "Tax Accounting",
-          "category": "Specialization",
-          "subcategory": "Tax",
-          "definition": "Tax Accounting refers to the ability to record, classify, and report transactions in ways that support accurate tax filings and compliance with applicable rules. It includes preparing tax-related entries, maintaining supporting documentation, and recognizing how accounting records affect tax obligations.",
-          "utilization": "Accountants & Auditors use tax accounting to prepare returns, review ledger activity, and ensure reported amounts align with source records and filing requirements. They also apply tax accounting when checking compliance, resolving discrepancies, and supporting audits or inquiries tied to tax positions.",
-          "level1": "At Level 1 Proficiency, workers can organize tax documents, enter routine tax-related transactions, and follow established procedures for preparing basic filings. They recognize common tax categories and flag obvious errors or missing information for review by a more experienced accountant or auditor.",
-          "level2": "At Level 2 Proficiency, workers can prepare standard tax schedules, reconcile accounting records to tax forms, and apply routine tax rules with limited supervision. They handle common exceptions, explain basic differences between book and tax treatment, and support timely filing activities with consistent accuracy.",
-          "level3": "At Level 3 Proficiency, workers can independently manage tax accounting tasks across recurring reporting cycles, ensuring records, filings, and supporting documentation remain complete and compliant. They resolve complex routine issues, coordinate with others on tax-related adjustments, and provide dependable guidance within established accounting processes.",
-          "label": "Declining Skill",
-          "frequency": 0.042236,
-          "specificity": 0.10909682831157,
-          "growth": -0.197795208819165,
-          "growthRaw": -0.197795208819165,
-          "wagePremium": 0.0414573912191614
         },
         {
           "skill": "Variance Analysis",
@@ -584,7 +504,7 @@
     },
     "Bookkeepers and Auditing Clerks": {
       "name": "Bookkeepers and Auditing Clerks",
-      "totalSkills": 28,
+      "totalSkills": 25,
       "skills": [
         {
           "skill": "Communication",
@@ -923,38 +843,6 @@
           "wagePremium": 0.0389441401942039
         },
         {
-          "skill": "Cash Receipts",
-          "category": "Specialization",
-          "subcategory": "General Accounting",
-          "definition": "Cash Receipts refers to the ability to receive, record, and safeguard money coming into an organization from customers, clients, or other sources. It includes matching payments to invoices, preparing deposits, and keeping accurate documentation so funds are tracked correctly.",
-          "utilization": "Bookkeepers and Auditing Clerks use cash receipts to post incoming payments, reconcile records, and verify that deposits match supporting documents. They also help maintain orderly files that support routine bookkeeping and audit checks.",
-          "level1": "At Level 1 Proficiency, workers can enter basic receipt information, file payment records, and compare simple totals against source documents. They follow established procedures to route discrepancies to a supervisor and keep routine records organized.",
-          "level2": "At Level 2 Proficiency, workers can process receipts with less supervision, match payments to invoices, and prepare deposits accurately. They handle common exceptions, update records promptly, and maintain consistent documentation that supports day-to-day bookkeeping and review.",
-          "level3": "At Level 3 Proficiency, workers can manage cash receipt tasks reliably across varied transactions, resolve routine mismatches, and maintain complete, accurate records. They work independently to ensure deposits, postings, and supporting documents remain aligned for bookkeeping and audit purposes.",
-          "label": "Declining Skill",
-          "frequency": 0.049534,
-          "specificity": 0.108723418873907,
-          "growth": -0.163393972517177,
-          "growthRaw": -0.163393972517177,
-          "wagePremium": 0.0214675055088906
-        },
-        {
-          "skill": "Invoice Matching",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Billing and Invoicing",
-          "definition": "Invoice Matching refers to comparing invoices with purchase orders, receiving records, or other supporting documents to confirm that billed amounts, quantities, and terms agree before payment is approved. It helps identify discrepancies, duplicate charges, and missing documentation so records remain accurate and payments are properly authorized.",
-          "utilization": "Bookkeepers and Auditing Clerks use invoice matching to verify vendor bills against source documents before entering transactions or preparing payments. This supports accurate ledgers, reduces posting errors, and helps ensure that exceptions are flagged for review and resolution.",
-          "level1": "At Level 1 Proficiency, workers can compare an invoice with a matching document and spot obvious differences in amount, date, or item description. They can follow set procedures to route mismatched invoices to the appropriate person for correction or approval.",
-          "level2": "At Level 2 Proficiency, workers can match invoices to supporting records with limited supervision and handle routine exceptions such as missing references or minor discrepancies. They can organize follow-up requests, document findings clearly, and keep the payment process moving without repeated guidance.",
-          "level3": "At Level 3 Proficiency, workers can consistently match invoices across varied transaction types, resolve most discrepancies by checking supporting records, and apply office procedures accurately. They can manage the process reliably, maintain clear documentation, and ensure only properly supported invoices proceed for payment.",
-          "label": "Declining Skill",
-          "frequency": 0.043683,
-          "specificity": 0.155534694304463,
-          "growth": -0.420852250384299,
-          "growthRaw": -0.420852250384299,
-          "wagePremium": null
-        },
-        {
           "skill": "Accruals",
           "category": "Specialization",
           "subcategory": "General Accounting",
@@ -969,22 +857,6 @@
           "growth": 0.13266931263746,
           "growthRaw": 0.13266931263746,
           "wagePremium": 0.0849432556875474
-        },
-        {
-          "skill": "Sales Tax",
-          "category": "Specialization",
-          "subcategory": "Tax",
-          "definition": "Sales Tax refers to the ability to apply tax rules to transactions, determine when tax is due, and record the correct amounts in financial records. It also includes recognizing exemptions, handling different tax rates, and keeping documentation that supports accurate reporting and payment.",
-          "utilization": "Bookkeepers and Auditing Clerks use sales tax knowledge to enter taxable sales, separate tax from revenue, and verify that invoices and receipts are recorded correctly. They also help reconcile tax-related accounts and maintain records needed for filings and audits.",
-          "level1": "At Level 1 Proficiency, workers can identify sales tax on routine transactions and enter it into bookkeeping records using established procedures. They can match invoices to receipts and flag obvious discrepancies for review.",
-          "level2": "At Level 2 Proficiency, workers can apply the correct sales tax treatment to common transactions and handle routine exemptions with limited supervision. They can check records for consistency, correct straightforward errors, and prepare information needed for tax reporting.",
-          "level3": "At Level 3 Proficiency, workers can reliably manage sales tax entries across varied transactions and ensure records align with applicable rules and internal procedures. They can resolve recurring issues, support audit requests, and maintain accurate documentation for filing and review.",
-          "label": "Durable Skill",
-          "frequency": 0.040553,
-          "specificity": 0.0893944692486597,
-          "growth": -0.0817048890199836,
-          "growthRaw": -0.0817048890199836,
-          "wagePremium": 0.0308374418167114
         },
         {
           "skill": "Balance Sheet",
@@ -1038,7 +910,7 @@
     },
     "Business Operations Specialists": {
       "name": "Business Operations Specialists",
-      "totalSkills": 27,
+      "totalSkills": 25,
       "skills": [
         {
           "skill": "Communication",
@@ -1215,22 +1087,6 @@
           "growth": 0.198927694921654,
           "growthRaw": 0.198927694921654,
           "wagePremium": 0.194734883771731
-        },
-        {
-          "skill": "Consulting",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Business Consulting",
-          "definition": "Consulting refers to the ability to assess a business issue, ask targeted questions, and recommend practical actions that improve operations or solve problems. It combines listening, clear communication, and structured judgment to guide decisions without directly owning the work.",
-          "utilization": "Business Operations Specialists use consulting to understand process gaps, clarify stakeholder needs, and suggest workable changes that support smoother operations. They often translate business concerns into practical recommendations that teams can adopt and implement.",
-          "level1": "At Level 1 Proficiency, workers can gather basic information from colleagues, identify straightforward issues, and share simple recommendations based on established procedures. They can explain options clearly and support routine problem solving without needing to lead complex discussions.",
-          "level2": "At Level 2 Proficiency, workers can evaluate recurring operational problems, compare practical alternatives, and tailor recommendations to the needs of different teams. They can facilitate discussions, anticipate common objections, and help others choose workable approaches with moderate independence.",
-          "level3": "At Level 3 Proficiency, workers can handle complex consulting conversations, diagnose interconnected operational issues, and provide reliable guidance across multiple stakeholders. They can shape recommendations that align with business goals, adapt to changing priorities, and support implementation with confidence.",
-          "label": "Durable Skill",
-          "frequency": 0.147159,
-          "specificity": 0.0494234088394275,
-          "growth": -0.0872206536649804,
-          "growthRaw": -0.0872206536649804,
-          "wagePremium": 0.0468238569839028
         },
         {
           "skill": "Research",
@@ -1455,28 +1311,12 @@
           "growth": 1.0,
           "growthRaw": 2.22879958972856,
           "wagePremium": null
-        },
-        {
-          "skill": "E-commerce Strategy",
-          "category": "Specialization",
-          "subcategory": "E-Commerce",
-          "definition": "E-commerce Strategy refers to the ability to plan how online sales channels, digital merchandising, and customer experience work together to support business goals. It includes choosing priorities for product presentation, promotions, and service flow so online operations stay aligned with demand and brand expectations.",
-          "utilization": "Business Operations Specialists use e-commerce strategy to coordinate online processes, support sales execution, and keep digital activities aligned with operational goals. They help translate business needs into practical channel decisions that improve order flow, customer experience, and day-to-day efficiency.",
-          "level1": "At Level 1 Proficiency, workers can follow established e-commerce plans, apply basic channel guidelines, and support routine online sales tasks. They recognize how product listings, promotions, and service steps fit together, and they carry out assigned work with limited independent judgment.",
-          "level2": "At Level 2 Proficiency, workers can adapt e-commerce plans to changing business needs, coordinate routine improvements across online sales activities, and resolve common issues in execution. They work with greater confidence across teams, ensuring digital processes remain consistent with operational priorities and customer expectations.",
-          "level3": "At Level 3 Proficiency, workers can independently apply e-commerce strategy to manage complex online operations, align channel decisions with broader business objectives, and guide others in execution. They maintain reliable oversight of digital sales activities, balancing customer experience, operational flow, and business priorities.",
-          "label": "High Value Skill",
-          "frequency": 0.026976,
-          "specificity": 0.076620464408823,
-          "growth": 0.354348002928496,
-          "growthRaw": 0.354348002928496,
-          "wagePremium": 0.23299414363106
         }
       ]
     },
     "Computer User Support Specialists": {
       "name": "Computer User Support Specialists",
-      "totalSkills": 25,
+      "totalSkills": 24,
       "skills": [
         {
           "skill": "Communication",
@@ -1861,28 +1701,12 @@
           "growth": 0.0988238335272069,
           "growthRaw": 0.0988238335272069,
           "wagePremium": -0.0387310618034701
-        },
-        {
-          "skill": "Microsoft Intune (Mobile Device Management Software)",
-          "category": "Specialization",
-          "subcategory": "IT Management",
-          "definition": "Microsoft Intune (Mobile Device Management Software) refers to the ability to manage and secure devices, apps, and access settings from a centralized platform. It supports policy enforcement, device enrollment, and remote actions that help organizations keep user equipment compliant and protected.",
-          "utilization": "Computer User Support Specialists use Microsoft Intune to enroll devices, apply support policies, and help users regain access when settings or apps are misconfigured. They also use it to troubleshoot device compliance issues and coordinate remote management tasks efficiently.",
-          "level1": "At Level 1 Proficiency, workers can enroll devices in Intune, check basic compliance status, and follow standard steps to apply or remove simple policies. They can also assist users with common setup issues and confirm that managed devices connect properly to required services.",
-          "level2": "At Level 2 Proficiency, workers can manage routine device and app settings in Intune, resolve common enrollment or access problems, and apply support actions with limited supervision. They can interpret policy results, guide users through remediation steps, and handle recurring issues confidently.",
-          "level3": "At Level 3 Proficiency, workers can independently manage Intune-supported devices, troubleshoot complex compliance and access problems, and coordinate remote actions to restore service. They can apply policies reliably, support multiple device scenarios, and resolve issues while maintaining secure user access.",
-          "label": "High Growth Skill",
-          "frequency": 0.029486,
-          "specificity": 0.0785899666654956,
-          "growth": 1.0,
-          "growthRaw": 2.07837772102639,
-          "wagePremium": null
         }
       ]
     },
     "Computer and Information Systems Managers": {
       "name": "Computer and Information Systems Managers",
-      "totalSkills": 33,
+      "totalSkills": 32,
       "skills": [
         {
           "skill": "Leadership",
@@ -2027,22 +1851,6 @@
           "growth": 0.415068375824364,
           "growthRaw": 0.415068375824364,
           "wagePremium": 0.0958716675155566
-        },
-        {
-          "skill": "Customer Service",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Customer Service",
-          "definition": "Customer Service refers to the ability to respond to needs, questions, and concerns in a way that is clear, respectful, and helpful. It includes listening carefully, explaining information plainly, and maintaining a positive experience while resolving issues.",
-          "utilization": "Computer and Information Systems Managers use customer service to understand user needs, communicate system changes, and address concerns from staff or clients. They rely on it to build trust, reduce frustration, and keep technology services aligned with business expectations.",
-          "level1": "At Level 1 Proficiency, workers can answer routine questions, acknowledge concerns politely, and direct users to the right support channel. They follow standard procedures to provide basic help and keep interactions calm and professional.",
-          "level2": "At Level 2 Proficiency, workers can handle common service issues, explain technical decisions in accessible language, and adjust their approach to different users. They manage follow-up communication with confidence and resolve many concerns without needing close supervision.",
-          "level3": "At Level 3 Proficiency, workers can consistently manage complex service relationships, anticipate user concerns, and maintain strong communication during system changes or disruptions. They balance competing needs, resolve difficult interactions professionally, and sustain trust across teams and stakeholders.",
-          "label": "Durable Skill",
-          "frequency": 0.199651,
-          "specificity": 0.00289557195496606,
-          "growth": -0.00496777189189726,
-          "growthRaw": -0.00496777189189726,
-          "wagePremium": null
         },
         {
           "skill": "Governance",
@@ -2416,7 +2224,7 @@
     },
     "Management Analysts": {
       "name": "Management Analysts",
-      "totalSkills": 27,
+      "totalSkills": 26,
       "skills": [
         {
           "skill": "Communication",
@@ -2755,22 +2563,6 @@
           "wagePremium": 0.0742258506986346
         },
         {
-          "skill": "Information Technology",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Computer Science",
-          "definition": "Information Technology refers to the ability to use computer systems, software, networks, and digital data to support work activities and solve business problems. It includes understanding how technology enables communication, information access, process coordination, and reliable handling of organizational information.",
-          "utilization": "Management Analysts use information technology to gather information, review business processes, and support recommendations for improving operations. They rely on digital tools and systems to organize findings, communicate with stakeholders, and help implement changes across departments.",
-          "level1": "At Level 1 Proficiency, workers can use common business software to enter, retrieve, and organize information for routine tasks. They follow established procedures for accessing systems, preparing basic documents, and sharing information accurately with others.",
-          "level2": "At Level 2 Proficiency, workers can use multiple digital tools to support process reviews, prepare reports, and coordinate information across teams. They handle standard system tasks with confidence, adapt to routine technology issues, and use software features that improve efficiency and consistency.",
-          "level3": "At Level 3 Proficiency, workers can apply Information Technology reliably to support complex management analysis work and coordinate technology-based workflows. They choose appropriate systems, guide others in using them effectively, and maintain accurate information flow while supporting organizational improvements.",
-          "label": "Durable Skill",
-          "frequency": 0.119377,
-          "specificity": 0.048669259091274,
-          "growth": -0.0662681037386326,
-          "growthRaw": -0.0662681037386326,
-          "wagePremium": null
-        },
-        {
           "skill": "Business Operations",
           "category": "Specialization",
           "subcategory": "Business Operations",
@@ -2854,7 +2646,7 @@
     },
     "Market Research Analysts / Marketing Specialists": {
       "name": "Market Research Analysts / Marketing Specialists",
-      "totalSkills": 26,
+      "totalSkills": 23,
       "skills": [
         {
           "skill": "Communication",
@@ -3193,22 +2985,6 @@
           "wagePremium": -0.0369243122276565
         },
         {
-          "skill": "Adobe Photoshop",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Graphic and Visual Design Software",
-          "definition": "Adobe Photoshop refers to the ability to edit, retouch, and compose images for professional visual communication. It supports creating polished graphics, adjusting photos, and preparing marketing visuals that present information clearly and attractively.",
-          "utilization": "Market Research Analysts / Marketing Specialists use Adobe Photoshop to refine survey graphics, presentation images, and promotional materials. They use it to produce clean visuals for reports, campaigns, and stakeholder updates that support clear communication.",
-          "level1": "At Level 1 Proficiency, workers can open files, make basic edits, crop images, and adjust simple visual elements in Adobe Photoshop. They can prepare straightforward graphics for reports or presentations while following established templates and instructions.",
-          "level2": "At Level 2 Proficiency, workers can combine text and images, apply common edits, and create polished marketing visuals in Adobe Photoshop. They can adapt existing assets for different audiences and formats while maintaining consistent appearance and readability.",
-          "level3": "At Level 3 Proficiency, workers can independently produce reliable, professional-quality visuals in Adobe Photoshop for research summaries and marketing materials. They can manage layered compositions, refine images for clarity, and deliver finished assets that align with campaign or reporting needs.",
-          "label": "Declining Skill",
-          "frequency": 0.05451,
-          "specificity": 0.0624256532393083,
-          "growth": -0.196203997881917,
-          "growthRaw": -0.196203997881917,
-          "wagePremium": -0.163475084721392
-        },
-        {
           "skill": "Marketing Automation",
           "category": "Specialization",
           "subcategory": "Digital Marketing",
@@ -3239,44 +3015,12 @@
           "growth": -0.065478060962903,
           "growthRaw": -0.065478060962903,
           "wagePremium": -0.139867806221024
-        },
-        {
-          "skill": "Content Marketing",
-          "category": "Specialization",
-          "subcategory": "Digital Marketing",
-          "definition": "Content Marketing refers to the ability to create and share useful, audience-focused material that attracts attention, builds trust, and supports business goals. It connects information, storytelling, and promotion so people understand a product, service, or idea and are encouraged to engage further.",
-          "utilization": "Market Research Analysts / Marketing Specialists use content marketing to translate research findings into messages that resonate with target audiences. They help shape articles, reports, and campaign materials that reflect customer needs, market trends, and brand positioning.",
-          "level1": "At Level 1 Proficiency, workers can help prepare basic content pieces using provided research, templates, and clear instructions. They can adjust wording for audience fit and ensure the material is accurate, consistent, and aligned with the intended message.",
-          "level2": "At Level 2 Proficiency, workers can develop content for specific audience segments and adapt messaging to different channels with moderate independence. They can combine research insights with marketing goals to produce clear, relevant materials that support campaigns and stakeholder needs.",
-          "level3": "At Level 3 Proficiency, workers can independently plan and deliver content marketing outputs that reflect audience insight, brand voice, and campaign objectives. They can refine messaging across formats, coordinate with others, and maintain reliable quality while supporting broader marketing strategy.",
-          "label": "Declining Skill",
-          "frequency": 0.038308,
-          "specificity": 0.0861106033254069,
-          "growth": -0.175606700385133,
-          "growthRaw": -0.175606700385133,
-          "wagePremium": null
-        },
-        {
-          "skill": "Web Analytics",
-          "category": "Specialization",
-          "subcategory": "Web Analytics and SEO",
-          "definition": "Web Analytics refers to the ability to collect, interpret, and report on website and digital traffic data to understand user behavior and campaign performance. It helps identify where visitors come from, what they do on a site, and which content or channels support business goals.",
-          "utilization": "Market Research Analysts / Marketing Specialists use web analytics to monitor audience engagement, evaluate marketing campaigns, and identify trends in customer interest. They apply these findings to refine messaging, improve site content, and support decisions about where to focus outreach efforts.",
-          "level1": "At Level 1 Proficiency, workers can review basic website reports and recognize simple patterns in traffic, page views, and visitor sources. They can follow standard instructions to pull routine metrics and share clear summaries of what happened on a site during a defined period.",
-          "level2": "At Level 2 Proficiency, workers can compare web traffic across campaigns or time periods and identify which pages or channels are performing better. They can explain common trends in user behavior and use those observations to suggest practical adjustments to marketing content or site structure.",
-          "level3": "At Level 3 Proficiency, workers can consistently interpret web analytics results in context and connect them to marketing objectives, audience segments, and campaign outcomes. They can independently translate site behavior patterns into reliable recommendations that guide research priorities and marketing actions.",
-          "label": "Declining Skill",
-          "frequency": 0.036418,
-          "specificity": 0.0793150283879815,
-          "growth": -0.385120698277038,
-          "growthRaw": -0.385120698277038,
-          "wagePremium": null
         }
       ]
     },
     "Office & Admin Supervisors": {
       "name": "Office & Admin Supervisors",
-      "totalSkills": 26,
+      "totalSkills": 24,
       "skills": [
         {
           "skill": "Customer Service",
@@ -3567,22 +3311,6 @@
           "wagePremium": 0.0101462907784755
         },
         {
-          "skill": "Computer Literacy",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Basic Technical Knowledge",
-          "definition": "Computer Literacy refers to the ability to use computers, common software, and digital systems to complete everyday work tasks accurately and efficiently. It includes basic navigation, file handling, communication tools, and routine troubleshooting needed to work confidently in office settings.",
-          "utilization": "Office & Admin Supervisors use computer literacy to manage schedules, prepare documents, track records, and communicate with staff or managers. It supports smooth coordination of office tasks, timely updates, and consistent handling of routine administrative information.",
-          "level1": "At Level 1 Proficiency, workers can use a computer to open files, enter simple information, and send basic emails. They follow standard steps for routine office tasks and can locate saved documents or forms when given clear instructions.",
-          "level2": "At Level 2 Proficiency, workers can navigate common office software with confidence, update records, and prepare routine documents with limited supervision. They handle multiple digital tasks in sequence and resolve straightforward issues such as misplaced files or simple formatting problems.",
-          "level3": "At Level 3 Proficiency, workers can reliably use computer systems to coordinate office operations, maintain organized records, and produce accurate documents for daily supervision needs. They work independently across common software tools, adapt to changing priorities, and support others in using standard digital processes.",
-          "label": "Durable Skill",
-          "frequency": 0.10779,
-          "specificity": 0.00625222482255252,
-          "growth": -0.148969282579855,
-          "growthRaw": -0.148969282579855,
-          "wagePremium": -0.0721613255318587
-        },
-        {
           "skill": "Project Management",
           "category": "Foundational & Leadership Skills",
           "subcategory": "Project Management",
@@ -3677,28 +3405,12 @@
           "growth": -0.0181532441707559,
           "growthRaw": -0.0181532441707559,
           "wagePremium": -0.0494290611528536
-        },
-        {
-          "skill": "Payroll Processing",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Payroll",
-          "definition": "Payroll Processing refers to the ability to calculate employee pay, apply deductions, and prepare accurate wage records for each pay period. It also includes following established payroll schedules and ensuring employees are paid correctly and on time.",
-          "utilization": "Office & Admin Supervisors use payroll processing to coordinate pay information, review timesheets, and confirm that routine payroll tasks are completed accurately. They also help resolve basic discrepancies and maintain orderly records that support smooth office operations.",
-          "level1": "At Level 1 Proficiency, workers can enter standard payroll data, check basic timesheet details, and follow set procedures to prepare routine pay runs. They handle straightforward payroll tasks with supervision and recognize obvious errors before submission.",
-          "level2": "At Level 2 Proficiency, workers can process payroll with moderate independence, verify common deductions, and correct routine discrepancies in employee records. They manage recurring payroll steps confidently and coordinate with others to keep pay information accurate and timely.",
-          "level3": "At Level 3 Proficiency, workers can reliably oversee payroll processing for the office, handle complex pay situations within established rules, and ensure records remain complete and consistent. They can resolve recurring issues, maintain compliance with procedures, and support smooth payroll operations without close oversight.",
-          "label": "High Value Skill",
-          "frequency": 0.032791,
-          "specificity": 0.0543863891227494,
-          "growth": 0.774761867885077,
-          "growthRaw": 0.774761867885077,
-          "wagePremium": 0.0744221573382899
         }
       ]
     },
     "Paralegals and Legal Assistants": {
       "name": "Paralegals and Legal Assistants",
-      "totalSkills": 32,
+      "totalSkills": 28,
       "skills": [
         {
           "skill": "Communication",
@@ -4133,54 +3845,6 @@
           "wagePremium": 0.0266924855554127
         },
         {
-          "skill": "Interrogatories",
-          "category": "Specialization",
-          "subcategory": "Law Enforcement and Criminal Justice",
-          "definition": "Interrogatories refers to the ability to prepare, review, and respond to written questions exchanged in litigation so the parties can obtain formal information from one another. It requires careful wording, attention to deadlines, and an understanding of how answers may affect the case record.",
-          "utilization": "Paralegals and Legal Assistants use interrogatories to draft discovery questions, organize responses, and coordinate with attorneys and clients to gather accurate information. They also track service dates, monitor objections, and assemble supporting documents to help ensure the discovery process stays complete and timely.",
-          "level1": "At Level 1 Proficiency, workers can format standard interrogatories, copy approved questions into case files, and help collect basic facts needed for responses. They follow instructions closely, check for missing attachments, and route drafts to the supervising attorney or legal assistant for review.",
-          "level2": "At Level 2 Proficiency, workers can prepare routine interrogatories with limited guidance, identify obvious issues in wording, and organize responses for attorney approval. They manage follow-up requests, coordinate with clients for clarifications, and help ensure objections and answers are assembled in the correct order.",
-          "level3": "At Level 3 Proficiency, workers can independently manage interrogatory preparation and response workflows, tailoring drafts to the case while maintaining consistency with attorney direction. They anticipate missing information, resolve routine discovery issues, and produce accurate, well-organized materials that support reliable case handling.",
-          "label": "Durable Skill",
-          "frequency": 0.041916,
-          "specificity": 0.198176176743813,
-          "growth": 0.0460706073312594,
-          "growthRaw": 0.0460706073312594,
-          "wagePremium": 0.0352202738211118
-        },
-        {
-          "skill": "Intellectual Property",
-          "category": "Specialization",
-          "subcategory": "Property Law",
-          "definition": "Description of the skill: Intellectual Property refers to the ability to recognize, organize, and protect creations such as inventions, written works, trademarks, and other proprietary materials. It includes understanding ownership, confidentiality, and the basic legal processes that help preserve rights and prevent unauthorized use.",
-          "utilization": "Paralegals and Legal Assistants use intellectual property knowledge to support attorneys by gathering documents, tracking filing deadlines, and preparing materials related to patents, trademarks, copyrights, and trade secrets. They help maintain accurate records and ensure that intellectual property matters move forward in an orderly and compliant way.",
-          "level1": "At Level 1 Proficiency, workers can identify common intellectual property terms, sort related documents, and follow established instructions for filing and recordkeeping. They can assist with routine preparation tasks while recognizing when materials should be routed to an attorney for review.",
-          "level2": "At Level 2 Proficiency, workers can handle standard intellectual property support tasks with limited supervision, such as organizing case files, checking forms for completeness, and monitoring routine deadlines. They can apply office procedures consistently and flag issues that may affect ownership, filing status, or confidentiality.",
-          "level3": "At Level 3 Proficiency, workers can reliably manage intellectual property support work across multiple matters, coordinating documents, deadlines, and file integrity with minimal oversight. They can anticipate routine procedural needs, maintain accurate case records, and support attorneys with dependable, well-organized preparation throughout the process.",
-          "label": "High Value Skill",
-          "frequency": 0.035869,
-          "specificity": 0.101203914061264,
-          "growth": -0.103593067493307,
-          "growthRaw": -0.103593067493307,
-          "wagePremium": 0.245167905717955
-        },
-        {
-          "skill": "Family Law",
-          "category": "Specialization",
-          "subcategory": "Litigation and Civil Justice",
-          "definition": "Family Law refers to the body of legal practice that addresses marriage, divorce, child custody, support, adoption, and related domestic matters. It requires careful handling of sensitive personal information, procedural documents, and court deadlines while following applicable rules and orders.",
-          "utilization": "Paralegals and Legal Assistants use family law to prepare and organize family law filings, gather client information, and maintain case records for attorneys. They also help track deadlines, assemble supporting documents, and communicate routine updates with clients and courts.",
-          "level1": "At Level 1 Proficiency, workers can organize family law files, enter basic case information, and prepare standard forms from provided details. They follow instructions closely, check documents for completeness, and route materials to the attorney or court as directed.",
-          "level2": "At Level 2 Proficiency, workers can manage routine family law tasks with less supervision, including drafting common correspondence and assembling filing packets. They recognize key case requirements, monitor deadlines, and coordinate information from clients to support ongoing matters.",
-          "level3": "At Level 3 Proficiency, workers can independently handle a broad range of family law support tasks, keeping cases organized and moving according to procedure. They anticipate document needs, resolve routine issues with filings or records, and provide dependable assistance across active matters.",
-          "label": "Durable Skill",
-          "frequency": 0.034247,
-          "specificity": 0.136541203529755,
-          "growth": 0.22862542749145,
-          "growthRaw": 0.22862542749145,
-          "wagePremium": -0.0861449276318302
-        },
-        {
           "skill": "Legal Correspondence",
           "category": "Core Role-Specific Skills",
           "subcategory": "Legal Support",
@@ -4195,28 +3859,12 @@
           "growth": 0.384634781877784,
           "growthRaw": 0.384634781877784,
           "wagePremium": -0.0127616693238013
-        },
-        {
-          "skill": "Cite Checks",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Writing and Editing",
-          "definition": "Cite Checks refers to the ability to verify legal citations for accuracy, consistency, and proper formatting before documents are filed or shared. It includes confirming authorities, pinpoint references, and citation style so legal writing remains credible and usable.",
-          "utilization": "Paralegals and Legal Assistants use cite checks to review briefs, motions, and correspondence for citation errors and formatting issues. They help ensure references match source materials and that documents follow court or firm requirements.",
-          "level1": "At Level 1 Proficiency, workers can spot obvious citation mistakes, such as missing page numbers, incorrect case names, or inconsistent formatting. They follow established instructions to compare citations against source materials and flag items that need correction.",
-          "level2": "At Level 2 Proficiency, workers can independently review routine legal documents for citation accuracy and consistency across multiple sources. They correct common errors, apply the required citation style, and identify discrepancies that could affect document reliability.",
-          "level3": "At Level 3 Proficiency, workers can perform thorough cite checks on complex legal materials with minimal supervision and consistent accuracy. They manage detailed citation review, resolve formatting conflicts, and ensure documents are ready for filing or attorney review.",
-          "label": "High Value Skill",
-          "frequency": 0.02127,
-          "specificity": 0.13580711570345,
-          "growth": 0.01455733808675,
-          "growthRaw": 0.01455733808675,
-          "wagePremium": 0.147064066123433
         }
       ]
     },
     "Secretaries & Administrative Assistants": {
       "name": "Secretaries & Administrative Assistants",
-      "totalSkills": 23,
+      "totalSkills": 22,
       "skills": [
         {
           "skill": "Communication",
@@ -4377,22 +4025,6 @@
           "growth": 0.149204528176704,
           "growthRaw": 0.149204528176704,
           "wagePremium": 0.0302777439776245
-        },
-        {
-          "skill": "Computer Literacy",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Basic Technical Knowledge",
-          "definition": "Computer Literacy refers to the ability to use computers and common digital applications to complete everyday work tasks accurately and efficiently. It includes navigating files, entering information, and using basic software features to support communication, recordkeeping, and routine office work.",
-          "utilization": "Secretaries and Administrative Assistants use computer literacy to prepare documents, manage calendars, and maintain organized records. They also rely on it to send messages, update information, and support smooth day-to-day office operations.",
-          "level1": "At Level 1 Proficiency, workers can open programs, type simple documents, and save or retrieve files in expected locations. They follow basic on-screen instructions and use standard office functions to complete routine clerical tasks with limited supervision.",
-          "level2": "At Level 2 Proficiency, workers can use common office software confidently to format documents, organize information, and handle recurring administrative tasks. They switch between applications, update records, and solve straightforward computer issues without needing constant assistance.",
-          "level3": "At Level 3 Proficiency, workers can reliably use computer tools to manage a wide range of secretarial duties with speed and accuracy. They adapt to new office procedures, maintain organized digital workflows, and support others by handling tasks independently and consistently.",
-          "label": "Declining Skill",
-          "frequency": 0.151186,
-          "specificity": 0.00990123566929972,
-          "growth": -0.218025317044252,
-          "growthRaw": -0.218025317044252,
-          "wagePremium": -0.0309535872746147
         },
         {
           "skill": "Office Supply Management",
@@ -6121,11 +5753,11 @@
   "counts": {
     "Accountants & Auditors": {
       "roleStatus": "new",
-      "total": 36,
+      "total": 31,
       "overlap": 0,
       "added": 0,
       "dropped": 0,
-      "newRoleSkill": 36
+      "newRoleSkill": 31
     },
     "Assemblers and Fabricators": {
       "roleStatus": "existing",
@@ -6137,19 +5769,19 @@
     },
     "Bookkeepers and Auditing Clerks": {
       "roleStatus": "new",
-      "total": 28,
+      "total": 25,
       "overlap": 0,
       "added": 0,
       "dropped": 0,
-      "newRoleSkill": 28
+      "newRoleSkill": 25
     },
     "Business Operations Specialists": {
       "roleStatus": "new",
-      "total": 27,
+      "total": 25,
       "overlap": 0,
       "added": 0,
       "dropped": 0,
-      "newRoleSkill": 27
+      "newRoleSkill": 25
     },
     "Cashiers": {
       "roleStatus": "existing",
@@ -6161,11 +5793,11 @@
     },
     "Computer User Support Specialists": {
       "roleStatus": "new",
-      "total": 25,
+      "total": 24,
       "overlap": 0,
       "added": 0,
       "dropped": 0,
-      "newRoleSkill": 25
+      "newRoleSkill": 24
     },
     "Customer Service Managers": {
       "roleStatus": "existing",
@@ -6265,27 +5897,27 @@
     },
     "Management Analysts": {
       "roleStatus": "new",
-      "total": 27,
+      "total": 26,
       "overlap": 0,
       "added": 0,
       "dropped": 0,
-      "newRoleSkill": 27
+      "newRoleSkill": 26
     },
     "Market Research Analysts / Marketing Specialists": {
       "roleStatus": "new",
-      "total": 26,
+      "total": 23,
       "overlap": 0,
       "added": 0,
       "dropped": 0,
-      "newRoleSkill": 26
+      "newRoleSkill": 23
     },
     "Office & Admin Supervisors": {
       "roleStatus": "new",
-      "total": 26,
+      "total": 24,
       "overlap": 0,
       "added": 0,
       "dropped": 0,
-      "newRoleSkill": 26
+      "newRoleSkill": 24
     },
     "Packers and Packagers": {
       "roleStatus": "existing",
@@ -6297,11 +5929,11 @@
     },
     "Paralegals and Legal Assistants": {
       "roleStatus": "new",
-      "total": 32,
+      "total": 28,
       "overlap": 0,
       "added": 0,
       "dropped": 0,
-      "newRoleSkill": 32
+      "newRoleSkill": 28
     },
     "Product Managers": {
       "roleStatus": "existing",
@@ -6369,11 +6001,11 @@
     },
     "Secretaries & Administrative Assistants": {
       "roleStatus": "new",
-      "total": 23,
+      "total": 22,
       "overlap": 0,
       "added": 0,
       "dropped": 0,
-      "newRoleSkill": 23
+      "newRoleSkill": 22
     },
     "Security Guards": {
       "roleStatus": "existing",
@@ -6433,11 +6065,11 @@
     },
     "Computer and Information Systems Managers": {
       "roleStatus": "new",
-      "total": 33,
+      "total": 32,
       "overlap": 0,
       "added": 0,
       "dropped": 0,
-      "newRoleSkill": 33
+      "newRoleSkill": 32
     }
   },
   "allOccupations": [
@@ -6529,7 +6161,7 @@
   "meta": {
     "sourceFile": "2026.05.13 Skills-First Skills Profiles v2.xlsx",
     "totalOccupations": 40,
-    "totalSkills": 980,
+    "totalSkills": 957,
     "lastUpdated": "2026-05-26"
   }
 }
