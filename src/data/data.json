@@ -4655,9 +4655,9 @@
     "Cashiers": {
       "occupation": "Cashiers",
       "totalSkills": 12,
-      "overlapCount": 9,
+      "overlapCount": 10,
       "addedCount": 1,
-      "droppedCount": 2,
+      "droppedCount": 1,
       "pipelineAdded": [
         {
           "skill": "Multitasking",
@@ -4680,16 +4680,6 @@
           "specificity": 0.0807,
           "growth": 0.008367,
           "wagePremium": -0.000234
-        },
-        {
-          "skill": "Cash Handling",
-          "category": "Baseline Applied Skills",
-          "subcategory": null,
-          "label": "Declining Skill",
-          "frequency": 0.1575,
-          "specificity": 0.3295,
-          "growth": -0.003395,
-          "wagePremium": -0.000304
         }
       ],
       "curation": [
@@ -4707,10 +4697,10 @@
     },
     "Customer Service Managers": {
       "occupation": "Customer Service Managers",
-      "totalSkills": 18,
-      "overlapCount": 12,
-      "addedCount": 3,
-      "droppedCount": 3,
+      "totalSkills": 16,
+      "overlapCount": 13,
+      "addedCount": 1,
+      "droppedCount": 2,
       "pipelineAdded": [
         {
           "skill": "Problem Solving",
@@ -4721,26 +4711,6 @@
           "specificity": 0.00138871763247125,
           "growth": 0.00561343156485522,
           "wagePremium": 0.0597909823239804
-        },
-        {
-          "skill": "Writing",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Writing and Editing",
-          "label": "Durable Skill",
-          "frequency": 0.168881,
-          "specificity": 0.000519663752780562,
-          "growth": -0.14493650757593,
-          "wagePremium": 0.00670559207725007
-        },
-        {
-          "skill": "Microsoft Excel",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Office and Productivity Equipment and Technology",
-          "label": "Declining Skill",
-          "frequency": 0.15006,
-          "specificity": 0.00443467544143753,
-          "growth": -0.176052585892086,
-          "wagePremium": null
         }
       ],
       "pipelineDropped": [
@@ -4763,16 +4733,6 @@
           "specificity": 0.181,
           "growth": 0.00602,
           "wagePremium": 0.00126
-        },
-        {
-          "skill": "Product Knowledge",
-          "category": "Specialization",
-          "subcategory": null,
-          "label": "Declining Skill",
-          "frequency": 0.119,
-          "specificity": 0.211,
-          "growth": -0.00138,
-          "wagePremium": null
         }
       ],
       "curation": [
@@ -4790,10 +4750,10 @@
     },
     "Customer Service Representatives": {
       "occupation": "Customer Service Representatives",
-      "totalSkills": 22,
-      "overlapCount": 16,
-      "addedCount": 3,
-      "droppedCount": 3,
+      "totalSkills": 20,
+      "overlapCount": 17,
+      "addedCount": 1,
+      "droppedCount": 2,
       "pipelineAdded": [
         {
           "skill": "Problem Solving",
@@ -4804,26 +4764,6 @@
           "specificity": 0.00636973357207687,
           "growth": 0.163051332615395,
           "wagePremium": 0.0186261545605984
-        },
-        {
-          "skill": "Multitasking",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Personal Attributes",
-          "label": "Durable Skill",
-          "frequency": 0.207259,
-          "specificity": 0.0222798286868058,
-          "growth": -0.0303638953002995,
-          "wagePremium": -0.0368101658395953
-        },
-        {
-          "skill": "Computer Literacy",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Basic Technical Knowledge",
-          "label": "Declining Skill",
-          "frequency": 0.141584,
-          "specificity": 0.0112412910715752,
-          "growth": -0.329801981313888,
-          "wagePremium": -0.0166764316023215
         }
       ],
       "pipelineDropped": [
@@ -4836,16 +4776,6 @@
           "specificity": 0.469,
           "growth": 0.00466,
           "wagePremium": 0.00213
-        },
-        {
-          "skill": "Clerical Works",
-          "category": "Baseline Applied Skills",
-          "subcategory": null,
-          "label": "Declining Skill",
-          "frequency": 0.133,
-          "specificity": 0.167,
-          "growth": 0.00269,
-          "wagePremium": 0.00046
         },
         {
           "skill": "Typing",
@@ -4863,9 +4793,9 @@
     "Cybersecurity Analysts": {
       "occupation": "Cybersecurity Analysts",
       "totalSkills": 21,
-      "overlapCount": 17,
+      "overlapCount": 19,
       "addedCount": 2,
-      "droppedCount": 2,
+      "droppedCount": 0,
       "pipelineAdded": [
         {
           "skill": "Computer Science",
@@ -4888,28 +4818,7 @@
           "wagePremium": null
         }
       ],
-      "pipelineDropped": [
-        {
-          "skill": "Agile Methodology",
-          "category": "Core Role-Specific Skills",
-          "subcategory": null,
-          "label": "High Value Skill",
-          "frequency": 0.1872,
-          "specificity": 0.1336,
-          "growth": 0.00113,
-          "wagePremium": 0.001494
-        },
-        {
-          "skill": "Encryption",
-          "category": "Specialization",
-          "subcategory": null,
-          "label": "Declining Skill",
-          "frequency": 0.1533,
-          "specificity": 0.2295,
-          "growth": -0.00179,
-          "wagePremium": null
-        }
-      ],
+      "pipelineDropped": [],
       "curation": []
     },
     "Data Scientists": {
@@ -5039,9 +4948,9 @@
     "Financial Managers": {
       "occupation": "Financial Managers",
       "totalSkills": 27,
-      "overlapCount": 23,
+      "overlapCount": 24,
       "addedCount": 2,
-      "droppedCount": 2,
+      "droppedCount": 1,
       "pipelineAdded": [
         {
           "skill": "Planning",
@@ -5074,16 +4983,6 @@
           "specificity": 0.1116,
           "growth": 0.002214,
           "wagePremium": null
-        },
-        {
-          "skill": "Supervision",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": null,
-          "label": "Declining Skill",
-          "frequency": 0.1433,
-          "specificity": 0.1572,
-          "growth": -0.000628,
-          "wagePremium": -0.000129
         }
       ],
       "curation": []
@@ -5091,9 +4990,9 @@
     "First-Line Supervisors of Retail Sales Workers": {
       "occupation": "First-Line Supervisors of Retail Sales Workers",
       "totalSkills": 28,
-      "overlapCount": 24,
+      "overlapCount": 25,
       "addedCount": 2,
-      "droppedCount": 2,
+      "droppedCount": 1,
       "pipelineAdded": [
         {
           "skill": "Planning",
@@ -5118,16 +5017,6 @@
       ],
       "pipelineDropped": [
         {
-          "skill": "Mentorship",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": null,
-          "label": "High Growth Skill",
-          "frequency": 0.104,
-          "specificity": 0.064,
-          "growth": 0.00733,
-          "wagePremium": 0.00059
-        },
-        {
           "skill": "General Mathematics",
           "category": "Foundational & Leadership Skills",
           "subcategory": null,
@@ -5142,9 +5031,9 @@
     },
     "Human Resources Specialists": {
       "occupation": "Human Resources Specialists",
-      "totalSkills": 22,
+      "totalSkills": 21,
       "overlapCount": 19,
-      "addedCount": 2,
+      "addedCount": 1,
       "droppedCount": 1,
       "pipelineAdded": [
         {
@@ -5156,16 +5045,6 @@
           "specificity": 0.00383640122243159,
           "growth": 0.0176693816777425,
           "wagePremium": 0.0570129723659381
-        },
-        {
-          "skill": "Customer Service",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Customer Service",
-          "label": "Durable Skill",
-          "frequency": 0.262403,
-          "specificity": 0.00674016044090621,
-          "growth": -0.0317868248648975,
-          "wagePremium": -0.0574129792726624
         }
       ],
       "pipelineDropped": [
@@ -5268,9 +5147,9 @@
     "Inspectors, Testers, and Samplers": {
       "occupation": "Inspectors, Testers, and Samplers",
       "totalSkills": 20,
-      "overlapCount": 15,
+      "overlapCount": 16,
       "addedCount": 3,
-      "droppedCount": 2,
+      "droppedCount": 1,
       "pipelineAdded": [
         {
           "skill": "Quality Management",
@@ -5313,16 +5192,6 @@
           "specificity": 0.1784,
           "growth": 0.002321,
           "wagePremium": null
-        },
-        {
-          "skill": "General Mathematics",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": null,
-          "label": "High Growth Skill",
-          "frequency": 0.1574,
-          "specificity": 0.1153,
-          "growth": 0.00123399999999999,
-          "wagePremium": -0.000329
         }
       ],
       "curation": []
@@ -5736,9 +5605,9 @@
     },
     "Retail Salespersons": {
       "occupation": "Retail Salespersons",
-      "totalSkills": 29,
+      "totalSkills": 28,
       "overlapCount": 23,
-      "addedCount": 3,
+      "addedCount": 2,
       "droppedCount": 3,
       "pipelineAdded": [
         {
@@ -5760,16 +5629,6 @@
           "specificity": 0.09939256455257875,
           "growth": 0.1014793361369371,
           "wagePremium": -0.05404630432183745
-        },
-        {
-          "skill": "Management",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Business Management",
-          "label": "Declining Skill",
-          "frequency": 0.231718,
-          "specificity": 0.00410384652376455,
-          "growth": -0.227014755959137,
-          "wagePremium": null
         }
       ],
       "pipelineDropped": [
@@ -5850,32 +5709,11 @@
     },
     "Sales Representatives": {
       "occupation": "Sales Representatives",
-      "totalSkills": 21,
+      "totalSkills": 19,
       "overlapCount": 17,
-      "addedCount": 2,
+      "addedCount": 0,
       "droppedCount": 2,
-      "pipelineAdded": [
-        {
-          "skill": "Presentations",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Communication",
-          "label": "High Value Skill",
-          "frequency": 0.244054,
-          "specificity": 0.0624065989164477,
-          "growth": 0.138766050402259,
-          "wagePremium": 0.101287956428263
-        },
-        {
-          "skill": "Management",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Business Management",
-          "label": "Durable Skill",
-          "frequency": 0.279036,
-          "specificity": 0.00334920402564672,
-          "growth": -0.0210649338834011,
-          "wagePremium": 0.0314179873177349
-        }
-      ],
+      "pipelineAdded": [],
       "pipelineDropped": [
         {
           "skill": "Product Demonstration",
@@ -5923,9 +5761,9 @@
     },
     "Shipping & Receiving Clerks": {
       "occupation": "Shipping & Receiving Clerks",
-      "totalSkills": 27,
+      "totalSkills": 26,
       "overlapCount": 23,
-      "addedCount": 2,
+      "addedCount": 1,
       "droppedCount": 2,
       "pipelineAdded": [
         {
@@ -5937,16 +5775,6 @@
           "specificity": 0.00318640248405276,
           "growth": 0.108573441784232,
           "wagePremium": 0.00886406769281689
-        },
-        {
-          "skill": "Warehousing",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Inventory and Warehousing",
-          "label": "Durable Skill",
-          "frequency": 0.468831,
-          "specificity": 0.227898590820781,
-          "growth": -0.0402275121129134,
-          "wagePremium": -0.0193070456933924
         }
       ],
       "pipelineDropped": [
@@ -5976,9 +5804,9 @@
     "Software Developers": {
       "occupation": "Software Developers",
       "totalSkills": 33,
-      "overlapCount": 28,
+      "overlapCount": 30,
       "addedCount": 3,
-      "droppedCount": 2,
+      "droppedCount": 0,
       "pipelineAdded": [
         {
           "skill": "Code Review",
@@ -6011,28 +5839,7 @@
           "wagePremium": -0.0308243533747616
         }
       ],
-      "pipelineDropped": [
-        {
-          "skill": "Teamwork",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": null,
-          "label": "High Growth Skill",
-          "frequency": 0.151,
-          "specificity": 0.01,
-          "growth": 0.00263,
-          "wagePremium": null
-        },
-        {
-          "skill": "User Interface (UI)",
-          "category": "Specialization",
-          "subcategory": null,
-          "label": "Durable Skill",
-          "frequency": 0.124,
-          "specificity": 0.181,
-          "growth": 0.00021,
-          "wagePremium": null
-        }
-      ],
+      "pipelineDropped": [],
       "curation": [
         {
           "skill": "Artificial Intelligence",
@@ -6099,9 +5906,9 @@
     },
     "Transportation Supervisors": {
       "occupation": "Transportation Supervisors",
-      "totalSkills": 29,
+      "totalSkills": 28,
       "overlapCount": 25,
-      "addedCount": 2,
+      "addedCount": 1,
       "droppedCount": 2,
       "pipelineAdded": [
         {
@@ -6113,16 +5920,6 @@
           "specificity": 0.00424936573419949,
           "growth": 0.42938765214101,
           "wagePremium": 0.0492783526501335
-        },
-        {
-          "skill": "Operations",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Business Operations",
-          "label": "High Value Skill",
-          "frequency": 0.420933,
-          "specificity": 0.00379987194782113,
-          "growth": 0.158325085949667,
-          "wagePremium": 0.0866575654859798
         }
       ],
       "pipelineDropped": [
@@ -6194,9 +5991,9 @@
     "Truck Drivers": {
       "occupation": "Truck Drivers",
       "totalSkills": 17,
-      "overlapCount": 12,
+      "overlapCount": 13,
       "addedCount": 2,
-      "droppedCount": 3,
+      "droppedCount": 2,
       "pipelineAdded": [
         {
           "skill": "Vehicle Inspection",
@@ -6220,16 +6017,6 @@
         }
       ],
       "pipelineDropped": [
-        {
-          "skill": "Defensive Driving",
-          "category": "Core Role-Specific Skills",
-          "subcategory": null,
-          "label": "High Value Skill",
-          "frequency": 0.074,
-          "specificity": 0.068,
-          "growth": 0.010662,
-          "wagePremium": 0.007496
-        },
         {
           "skill": "Doubles Endorsement",
           "category": "Specialization",
@@ -6367,9 +6154,9 @@
     "Cashiers": {
       "roleStatus": "existing",
       "total": 12,
-      "overlap": 9,
+      "overlap": 10,
       "added": 1,
-      "dropped": 2,
+      "dropped": 1,
       "newRoleSkill": 0
     },
     "Computer User Support Specialists": {
@@ -6382,26 +6169,26 @@
     },
     "Customer Service Managers": {
       "roleStatus": "existing",
-      "total": 18,
-      "overlap": 12,
-      "added": 3,
-      "dropped": 3,
+      "total": 16,
+      "overlap": 13,
+      "added": 1,
+      "dropped": 2,
       "newRoleSkill": 0
     },
     "Customer Service Representatives": {
       "roleStatus": "existing",
-      "total": 22,
-      "overlap": 16,
-      "added": 3,
-      "dropped": 3,
+      "total": 20,
+      "overlap": 17,
+      "added": 1,
+      "dropped": 2,
       "newRoleSkill": 0
     },
     "Cybersecurity Analysts": {
       "roleStatus": "existing",
       "total": 21,
-      "overlap": 17,
+      "overlap": 19,
       "added": 2,
-      "dropped": 2,
+      "dropped": 0,
       "newRoleSkill": 0
     },
     "Data Scientists": {
@@ -6423,24 +6210,24 @@
     "Financial Managers": {
       "roleStatus": "existing",
       "total": 27,
-      "overlap": 23,
+      "overlap": 24,
       "added": 2,
-      "dropped": 2,
+      "dropped": 1,
       "newRoleSkill": 0
     },
     "First-Line Supervisors of Retail Sales Workers": {
       "roleStatus": "existing",
       "total": 28,
-      "overlap": 24,
+      "overlap": 25,
       "added": 2,
-      "dropped": 2,
+      "dropped": 1,
       "newRoleSkill": 0
     },
     "Human Resources Specialists": {
       "roleStatus": "existing",
-      "total": 22,
+      "total": 21,
       "overlap": 19,
-      "added": 2,
+      "added": 1,
       "dropped": 1,
       "newRoleSkill": 0
     },
@@ -6455,9 +6242,9 @@
     "Inspectors, Testers, and Samplers": {
       "roleStatus": "existing",
       "total": 20,
-      "overlap": 15,
+      "overlap": 16,
       "added": 3,
-      "dropped": 2,
+      "dropped": 1,
       "newRoleSkill": 0
     },
     "Laborers and Material Movers": {
@@ -6558,9 +6345,9 @@
     },
     "Retail Salespersons": {
       "roleStatus": "existing",
-      "total": 29,
+      "total": 28,
       "overlap": 23,
-      "added": 3,
+      "added": 2,
       "dropped": 3,
       "newRoleSkill": 0
     },
@@ -6574,9 +6361,9 @@
     },
     "Sales Representatives": {
       "roleStatus": "existing",
-      "total": 21,
+      "total": 19,
       "overlap": 17,
-      "added": 2,
+      "added": 0,
       "dropped": 2,
       "newRoleSkill": 0
     },
@@ -6598,25 +6385,25 @@
     },
     "Shipping & Receiving Clerks": {
       "roleStatus": "existing",
-      "total": 27,
+      "total": 26,
       "overlap": 23,
-      "added": 2,
+      "added": 1,
       "dropped": 2,
       "newRoleSkill": 0
     },
     "Software Developers": {
       "roleStatus": "existing",
       "total": 33,
-      "overlap": 28,
+      "overlap": 30,
       "added": 3,
-      "dropped": 2,
+      "dropped": 0,
       "newRoleSkill": 0
     },
     "Transportation Supervisors": {
       "roleStatus": "existing",
-      "total": 29,
+      "total": 28,
       "overlap": 25,
-      "added": 2,
+      "added": 1,
       "dropped": 2,
       "newRoleSkill": 0
     },
@@ -6631,9 +6418,9 @@
     "Truck Drivers": {
       "roleStatus": "existing",
       "total": 17,
-      "overlap": 12,
+      "overlap": 13,
       "added": 2,
-      "dropped": 3,
+      "dropped": 2,
       "newRoleSkill": 0
     },
     "Stockers and Order Fillers": {
@@ -6742,7 +6529,7 @@
   "meta": {
     "sourceFile": "2026.05.13 Skills-First Skills Profiles v2.xlsx",
     "totalOccupations": 40,
-    "totalSkills": 990,
+    "totalSkills": 980,
     "lastUpdated": "2026-05-26"
   }
 }
