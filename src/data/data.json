@@ -4592,21 +4592,11 @@
   "existingDiffs": {
     "Assemblers and Fabricators": {
       "occupation": "Assemblers and Fabricators",
-      "totalSkills": 46,
+      "totalSkills": 31,
       "overlapCount": 9,
-      "addedCount": 26,
+      "addedCount": 11,
       "droppedCount": 11,
       "pipelineAdded": [
-        {
-          "skill": "First Aid",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "First Aid",
-          "label": "High Growth Skill",
-          "frequency": 0.035958,
-          "specificity": 0.0474423608349625,
-          "growth": 0.961430332922318,
-          "wagePremium": -0.0504996534862316
-        },
         {
           "skill": "Teamwork",
           "category": "Foundational & Leadership Skills",
@@ -4628,16 +4618,6 @@
           "wagePremium": -0.0137786873123231
         },
         {
-          "skill": "Manufacturing Processes",
-          "category": "Specialization",
-          "subcategory": "Manufacturing Processes",
-          "label": "High Growth Skill",
-          "frequency": 0.04688,
-          "specificity": 0.0920305753036773,
-          "growth": 0.57787751480834,
-          "wagePremium": 0.0282828487876976
-        },
-        {
           "skill": "Troubleshooting (Problem Solving)",
           "category": "Foundational & Leadership Skills",
           "subcategory": "Critical Thinking and Problem Solving",
@@ -4648,76 +4628,6 @@
           "wagePremium": 0.0687131144060047
         },
         {
-          "skill": "Power Tool Operation",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Power Tools",
-          "label": "Durable Skill",
-          "frequency": 0.061433,
-          "specificity": 0.0600886471218752,
-          "growth": 0.449167341794941,
-          "wagePremium": null
-        },
-        {
-          "skill": "Folding Machines",
-          "category": "Specialization",
-          "subcategory": "Machinery",
-          "label": "Durable Skill",
-          "frequency": 0.009141,
-          "specificity": 0.0628821514308971,
-          "growth": 0.367836445589182,
-          "wagePremium": -0.0711054913576429
-        },
-        {
-          "skill": "Mechanical Aptitude",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Personal Attributes",
-          "label": "Durable Skill",
-          "frequency": 0.059359,
-          "specificity": 0.0755108987942969,
-          "growth": 0.36459777098483,
-          "wagePremium": 0.0279154099120986
-        },
-        {
-          "skill": "Food Manufacturing",
-          "category": "Specialization",
-          "subcategory": "Food Science and Processing",
-          "label": "High Value Skill",
-          "frequency": 0.02057,
-          "specificity": 0.0750368581266592,
-          "growth": 0.354210661859387,
-          "wagePremium": 0.0519848047443219
-        },
-        {
-          "skill": "Food Safety And Sanitation",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Food and Beverage",
-          "label": "Durable Skill",
-          "frequency": 0.064836,
-          "specificity": 0.109567697018857,
-          "growth": 0.34722121453965,
-          "wagePremium": 0.0167338990011889
-        },
-        {
-          "skill": "Product Inspection",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Product Inspection",
-          "label": "Durable Skill",
-          "frequency": 0.042005,
-          "specificity": 0.109057108711466,
-          "growth": 0.294584302940554,
-          "wagePremium": -0.02499964972292
-        },
-        {
-          "skill": "Continuous Improvement Process",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Business Analysis",
-          "label": "High Value Skill",
-          "frequency": 0.065313,
-          "specificity": 0.0275896381913033,
-          "growth": 0.281112765876198,
-          "wagePremium": 0.076511873286879
-        },
-        {
           "skill": "Standard Operating Procedure",
           "category": "Foundational & Leadership Skills",
           "subcategory": "Business Operations",
@@ -4726,26 +4636,6 @@
           "specificity": 0.0331061839689136,
           "growth": 0.200991039913114,
           "wagePremium": 0.0543667747844161
-        },
-        {
-          "skill": "Sanitation",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Cleaning and Janitorial Services",
-          "label": "Durable Skill",
-          "frequency": 0.060396,
-          "specificity": 0.0585232551802536,
-          "growth": 0.198790247533966,
-          "wagePremium": 0.0262367929053327
-        },
-        {
-          "skill": "Sorting",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Inventory and Warehousing",
-          "label": "Durable Skill",
-          "frequency": 0.049337,
-          "specificity": 0.0560019686453792,
-          "growth": 0.188435988241557,
-          "wagePremium": -0.0579663750600633
         },
         {
           "skill": "Loading And Unloading",
@@ -4768,16 +4658,6 @@
           "wagePremium": 0.042617884544117
         },
         {
-          "skill": "Hazard Analysis And Critical Control Points (HACCP)",
-          "category": "Specialization",
-          "subcategory": "Food and Beverage",
-          "label": "Durable Skill",
-          "frequency": 0.02147,
-          "specificity": 0.0630930789092063,
-          "growth": 0.0594894251374266,
-          "wagePremium": 0.0215518536317345
-        },
-        {
           "skill": "Forklift Truck",
           "category": "Baseline Applied Skills",
           "subcategory": "Heavy Equipment Operation",
@@ -4786,26 +4666,6 @@
           "specificity": 0.150414739830353,
           "growth": 0.0251323802437387,
           "wagePremium": 0.0454813923896582
-        },
-        {
-          "skill": "Machine Setup",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Machinery",
-          "label": "Durable Skill",
-          "frequency": 0.021859,
-          "specificity": 0.0708514495811117,
-          "growth": 0.0237128541810643,
-          "wagePremium": 0.0310208776684591
-        },
-        {
-          "skill": "Plant Safety",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Occupational Health and Safety",
-          "label": "High Value Skill",
-          "frequency": 0.028986,
-          "specificity": 0.0939410152790299,
-          "growth": -0.0302996874425446,
-          "wagePremium": 0.085821117597122
         },
         {
           "skill": "English Language",
@@ -4846,16 +4706,6 @@
           "specificity": 0.0123999039733239,
           "growth": -0.30749099091754,
           "wagePremium": 0.023279148044854
-        },
-        {
-          "skill": "Compliance Training",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Regulation and Legal Compliance",
-          "label": "Declining Skill",
-          "frequency": 0.027916,
-          "specificity": 0.0617007837251288,
-          "growth": -0.932755544226357,
-          "wagePremium": -0.0638594838581457
         }
       ],
       "pipelineDropped": [
@@ -4974,31 +4824,11 @@
     },
     "Cashiers": {
       "occupation": "Cashiers",
-      "totalSkills": 19,
+      "totalSkills": 14,
       "overlapCount": 8,
-      "addedCount": 8,
+      "addedCount": 3,
       "droppedCount": 3,
       "pipelineAdded": [
-        {
-          "skill": "Electronic Benefits Transfer (EBT)",
-          "category": "Specialization",
-          "subcategory": "Payment Processing and Collection",
-          "label": "High Growth Skill",
-          "frequency": 0.022997,
-          "specificity": 0.11993653127602,
-          "growth": 1.0,
-          "wagePremium": -0.0368751400154833
-        },
-        {
-          "skill": "Asset Protection",
-          "category": "Specialization",
-          "subcategory": "Financial Management",
-          "label": "High Growth Skill",
-          "frequency": 0.021814,
-          "specificity": 0.0733358629512713,
-          "growth": 0.666335592428138,
-          "wagePremium": null
-        },
         {
           "skill": "Self Checkout",
           "category": "Core Role-Specific Skills",
@@ -5028,36 +4858,6 @@
           "specificity": 0.00207851703560642,
           "growth": 0.160085206642245,
           "wagePremium": 0.0294873291695765
-        },
-        {
-          "skill": "Returns & Exchanges",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Cash Register Operation",
-          "label": "Durable Skill",
-          "frequency": 0.05856,
-          "specificity": 0.187073256121235,
-          "growth": 0.107801967068184,
-          "wagePremium": -0.0228081390076745
-        },
-        {
-          "skill": "Cash Control",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Cash Management",
-          "label": "Declining Skill",
-          "frequency": 0.033367,
-          "specificity": 0.132519170725369,
-          "growth": -0.298728539244374,
-          "wagePremium": -0.0377114176887147
-        },
-        {
-          "skill": "Customer Service Desk",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Customer Service",
-          "label": "Declining Skill",
-          "frequency": 0.012058,
-          "specificity": 0.062912444054346,
-          "growth": -0.542603763032797,
-          "wagePremium": 0.203819689661001
         }
       ],
       "pipelineDropped": [
@@ -5107,101 +4907,11 @@
     },
     "Customer Service Managers": {
       "occupation": "Customer Service Managers",
-      "totalSkills": 40,
+      "totalSkills": 20,
       "overlapCount": 10,
-      "addedCount": 25,
+      "addedCount": 5,
       "droppedCount": 5,
       "pipelineAdded": [
-        {
-          "skill": "Product Adoption Strategies",
-          "category": "Specialization",
-          "subcategory": "Product Management",
-          "label": "High Value Skill",
-          "frequency": 0.020502,
-          "specificity": 0.0520140833264969,
-          "growth": 0.551165481897834,
-          "wagePremium": 0.456514668338343
-        },
-        {
-          "skill": "Upselling",
-          "category": "Baseline Applied Skills",
-          "subcategory": "General Sales Practices",
-          "label": "High Value Skill",
-          "frequency": 0.043242,
-          "specificity": 0.0478438752162577,
-          "growth": 0.529531515072426,
-          "wagePremium": 0.258113198338984
-        },
-        {
-          "skill": "Cross-Selling",
-          "category": "Baseline Applied Skills",
-          "subcategory": "General Sales Practices",
-          "label": "High Value Skill",
-          "frequency": 0.035477,
-          "specificity": 0.0437609845251181,
-          "growth": 0.457013574660633,
-          "wagePremium": 0.205563001716644
-        },
-        {
-          "skill": "Retail Operations",
-          "category": "Specialization",
-          "subcategory": "Retail Sales",
-          "label": "Durable Skill",
-          "frequency": 0.037842,
-          "specificity": 0.0411642062946596,
-          "growth": 0.450390879478827,
-          "wagePremium": -0.0675238147946789
-        },
-        {
-          "skill": "Customer Advocacy",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Client Support",
-          "label": "High Value Skill",
-          "frequency": 0.033173,
-          "specificity": 0.044552146578781,
-          "growth": 0.415653643632582,
-          "wagePremium": 0.366793349538443
-        },
-        {
-          "skill": "Key Performance Indicators (KPIs)",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Process Improvement and Optimization",
-          "label": "High Value Skill",
-          "frequency": 0.109096,
-          "specificity": 0.0348322555493876,
-          "growth": 0.384803391443526,
-          "wagePremium": 0.173685648135555
-        },
-        {
-          "skill": "Customer Retention",
-          "category": "Specialization",
-          "subcategory": "Account Management",
-          "label": "High Value Skill",
-          "frequency": 0.034946,
-          "specificity": 0.0472492208962457,
-          "growth": 0.199666091287246,
-          "wagePremium": 0.239626837840744
-        },
-        {
-          "skill": "Voice of the Customer (VoC)",
-          "category": "Specialization",
-          "subcategory": "Customer Service",
-          "label": "High Value Skill",
-          "frequency": 0.026757,
-          "specificity": 0.0452255054011564,
-          "growth": 0.180123508879598,
-          "wagePremium": 0.403825721987644
-        },
-        {
-          "skill": "Coordinating",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Project Management",
-          "label": "Durable Skill",
-          "frequency": 0.109138,
-          "specificity": 0.000841136186337249,
-          "growth": 0.122895655175058,
-          "wagePremium": 0.0269049077944101
-        },
         {
           "skill": "Customer Success Management",
           "category": "Specialization",
@@ -5211,36 +4921,6 @@
           "specificity": 0.183674556050025,
           "growth": 0.117537967683634,
           "wagePremium": 0.430438198063577
-        },
-        {
-          "skill": "Planning",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Initiative and Leadership",
-          "label": "High Value Skill",
-          "frequency": 0.118998,
-          "specificity": 0.000366203442798538,
-          "growth": 0.0361558843011703,
-          "wagePremium": 0.0800602802711452
-        },
-        {
-          "skill": "Salesforce",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Customer Relationship Management (CRM)",
-          "label": "High Value Skill",
-          "frequency": 0.065346,
-          "specificity": 0.042034389149881,
-          "growth": 0.0359674683599356,
-          "wagePremium": 0.172291780913872
-        },
-        {
-          "skill": "Presentations",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Communication",
-          "label": "High Value Skill",
-          "frequency": 0.101865,
-          "specificity": 0.00429946012455016,
-          "growth": 0.0259222333000997,
-          "wagePremium": 0.153222560522655
         },
         {
           "skill": "Problem Solving",
@@ -5253,16 +4933,6 @@
           "wagePremium": 0.0597909823239804
         },
         {
-          "skill": "Scheduling",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Scheduling",
-          "label": "Durable Skill",
-          "frequency": 0.136818,
-          "specificity": 0.000843173352922963,
-          "growth": -0.000121240594382135,
-          "wagePremium": -0.0381949621049633
-        },
-        {
           "skill": "Organizational Skills",
           "category": "Foundational & Leadership Skills",
           "subcategory": "Personal Attributes",
@@ -5271,56 +4941,6 @@
           "specificity": 0.00161913099854872,
           "growth": -0.0201523812006701,
           "wagePremium": -0.0539500768756836
-        },
-        {
-          "skill": "Marketing",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Marketing Strategy and Techniques",
-          "label": "High Value Skill",
-          "frequency": 0.133984,
-          "specificity": 0.009100582131212,
-          "growth": -0.0314561614638461,
-          "wagePremium": 0.10578831117659
-        },
-        {
-          "skill": "Auditing",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Auditing",
-          "label": "Durable Skill",
-          "frequency": 0.088354,
-          "specificity": 0.00643184227217115,
-          "growth": -0.0364446319551299,
-          "wagePremium": -0.07427377669135
-        },
-        {
-          "skill": "Time Management",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Initiative and Leadership",
-          "label": "Durable Skill",
-          "frequency": 0.123517,
-          "specificity": 0.00171805915392865,
-          "growth": -0.110234498400227,
-          "wagePremium": null
-        },
-        {
-          "skill": "Client Services",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Client Support",
-          "label": "High Value Skill",
-          "frequency": 0.061582,
-          "specificity": 0.0468035446684332,
-          "growth": -0.120524592218862,
-          "wagePremium": 0.0841913132350196
-        },
-        {
-          "skill": "Multitasking",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Personal Attributes",
-          "label": "Durable Skill",
-          "frequency": 0.167353,
-          "specificity": 0.00389432493301737,
-          "growth": -0.138538505311077,
-          "wagePremium": -0.0931441114683441
         },
         {
           "skill": "Writing",
@@ -5333,16 +4953,6 @@
           "wagePremium": 0.00670559207725007
         },
         {
-          "skill": "Prioritization",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Project Management",
-          "label": "Declining Skill",
-          "frequency": 0.134324,
-          "specificity": 0.00502995152665927,
-          "growth": -0.150814310750662,
-          "wagePremium": 0.0250892363450261
-        },
-        {
           "skill": "Microsoft Excel",
           "category": "Baseline Applied Skills",
           "subcategory": "Office and Productivity Equipment and Technology",
@@ -5351,16 +4961,6 @@
           "specificity": 0.00443467544143753,
           "growth": -0.176052585892086,
           "wagePremium": null
-        },
-        {
-          "skill": "Computer Literacy",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Basic Technical Knowledge",
-          "label": "Declining Skill",
-          "frequency": 0.103867,
-          "specificity": 0.00144467563630981,
-          "growth": -0.187234267769878,
-          "wagePremium": -0.0721613255318587
         }
       ],
       "pipelineDropped": [
@@ -5430,31 +5030,11 @@
     },
     "Customer Service Representatives": {
       "occupation": "Customer Service Representatives",
-      "totalSkills": 35,
+      "totalSkills": 24,
       "overlapCount": 14,
-      "addedCount": 16,
+      "addedCount": 5,
       "droppedCount": 5,
       "pipelineAdded": [
-        {
-          "skill": "Greeting Customers",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Customer Service",
-          "label": "Durable Skill",
-          "frequency": 0.061841,
-          "specificity": 0.0754863893987024,
-          "growth": 0.363981670238531,
-          "wagePremium": 0.0486544936890136
-        },
-        {
-          "skill": "Operations",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Business Operations",
-          "label": "Durable Skill",
-          "frequency": 0.139645,
-          "specificity": 0.00155224840845447,
-          "growth": 0.33110113747002,
-          "wagePremium": null
-        },
         {
           "skill": "Telephone Skills",
           "category": "Baseline Applied Skills",
@@ -5466,26 +5046,6 @@
           "wagePremium": -0.0382899819893624
         },
         {
-          "skill": "Organizational Skills",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Personal Attributes",
-          "label": "Durable Skill",
-          "frequency": 0.108101,
-          "specificity": 0.0131593493288511,
-          "growth": 0.282036636203303,
-          "wagePremium": 0.0442916116236274
-        },
-        {
-          "skill": "Product Knowledge",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Company, Product, and Service Knowledge",
-          "label": "High Value Skill",
-          "frequency": 0.0497,
-          "specificity": 0.0396810372588778,
-          "growth": 0.224959206026332,
-          "wagePremium": 0.0547790145400162
-        },
-        {
           "skill": "Problem Solving",
           "category": "Foundational & Leadership Skills",
           "subcategory": "Critical Thinking and Problem Solving",
@@ -5494,26 +5054,6 @@
           "specificity": 0.00636973357207687,
           "growth": 0.163051332615395,
           "wagePremium": 0.0186261545605984
-        },
-        {
-          "skill": "Leadership",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Initiative and Leadership",
-          "label": "Durable Skill",
-          "frequency": 0.095909,
-          "specificity": 0.00761483662792679,
-          "growth": 0.107079590029103,
-          "wagePremium": -0.0181356440212204
-        },
-        {
-          "skill": "English Language",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Language Competency",
-          "label": "Durable Skill",
-          "frequency": 0.104966,
-          "specificity": 0.00210572873507968,
-          "growth": 0.024117412251794,
-          "wagePremium": -0.0577938390042596
         },
         {
           "skill": "Writing",
@@ -5534,56 +5074,6 @@
           "specificity": 0.0222798286868058,
           "growth": -0.0303638953002995,
           "wagePremium": -0.0368101658395953
-        },
-        {
-          "skill": "Time Management",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Initiative and Leadership",
-          "label": "Durable Skill",
-          "frequency": 0.107413,
-          "specificity": 0.00778152917083156,
-          "growth": -0.033928302455189,
-          "wagePremium": 0.0424862105055403
-        },
-        {
-          "skill": "Management",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Business Management",
-          "label": "Durable Skill",
-          "frequency": 0.159922,
-          "specificity": 0.00249213138578425,
-          "growth": -0.0639765925997721,
-          "wagePremium": 0.0447810326716283
-        },
-        {
-          "skill": "Microsoft Excel",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Office and Productivity Equipment and Technology",
-          "label": "Durable Skill",
-          "frequency": 0.110559,
-          "specificity": 0.0242998662262439,
-          "growth": -0.0713925126869835,
-          "wagePremium": 0.0467538618535535
-        },
-        {
-          "skill": "Research",
-          "category": "Baseline Applied Skills",
-          "subcategory": "General Science and Research",
-          "label": "Durable Skill",
-          "frequency": 0.084142,
-          "specificity": 0.0230275879236049,
-          "growth": -0.1460644320253,
-          "wagePremium": 0.017489237832683
-        },
-        {
-          "skill": "Outbound Calls",
-          "category": "Baseline Applied Skills",
-          "subcategory": "General Sales Practices",
-          "label": "Declining Skill",
-          "frequency": 0.068958,
-          "specificity": 0.146444307708319,
-          "growth": -0.22859778597786,
-          "wagePremium": -0.0485366583252644
         },
         {
           "skill": "Computer Literacy",
@@ -5652,21 +5142,11 @@
     },
     "Cybersecurity Analysts": {
       "occupation": "Cybersecurity Analysts",
-      "totalSkills": 33,
+      "totalSkills": 27,
       "overlapCount": 11,
-      "addedCount": 14,
+      "addedCount": 8,
       "droppedCount": 8,
       "pipelineAdded": [
-        {
-          "skill": "Endpoint Detection And Response",
-          "category": "Specialization",
-          "subcategory": "Cybersecurity",
-          "label": "High Growth Skill",
-          "frequency": 0.077535,
-          "specificity": 0.15239223521374,
-          "growth": 1.0,
-          "wagePremium": null
-        },
         {
           "skill": "Cyber Threat Hunting",
           "category": "Core Role-Specific Skills",
@@ -5676,26 +5156,6 @@
           "specificity": 0.173370371431992,
           "growth": 0.484836964468489,
           "wagePremium": 0.114955012851077
-        },
-        {
-          "skill": "Mitigation",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Environment and Resource Management",
-          "label": "Durable Skill",
-          "frequency": 0.105188,
-          "specificity": 0.0917777367987211,
-          "growth": 0.367913081844253,
-          "wagePremium": null
-        },
-        {
-          "skill": "Cyber Incident Response",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Cybersecurity",
-          "label": "High Value Skill",
-          "frequency": 0.058949,
-          "specificity": 0.146633699652249,
-          "growth": 0.330416454957752,
-          "wagePremium": 0.0532962409877087
         },
         {
           "skill": "Security Tools",
@@ -5758,26 +5218,6 @@
           "wagePremium": 0.0732256248732124
         },
         {
-          "skill": "Operations",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Business Operations",
-          "label": "Durable Skill",
-          "frequency": 0.270514,
-          "specificity": 0.0013433774721462,
-          "growth": 0.0951623988726728,
-          "wagePremium": null
-        },
-        {
-          "skill": "Assessment And Authorization",
-          "category": "Specialization",
-          "subcategory": "Cybersecurity",
-          "label": "High Value Skill",
-          "frequency": 0.062691,
-          "specificity": 0.146812077470407,
-          "growth": 0.0618018108820911,
-          "wagePremium": 0.0727457430676755
-        },
-        {
           "skill": "Information Technology",
           "category": "Baseline Applied Skills",
           "subcategory": "Computer Science",
@@ -5786,16 +5226,6 @@
           "specificity": 0.101489062147392,
           "growth": -0.0105398370685865,
           "wagePremium": null
-        },
-        {
-          "skill": "Malware Analysis",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Malware Protection",
-          "label": "High Value Skill",
-          "frequency": 0.071847,
-          "specificity": 0.166632388517558,
-          "growth": -0.149806012299084,
-          "wagePremium": 0.106253198424758
         }
       ],
       "pipelineDropped": [
@@ -5884,31 +5314,11 @@
     },
     "Data Scientists": {
       "occupation": "Data Scientists",
-      "totalSkills": 47,
+      "totalSkills": 38,
       "overlapCount": 16,
-      "addedCount": 20,
+      "addedCount": 11,
       "droppedCount": 11,
       "pipelineAdded": [
-        {
-          "skill": "Scalability",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Software Development",
-          "label": "High Growth Skill",
-          "frequency": 0.076336,
-          "specificity": 0.0615738273800154,
-          "growth": 1.0,
-          "wagePremium": 0.118168133699602
-        },
-        {
-          "skill": "Data Governance",
-          "category": "Specialization",
-          "subcategory": "Data Management",
-          "label": "High Growth Skill",
-          "frequency": 0.066659,
-          "specificity": 0.0894937522382697,
-          "growth": 0.676125664211802,
-          "wagePremium": 0.0280621615451868
-        },
         {
           "skill": "Power BI",
           "category": "Baseline Applied Skills",
@@ -5920,16 +5330,6 @@
           "wagePremium": -0.0815636179689458
         },
         {
-          "skill": "Innovation",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Critical Thinking and Problem Solving",
-          "label": "High Value Skill",
-          "frequency": 0.143169,
-          "specificity": 0.0162029878587159,
-          "growth": 0.411696593249357,
-          "wagePremium": 0.0831257620601276
-        },
-        {
           "skill": "Data Quality",
           "category": "Baseline Applied Skills",
           "subcategory": "Data Management",
@@ -5938,26 +5338,6 @@
           "specificity": 0.0855433096303116,
           "growth": 0.316343681474638,
           "wagePremium": -0.0285686253201174
-        },
-        {
-          "skill": "Operations",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Business Operations",
-          "label": "Durable Skill",
-          "frequency": 0.203929,
-          "specificity": 0.00111584452778291,
-          "growth": 0.156349816246622,
-          "wagePremium": -0.0121362151629717
-        },
-        {
-          "skill": "SAP Applications",
-          "category": "Specialization",
-          "subcategory": "Business Solutions",
-          "label": "High Value Skill",
-          "frequency": 0.114331,
-          "specificity": 0.0566332855517256,
-          "growth": 0.111706115454643,
-          "wagePremium": 0.110491646244238
         },
         {
           "skill": "Computer Science",
@@ -6000,16 +5380,6 @@
           "wagePremium": 0.0298543421741879
         },
         {
-          "skill": "Economics",
-          "category": "Specialization",
-          "subcategory": "Economics",
-          "label": "Durable Skill",
-          "frequency": 0.091652,
-          "specificity": 0.0647162342983058,
-          "growth": -0.041713567564614,
-          "wagePremium": 0.0112530612138284
-        },
-        {
           "skill": "Presentations",
           "category": "Baseline Applied Skills",
           "subcategory": "Communication",
@@ -6030,16 +5400,6 @@
           "wagePremium": 0.0926944956673064
         },
         {
-          "skill": "Business Problems",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Business Analysis",
-          "label": "High Value Skill",
-          "frequency": 0.081283,
-          "specificity": 0.0939680448378621,
-          "growth": -0.0812117060547247,
-          "wagePremium": 0.0653628909952628
-        },
-        {
           "skill": "R (Programming Language)",
           "category": "Baseline Applied Skills",
           "subcategory": "Scripting Languages",
@@ -6048,16 +5408,6 @@
           "specificity": 0.0409040636301673,
           "growth": -0.108015767272406,
           "wagePremium": null
-        },
-        {
-          "skill": "Mathematics",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Mathematics and Mathematical Modeling",
-          "label": "Durable Skill",
-          "frequency": 0.171186,
-          "specificity": 0.0110624317129999,
-          "growth": -0.133018333459878,
-          "wagePremium": -0.0099057243385584
         },
         {
           "skill": "Microsoft Excel",
@@ -6078,16 +5428,6 @@
           "specificity": 0.00519036863618838,
           "growth": -0.204048761465557,
           "wagePremium": -0.0424926653788393
-        },
-        {
-          "skill": "SAS (Software)",
-          "category": "Specialization",
-          "subcategory": "Statistical Software",
-          "label": "Declining Skill",
-          "frequency": 0.087425,
-          "specificity": 0.0865053319171711,
-          "growth": -0.320129945962014,
-          "wagePremium": -0.0254671929337875
         }
       ],
       "pipelineDropped": [
@@ -6206,9 +5546,9 @@
     },
     "Financial Analysts": {
       "occupation": "Financial Analysts",
-      "totalSkills": 39,
+      "totalSkills": 34,
       "overlapCount": 14,
-      "addedCount": 15,
+      "addedCount": 10,
       "droppedCount": 10,
       "pipelineAdded": [
         {
@@ -6230,16 +5570,6 @@
           "specificity": 0.00370229507278996,
           "growth": 0.223751760483395,
           "wagePremium": -0.0111994717344659
-        },
-        {
-          "skill": "Enterprise Risk Management (ERM)",
-          "category": "Specialization",
-          "subcategory": "Risk Management",
-          "label": "High Value Skill",
-          "frequency": 0.103711,
-          "specificity": 0.169468763679492,
-          "growth": 0.202344955260722,
-          "wagePremium": 0.051349670163686
         },
         {
           "skill": "Data Analysis",
@@ -6282,16 +5612,6 @@
           "wagePremium": 0.061924597960139
         },
         {
-          "skill": "Financial Stress Testing",
-          "category": "Specialization",
-          "subcategory": "Financial Analysis",
-          "label": "High Value Skill",
-          "frequency": 0.06666,
-          "specificity": 0.126559875586413,
-          "growth": 0.00439567440156712,
-          "wagePremium": 0.152559709779843
-        },
-        {
           "skill": "Finance",
           "category": "Specialization",
           "subcategory": "General Finance",
@@ -6312,16 +5632,6 @@
           "wagePremium": 0.0655626396331193
         },
         {
-          "skill": "Emerging Risk",
-          "category": "Specialization",
-          "subcategory": "Risk Management",
-          "label": "High Value Skill",
-          "frequency": 0.109782,
-          "specificity": 0.181117938560454,
-          "growth": -0.0512837964302121,
-          "wagePremium": 0.0899571599867413
-        },
-        {
           "skill": "Influencing Skills",
           "category": "Foundational & Leadership Skills",
           "subcategory": "Initiative and Leadership",
@@ -6340,26 +5650,6 @@
           "specificity": 0.0853206299200293,
           "growth": -0.147653198995369,
           "wagePremium": -0.0292895290585231
-        },
-        {
-          "skill": "Credit Risk",
-          "category": "Specialization",
-          "subcategory": "Risk Management",
-          "label": "Declining Skill",
-          "frequency": 0.11387,
-          "specificity": 0.187835641474278,
-          "growth": -0.417201016552995,
-          "wagePremium": 0.0738616290176519
-        },
-        {
-          "skill": "Market Risk",
-          "category": "Specialization",
-          "subcategory": "Risk Management",
-          "label": "Declining Skill",
-          "frequency": 0.066642,
-          "specificity": 0.121752815373678,
-          "growth": -0.548531278651527,
-          "wagePremium": 0.113470424948122
         }
       ],
       "pipelineDropped": [
@@ -6468,101 +5758,11 @@
     },
     "Financial Managers": {
       "occupation": "Financial Managers",
-      "totalSkills": 40,
+      "totalSkills": 27,
       "overlapCount": 23,
-      "addedCount": 15,
+      "addedCount": 2,
       "droppedCount": 2,
       "pipelineAdded": [
-        {
-          "skill": "Tax Compliance",
-          "category": "Specialization",
-          "subcategory": "Tax",
-          "label": "High Value Skill",
-          "frequency": 0.041013,
-          "specificity": 0.0892936221468627,
-          "growth": 0.795713945010392,
-          "wagePremium": 0.169108581899543
-        },
-        {
-          "skill": "Variance Analysis",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Financial Analysis",
-          "label": "High Growth Skill",
-          "frequency": 0.041104,
-          "specificity": 0.0717255061036441,
-          "growth": 0.574127822604052,
-          "wagePremium": null
-        },
-        {
-          "skill": "Tax Planning",
-          "category": "Specialization",
-          "subcategory": "Tax",
-          "label": "High Value Skill",
-          "frequency": 0.039955,
-          "specificity": 0.096310528966178,
-          "growth": 0.523626497852137,
-          "wagePremium": 0.236694393378632
-        },
-        {
-          "skill": "Financial Planning",
-          "category": "Specialization",
-          "subcategory": "Financial Management",
-          "label": "High Value Skill",
-          "frequency": 0.093405,
-          "specificity": 0.0998987676448842,
-          "growth": 0.320319547979678,
-          "wagePremium": 0.0718982387471119
-        },
-        {
-          "skill": "Financial Data",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Financial Analysis",
-          "label": "Durable Skill",
-          "frequency": 0.065562,
-          "specificity": 0.0664521609776872,
-          "growth": 0.308213278386732,
-          "wagePremium": -0.0721566235457752
-        },
-        {
-          "skill": "Accounting Software",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Accounting and Finance Software",
-          "label": "Durable Skill",
-          "frequency": 0.058313,
-          "specificity": 0.0639713600900134,
-          "growth": 0.182831446855122,
-          "wagePremium": -0.160162917340615
-        },
-        {
-          "skill": "Coaching",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Initiative and Leadership",
-          "label": "Durable Skill",
-          "frequency": 0.143257,
-          "specificity": 0.0283993805910719,
-          "growth": 0.117916945009286,
-          "wagePremium": 0.0236851411708308
-        },
-        {
-          "skill": "Project Management",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Project Management",
-          "label": "High Value Skill",
-          "frequency": 0.117571,
-          "specificity": 0.0234816814321613,
-          "growth": 0.0436624220789599,
-          "wagePremium": 0.117845780457859
-        },
-        {
-          "skill": "Profit And Loss (P&L) Management",
-          "category": "Specialization",
-          "subcategory": "Financial Management",
-          "label": "Durable Skill",
-          "frequency": 0.06744,
-          "specificity": 0.0620483109900222,
-          "growth": 0.0363732127089369,
-          "wagePremium": -0.0297791442406863
-        },
         {
           "skill": "Planning",
           "category": "Foundational & Leadership Skills",
@@ -6574,16 +5774,6 @@
           "wagePremium": 0.0704140837519223
         },
         {
-          "skill": "Presentations",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Communication",
-          "label": "High Value Skill",
-          "frequency": 0.132847,
-          "specificity": 0.0241549037026152,
-          "growth": -0.0213428088810431,
-          "wagePremium": 0.120773038225831
-        },
-        {
           "skill": "Generally Accepted Accounting Principles",
           "category": "Specialization",
           "subcategory": "General Accounting",
@@ -6592,36 +5782,6 @@
           "specificity": 0.232914594708101,
           "growth": -0.0811338502605822,
           "wagePremium": -0.0519180075887439
-        },
-        {
-          "skill": "Research",
-          "category": "Baseline Applied Skills",
-          "subcategory": "General Science and Research",
-          "label": "High Value Skill",
-          "frequency": 0.129005,
-          "specificity": 0.0193345508793805,
-          "growth": -0.0897458189750562,
-          "wagePremium": 0.0811609150643038
-        },
-        {
-          "skill": "Public Accounting",
-          "category": "Specialization",
-          "subcategory": "General Accounting",
-          "label": "High Value Skill",
-          "frequency": 0.096518,
-          "specificity": 0.17402688675494,
-          "growth": -0.12643644000634,
-          "wagePremium": 0.15652271456591
-        },
-        {
-          "skill": "Technical Accounting",
-          "category": "Specialization",
-          "subcategory": "Specialized Accounting",
-          "label": "High Value Skill",
-          "frequency": 0.038493,
-          "specificity": 0.0833602717057373,
-          "growth": -0.321564885496183,
-          "wagePremium": 0.0837514913883983
         }
       ],
       "pipelineDropped": [
@@ -6650,131 +5810,11 @@
     },
     "First-Line Supervisors of Retail Sales Workers": {
       "occupation": "First-Line Supervisors of Retail Sales Workers",
-      "totalSkills": 43,
+      "totalSkills": 28,
       "overlapCount": 24,
-      "addedCount": 17,
+      "addedCount": 2,
       "droppedCount": 2,
       "pipelineAdded": [
-        {
-          "skill": "Cash Control",
-          "category": "Specialization",
-          "subcategory": "Cash Management",
-          "label": "High Growth Skill",
-          "frequency": 0.075814,
-          "specificity": 0.188807367017445,
-          "growth": 1.0,
-          "wagePremium": -0.0761848786417721
-        },
-        {
-          "skill": "Planogram",
-          "category": "Specialization",
-          "subcategory": "Merchandising",
-          "label": "High Growth Skill",
-          "frequency": 0.036801,
-          "specificity": 0.0981363384475024,
-          "growth": 1.0,
-          "wagePremium": 0.0302239030798188
-        },
-        {
-          "skill": "Merchandise Displays",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Merchandising",
-          "label": "High Growth Skill",
-          "frequency": 0.035122,
-          "specificity": 0.0954656865306963,
-          "growth": 1.0,
-          "wagePremium": -0.0455103730387186
-        },
-        {
-          "skill": "Labor Law",
-          "category": "Specialization",
-          "subcategory": "Labor Compliance",
-          "label": "High Growth Skill",
-          "frequency": 0.048172,
-          "specificity": 0.074467669924449,
-          "growth": 0.724280832055111,
-          "wagePremium": -0.252262724777306
-        },
-        {
-          "skill": "Mathematics",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Mathematics and Mathematical Modeling",
-          "label": "High Growth Skill",
-          "frequency": 0.104286,
-          "specificity": 0.0111946722760059,
-          "growth": 0.679842702825834,
-          "wagePremium": -0.0226993391869103
-        },
-        {
-          "skill": "Inventory Control",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Inventory and Warehousing",
-          "label": "High Growth Skill",
-          "frequency": 0.068308,
-          "specificity": 0.0445883310326441,
-          "growth": 0.523036487322202,
-          "wagePremium": -0.102156230117478
-        },
-        {
-          "skill": "Food Safety And Sanitation",
-          "category": "Specialization",
-          "subcategory": "Food and Beverage",
-          "label": "High Value Skill",
-          "frequency": 0.052623,
-          "specificity": 0.0539101545284746,
-          "growth": 0.511788934654347,
-          "wagePremium": 0.116819603994502
-        },
-        {
-          "skill": "Point Of Sale",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Cash Register Operation",
-          "label": "Durable Skill",
-          "frequency": 0.051276,
-          "specificity": 0.0597063187645013,
-          "growth": 0.463003767147629,
-          "wagePremium": -0.0773426219432504
-        },
-        {
-          "skill": "Writing",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Writing and Editing",
-          "label": "Durable Skill",
-          "frequency": 0.118784,
-          "specificity": 0.00591566719371576,
-          "growth": 0.333071271468014,
-          "wagePremium": -0.0187194238475005
-        },
-        {
-          "skill": "Visual Merchandising",
-          "category": "Specialization",
-          "subcategory": "Merchandising",
-          "label": "Durable Skill",
-          "frequency": 0.131312,
-          "specificity": 0.270298799355966,
-          "growth": 0.228219631647927,
-          "wagePremium": 0.0210223877438438
-        },
-        {
-          "skill": "Key Performance Indicators (KPIs)",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Process Improvement and Optimization",
-          "label": "High Value Skill",
-          "frequency": 0.065085,
-          "specificity": 0.0434368544915542,
-          "growth": 0.140882659644038,
-          "wagePremium": 0.151862790201322
-        },
-        {
-          "skill": "Asset Protection",
-          "category": "Specialization",
-          "subcategory": "Financial Management",
-          "label": "Durable Skill",
-          "frequency": 0.030892,
-          "specificity": 0.0651134579812468,
-          "growth": 0.0796210344992583,
-          "wagePremium": -0.0369771867634079
-        },
         {
           "skill": "Planning",
           "category": "Foundational & Leadership Skills",
@@ -6786,16 +5826,6 @@
           "wagePremium": 0.0365363485775885
         },
         {
-          "skill": "Sales Management",
-          "category": "Specialization",
-          "subcategory": "Sales Management",
-          "label": "High Value Skill",
-          "frequency": 0.043721,
-          "specificity": 0.0553101934534235,
-          "growth": -0.144808574543809,
-          "wagePremium": 0.0750246852426026
-        },
-        {
           "skill": "Lifting Ability",
           "category": "Baseline Applied Skills",
           "subcategory": "Physical Abilities",
@@ -6804,26 +5834,6 @@
           "specificity": 0.00592050033147672,
           "growth": -0.167017394561945,
           "wagePremium": 0.0208482783606856
-        },
-        {
-          "skill": "Promotional Effectiveness",
-          "category": "Specialization",
-          "subcategory": "Market Analysis",
-          "label": "High Value Skill",
-          "frequency": 0.019263,
-          "specificity": 0.0887018908027257,
-          "growth": -0.189887096173194,
-          "wagePremium": 0.271372183407253
-        },
-        {
-          "skill": "Profit And Loss (P&L) Management",
-          "category": "Specialization",
-          "subcategory": "Financial Management",
-          "label": "High Value Skill",
-          "frequency": 0.058974,
-          "specificity": 0.081009927705155,
-          "growth": -0.251000883132175,
-          "wagePremium": 0.17974231659495
         }
       ],
       "pipelineDropped": [
@@ -6852,9 +5862,9 @@
     },
     "Human Resources Specialists": {
       "occupation": "Human Resources Specialists",
-      "totalSkills": 33,
+      "totalSkills": 28,
       "overlapCount": 12,
-      "addedCount": 13,
+      "addedCount": 8,
       "droppedCount": 8,
       "pipelineAdded": [
         {
@@ -6868,26 +5878,6 @@
           "wagePremium": -0.0375837604297644
         },
         {
-          "skill": "Operations",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Business Operations",
-          "label": "Durable Skill",
-          "frequency": 0.163313,
-          "specificity": 0.0014892282427917,
-          "growth": 0.224113863601451,
-          "wagePremium": 0.0318859577655135
-        },
-        {
-          "skill": "New Hire Orientations",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Employee Training",
-          "label": "Durable Skill",
-          "frequency": 0.027764,
-          "specificity": 0.0750020591829254,
-          "growth": 0.208484036615316,
-          "wagePremium": -0.108603851358954
-        },
-        {
           "skill": "Presentations",
           "category": "Baseline Applied Skills",
           "subcategory": "Communication",
@@ -6896,16 +5886,6 @@
           "specificity": 0.0281807209863844,
           "growth": 0.0770449182906581,
           "wagePremium": 0.049611172208391
-        },
-        {
-          "skill": "LinkedIn Recruiter",
-          "category": "Specialization",
-          "subcategory": "Recruitment",
-          "label": "High Value Skill",
-          "frequency": 0.024164,
-          "specificity": 0.0736659722501359,
-          "growth": 0.0384091723396632,
-          "wagePremium": 0.212371187272799
         },
         {
           "skill": "Management",
@@ -6948,16 +5928,6 @@
           "wagePremium": null
         },
         {
-          "skill": "Talent Strategy",
-          "category": "Specialization",
-          "subcategory": "Human Resources Management and Planning",
-          "label": "High Value Skill",
-          "frequency": 0.034884,
-          "specificity": 0.103018418609059,
-          "growth": -0.12416693308413,
-          "wagePremium": 0.0847320485723222
-        },
-        {
           "skill": "Talent Management",
           "category": "Specialization",
           "subcategory": "Human Resources Management and Planning",
@@ -6976,16 +5946,6 @@
           "specificity": 0.0113724441773516,
           "growth": -0.191516593386737,
           "wagePremium": -0.0945006236972227
-        },
-        {
-          "skill": "Recruitment Planning",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Recruitment",
-          "label": "Declining Skill",
-          "frequency": 0.03605,
-          "specificity": 0.105907530617188,
-          "growth": -0.442931865421073,
-          "wagePremium": null
         }
       ],
       "pipelineDropped": [
@@ -7074,9 +6034,9 @@
     },
     "Industrial Machinery Mechanics": {
       "occupation": "Industrial Machinery Mechanics",
-      "totalSkills": 48,
+      "totalSkills": 36,
       "overlapCount": 10,
-      "addedCount": 25,
+      "addedCount": 13,
       "droppedCount": 13,
       "pipelineAdded": [
         {
@@ -7088,16 +6048,6 @@
           "specificity": 0.455134890593749,
           "growth": 0.271830817872696,
           "wagePremium": 0.0379979224013407
-        },
-        {
-          "skill": "Mechanical Engineering",
-          "category": "Specialization",
-          "subcategory": "Mechanical Engineering",
-          "label": "High Value Skill",
-          "frequency": 0.077478,
-          "specificity": 0.104136609482235,
-          "growth": 0.187840444410154,
-          "wagePremium": 0.133300259357614
         },
         {
           "skill": "Pneumatics",
@@ -7120,16 +6070,6 @@
           "wagePremium": 0.0378523881394426
         },
         {
-          "skill": "Lubrication",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Machinery",
-          "label": "High Value Skill",
-          "frequency": 0.039731,
-          "specificity": 0.0769618714001172,
-          "growth": 0.142141840866805,
-          "wagePremium": 0.083259655562133
-        },
-        {
           "skill": "Welding",
           "category": "Core Role-Specific Skills",
           "subcategory": "Welding, Brazing, and Soldering",
@@ -7138,16 +6078,6 @@
           "specificity": 0.190866842373302,
           "growth": 0.126205277379915,
           "wagePremium": 0.0388576986962266
-        },
-        {
-          "skill": "Electricity",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Basic Electrical Systems",
-          "label": "Durable Skill",
-          "frequency": 0.058336,
-          "specificity": 0.0944369499517389,
-          "growth": 0.125606509713595,
-          "wagePremium": 0.0354464266549219
         },
         {
           "skill": "Machinery",
@@ -7170,26 +6100,6 @@
           "wagePremium": 0.0681068979747836
         },
         {
-          "skill": "Equipment Repair",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Equipment Repair and Maintenance",
-          "label": "Durable Skill",
-          "frequency": 0.071988,
-          "specificity": 0.0551058464152796,
-          "growth": 0.0887359542007978,
-          "wagePremium": null
-        },
-        {
-          "skill": "Mechanical Drawings",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Drafting and Engineering Design",
-          "label": "High Value Skill",
-          "frequency": 0.034971,
-          "specificity": 0.0806960625105135,
-          "growth": 0.082732895491934,
-          "wagePremium": 0.0532112786801402
-        },
-        {
           "skill": "Power Tool Operation",
           "category": "Baseline Applied Skills",
           "subcategory": "Power Tools",
@@ -7200,16 +6110,6 @@
           "wagePremium": -0.0692563586115402
         },
         {
-          "skill": "Machinery Repair And Maintenance",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Equipment Repair and Maintenance",
-          "label": "Durable Skill",
-          "frequency": 0.038871,
-          "specificity": 0.0875577887402706,
-          "growth": 0.060851482981285,
-          "wagePremium": null
-        },
-        {
           "skill": "Hydraulics",
           "category": "Core Role-Specific Skills",
           "subcategory": "Mechanical Engineering",
@@ -7218,16 +6118,6 @@
           "specificity": 0.252619958829973,
           "growth": 0.0565468683757197,
           "wagePremium": 0.0678129861095624
-        },
-        {
-          "skill": "Programmable Logic Controllers",
-          "category": "Specialization",
-          "subcategory": "Automation Engineering",
-          "label": "High Value Skill",
-          "frequency": 0.068818,
-          "specificity": 0.128405735564983,
-          "growth": 0.0523035968176179,
-          "wagePremium": 0.0588325536908973
         },
         {
           "skill": "Electrical Wiring",
@@ -7260,26 +6150,6 @@
           "wagePremium": -0.195924538765136
         },
         {
-          "skill": "Conveyor Systems",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Material Handling",
-          "label": "Durable Skill",
-          "frequency": 0.04915,
-          "specificity": 0.11530178589045,
-          "growth": -0.0805816968576039,
-          "wagePremium": 0.0317216129961013
-        },
-        {
-          "skill": "Hoisting",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Heavy Equipment Operation",
-          "label": "Durable Skill",
-          "frequency": 0.06025,
-          "specificity": 0.082722625571742,
-          "growth": -0.099072991882675,
-          "wagePremium": null
-        },
-        {
           "skill": "Lifting Ability",
           "category": "Baseline Applied Skills",
           "subcategory": "Physical Abilities",
@@ -7298,36 +6168,6 @@
           "specificity": 0.168486088512963,
           "growth": -0.174866423586211,
           "wagePremium": 0.0627289669999569
-        },
-        {
-          "skill": "Soldering",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Welding, Brazing, and Soldering",
-          "label": "Declining Skill",
-          "frequency": 0.052047,
-          "specificity": 0.0922325397118882,
-          "growth": -0.17671314543106,
-          "wagePremium": -0.0470834511229826
-        },
-        {
-          "skill": "Electromechanical Assembly",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Production and Assembly",
-          "label": "Declining Skill",
-          "frequency": 0.029381,
-          "specificity": 0.096282633645684,
-          "growth": -0.303249289300991,
-          "wagePremium": -0.10912537885044
-        },
-        {
-          "skill": "Pipefitting",
-          "category": "Specialization",
-          "subcategory": "Plumbing",
-          "label": "Declining Skill",
-          "frequency": 0.035852,
-          "specificity": 0.0940163852185159,
-          "growth": -0.303312558500559,
-          "wagePremium": 0.0346322352089925
         }
       ],
       "pipelineDropped": [
@@ -7477,41 +6317,11 @@
     },
     "Inspectors, Testers, and Samplers": {
       "occupation": "Inspectors, Testers, and Samplers",
-      "totalSkills": 35,
+      "totalSkills": 22,
       "overlapCount": 12,
-      "addedCount": 18,
+      "addedCount": 5,
       "droppedCount": 5,
       "pipelineAdded": [
-        {
-          "skill": "Engineering Drawings",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Drafting and Engineering Design",
-          "label": "High Growth Skill",
-          "frequency": 0.04554,
-          "specificity": 0.0701558962991687,
-          "growth": 0.727914600319408,
-          "wagePremium": 0.0508969130759118
-        },
-        {
-          "skill": "Continuous Improvement Process",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Business Analysis",
-          "label": "High Growth Skill",
-          "frequency": 0.111532,
-          "specificity": 0.0288758872669277,
-          "growth": 0.621670027025868,
-          "wagePremium": 0.0419948883179431
-        },
-        {
-          "skill": "ISO 9000 Series",
-          "category": "Specialization",
-          "subcategory": "Manufacturing Standards",
-          "label": "Durable Skill",
-          "frequency": 0.065798,
-          "specificity": 0.103954930284727,
-          "growth": 0.476143630103296,
-          "wagePremium": 0.0351303888711349
-        },
         {
           "skill": "Quality Management",
           "category": "Foundational & Leadership Skills",
@@ -7521,46 +6331,6 @@
           "specificity": 0.0683343304137646,
           "growth": 0.405974240284168,
           "wagePremium": null
-        },
-        {
-          "skill": "Production Process",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Manufacturing Processes",
-          "label": "Durable Skill",
-          "frequency": 0.050753,
-          "specificity": 0.0472961197264405,
-          "growth": 0.360428051001821,
-          "wagePremium": -0.0539560297171252
-        },
-        {
-          "skill": "Product Quality (QA/QC)",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Quality Assurance and Control",
-          "label": "Durable Skill",
-          "frequency": 0.056386,
-          "specificity": 0.0747437537028261,
-          "growth": 0.244404494382023,
-          "wagePremium": null
-        },
-        {
-          "skill": "Process Improvement",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Process Improvement and Optimization",
-          "label": "High Value Skill",
-          "frequency": 0.073874,
-          "specificity": 0.0265591979921648,
-          "growth": 0.217270801288563,
-          "wagePremium": 0.0693756690339533
-        },
-        {
-          "skill": "Hazard Analysis And Critical Control Points (HACCP)",
-          "category": "Specialization",
-          "subcategory": "Food and Beverage",
-          "label": "Durable Skill",
-          "frequency": 0.041172,
-          "specificity": 0.0741526596457444,
-          "growth": 0.205490544352732,
-          "wagePremium": -0.0958988680585657
         },
         {
           "skill": "Problem Solving",
@@ -7573,46 +6343,6 @@
           "wagePremium": 0.032578294862494
         },
         {
-          "skill": "Operations",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Business Operations",
-          "label": "High Value Skill",
-          "frequency": 0.214226,
-          "specificity": 0.00196841118808172,
-          "growth": 0.136117161096508,
-          "wagePremium": 0.056913648602471
-        },
-        {
-          "skill": "Leadership",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Initiative and Leadership",
-          "label": "High Value Skill",
-          "frequency": 0.11094,
-          "specificity": 0.00728059174564536,
-          "growth": 0.124174067153397,
-          "wagePremium": 0.0568365942443454
-        },
-        {
-          "skill": "Mathematics",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Mathematics and Mathematical Modeling",
-          "label": "Durable Skill",
-          "frequency": 0.106441,
-          "specificity": 0.0115507045610219,
-          "growth": 0.021454227744879,
-          "wagePremium": -0.0184626890379768
-        },
-        {
-          "skill": "Internal Auditing",
-          "category": "Specialization",
-          "subcategory": "Auditing",
-          "label": "High Value Skill",
-          "frequency": 0.043686,
-          "specificity": 0.0602279997381188,
-          "growth": 0.0194829524166354,
-          "wagePremium": 0.0667441785134484
-        },
-        {
           "skill": "Good Manufacturing Practices",
           "category": "Specialization",
           "subcategory": "Manufacturing Standards",
@@ -7623,16 +6353,6 @@
           "wagePremium": -0.0268359705240541
         },
         {
-          "skill": "Investigation",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Criminal Investigation and Forensics",
-          "label": "High Value Skill",
-          "frequency": 0.088927,
-          "specificity": 0.0384586148293672,
-          "growth": -0.135406346872903,
-          "wagePremium": 0.0996379484754546
-        },
-        {
           "skill": "Safety Assurance",
           "category": "Core Role-Specific Skills",
           "subcategory": "Occupational Health and Safety",
@@ -7641,16 +6361,6 @@
           "specificity": 0.147290979297893,
           "growth": -0.165015473531039,
           "wagePremium": 0.0213016817998282
-        },
-        {
-          "skill": "Optical Comparator",
-          "category": "Specialization",
-          "subcategory": "Product Inspection",
-          "label": "Declining Skill",
-          "frequency": 0.013889,
-          "specificity": 0.0639320053903137,
-          "growth": -0.172304750698632,
-          "wagePremium": null
         },
         {
           "skill": "Writing",
@@ -7719,21 +6429,11 @@
     },
     "Laborers and Material Movers": {
       "occupation": "Laborers and Material Movers",
-      "totalSkills": 31,
+      "totalSkills": 27,
       "overlapCount": 17,
-      "addedCount": 9,
+      "addedCount": 5,
       "droppedCount": 5,
       "pipelineAdded": [
-        {
-          "skill": "Warehouse Management Systems",
-          "category": "Specialization",
-          "subcategory": "Inventory and Warehousing",
-          "label": "High Growth Skill",
-          "frequency": 0.037767,
-          "specificity": 0.11956679809449,
-          "growth": 1.0,
-          "wagePremium": 0.0261378240752435
-        },
         {
           "skill": "Machinery",
           "category": "Core Role-Specific Skills",
@@ -7765,16 +6465,6 @@
           "wagePremium": 0.023246206736834
         },
         {
-          "skill": "Physical Inventory",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Inventory and Warehousing",
-          "label": "Durable Skill",
-          "frequency": 0.032633,
-          "specificity": 0.0807856222502153,
-          "growth": 0.301672215779432,
-          "wagePremium": null
-        },
-        {
           "skill": "Customer Service",
           "category": "Baseline Applied Skills",
           "subcategory": "Customer Service",
@@ -7783,26 +6473,6 @@
           "specificity": 0.00601596418740192,
           "growth": 0.171082537061067,
           "wagePremium": -0.0122133551539523
-        },
-        {
-          "skill": "Powered Industrial Truck (PIT) Operation",
-          "category": "Specialization",
-          "subcategory": "Heavy Equipment Operation",
-          "label": "High Value Skill",
-          "frequency": 0.042379,
-          "specificity": 0.149624152761172,
-          "growth": -0.00328302626420999,
-          "wagePremium": 0.0855353572560502
-        },
-        {
-          "skill": "Shrink Wrapping",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Inventory and Warehousing",
-          "label": "Durable Skill",
-          "frequency": 0.028922,
-          "specificity": 0.114217803173259,
-          "growth": -0.0940091861348842,
-          "wagePremium": 0.0351285579212317
         },
         {
           "skill": "English Language",
@@ -7887,21 +6557,11 @@
     },
     "Maintenance and Repair Workers": {
       "occupation": "Maintenance and Repair Workers",
-      "totalSkills": 57,
+      "totalSkills": 44,
       "overlapCount": 14,
-      "addedCount": 28,
+      "addedCount": 15,
       "droppedCount": 15,
       "pipelineAdded": [
-        {
-          "skill": "Plumbing Systems",
-          "category": "Specialization",
-          "subcategory": "Plumbing",
-          "label": "Durable Skill",
-          "frequency": 0.03219,
-          "specificity": 0.0841583192556793,
-          "growth": 0.3024,
-          "wagePremium": -0.0453179429492885
-        },
         {
           "skill": "Blueprinting",
           "category": "Core Role-Specific Skills",
@@ -7963,26 +6623,6 @@
           "wagePremium": 0.176576015038507
         },
         {
-          "skill": "Pneumatics",
-          "category": "Specialization",
-          "subcategory": "Machinery",
-          "label": "High Value Skill",
-          "frequency": 0.048994,
-          "specificity": 0.115751318542865,
-          "growth": 0.187421123884261,
-          "wagePremium": 0.1663126004401
-        },
-        {
-          "skill": "Plumbing Repair",
-          "category": "Specialization",
-          "subcategory": "Plumbing",
-          "label": "Durable Skill",
-          "frequency": 0.029794,
-          "specificity": 0.100120484943607,
-          "growth": 0.0973460501762389,
-          "wagePremium": -0.0872640790804377
-        },
-        {
           "skill": "Landscaping",
           "category": "Baseline Applied Skills",
           "subcategory": "Landscaping and Horticulture",
@@ -7991,16 +6631,6 @@
           "specificity": 0.0663872072833883,
           "growth": 0.0602642861713702,
           "wagePremium": -0.111353141716232
-        },
-        {
-          "skill": "Management",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Business Management",
-          "label": "Durable Skill",
-          "frequency": 0.159141,
-          "specificity": 0.00215686887862053,
-          "growth": 0.0490177724124128,
-          "wagePremium": null
         },
         {
           "skill": "Electrical Wiring",
@@ -8023,26 +6653,6 @@
           "wagePremium": 0.0382128601881389
         },
         {
-          "skill": "Flooring",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "General Construction and Construction Labor",
-          "label": "Durable Skill",
-          "frequency": 0.044167,
-          "specificity": 0.0664144248430527,
-          "growth": -0.00952916009421128,
-          "wagePremium": -0.0989606060015726
-        },
-        {
-          "skill": "Programmable Logic Controllers",
-          "category": "Specialization",
-          "subcategory": "Automation Engineering",
-          "label": "High Value Skill",
-          "frequency": 0.064803,
-          "specificity": 0.123293232675132,
-          "growth": -0.019339593308874,
-          "wagePremium": 0.205251087831442
-        },
-        {
           "skill": "Drywall (Installation And Repair)",
           "category": "Specialization",
           "subcategory": "General Construction and Construction Labor",
@@ -8051,16 +6661,6 @@
           "specificity": 0.196580674441269,
           "growth": -0.0294807441287898,
           "wagePremium": -0.0877415154101703
-        },
-        {
-          "skill": "Snow Removal",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Groundskeeping and Yard Care",
-          "label": "Durable Skill",
-          "frequency": 0.051037,
-          "specificity": 0.0866831770753514,
-          "growth": -0.0387687880967706,
-          "wagePremium": -0.0743405036383
         },
         {
           "skill": "Carpentry",
@@ -8111,66 +6711,6 @@
           "specificity": 0.160149260731057,
           "growth": -0.0856167446852917,
           "wagePremium": 0.108856524742068
-        },
-        {
-          "skill": "Electricity",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Basic Electrical Systems",
-          "label": "Durable Skill",
-          "frequency": 0.056844,
-          "specificity": 0.0938243594616523,
-          "growth": -0.11746717035438,
-          "wagePremium": 0.014265059011181
-        },
-        {
-          "skill": "Swimming Pool Maintenance",
-          "category": "Specialization",
-          "subcategory": "Facility Management and Maintenance",
-          "label": "Durable Skill",
-          "frequency": 0.097395,
-          "specificity": 0.138805603990688,
-          "growth": -0.137533751645543,
-          "wagePremium": -0.107540024565239
-        },
-        {
-          "skill": "Conveyor Systems",
-          "category": "Specialization",
-          "subcategory": "Material Handling",
-          "label": "High Value Skill",
-          "frequency": 0.03092,
-          "specificity": 0.073967853406162,
-          "growth": -0.176577296765465,
-          "wagePremium": 0.163669312864302
-        },
-        {
-          "skill": "Keys And Locks",
-          "category": "Specialization",
-          "subcategory": "Safety and Security",
-          "label": "Declining Skill",
-          "frequency": 0.047121,
-          "specificity": 0.067883651520539,
-          "growth": -0.216113351170064,
-          "wagePremium": -0.089731652638333
-        },
-        {
-          "skill": "Hotel Maintenance",
-          "category": "Specialization",
-          "subcategory": "Facility Management and Maintenance",
-          "label": "Declining Skill",
-          "frequency": 0.017853,
-          "specificity": 0.0939713428174903,
-          "growth": -0.221252933374146,
-          "wagePremium": -0.147824315963359
-        },
-        {
-          "skill": "Apartment Maintenance",
-          "category": "Specialization",
-          "subcategory": "Facility Management and Maintenance",
-          "label": "Declining Skill",
-          "frequency": 0.038279,
-          "specificity": 0.160021555394629,
-          "growth": -0.238409290096407,
-          "wagePremium": -0.102600561957978
         }
       ],
       "pipelineDropped": [
@@ -8329,51 +6869,11 @@
     },
     "Packers and Packagers": {
       "occupation": "Packers and Packagers",
-      "totalSkills": 35,
+      "totalSkills": 26,
       "overlapCount": 14,
-      "addedCount": 15,
+      "addedCount": 6,
       "droppedCount": 6,
       "pipelineAdded": [
-        {
-          "skill": "Sanitation",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Cleaning and Janitorial Services",
-          "label": "High Growth Skill",
-          "frequency": 0.053378,
-          "specificity": 0.0584675894334113,
-          "growth": 1.0,
-          "wagePremium": 0.0420532066290946
-        },
-        {
-          "skill": "Warehouse Management Systems",
-          "category": "Specialization",
-          "subcategory": "Inventory and Warehousing",
-          "label": "High Growth Skill",
-          "frequency": 0.024297,
-          "specificity": 0.087353487072343,
-          "growth": 1.0,
-          "wagePremium": 0.0261378240752435
-        },
-        {
-          "skill": "Cold Chain",
-          "category": "Specialization",
-          "subcategory": "Supply Chain Management",
-          "label": "High Growth Skill",
-          "frequency": 0.016212,
-          "specificity": 0.0894446039743412,
-          "growth": 1.0,
-          "wagePremium": 0.0881611552030466
-        },
-        {
-          "skill": "Stretch Wrapping",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Inventory and Warehousing",
-          "label": "High Growth Skill",
-          "frequency": 0.012462,
-          "specificity": 0.0798098369818293,
-          "growth": 0.633119130004943,
-          "wagePremium": null
-        },
         {
           "skill": "Shrink Wrapping",
           "category": "Core Role-Specific Skills",
@@ -8415,36 +6915,6 @@
           "wagePremium": 0.0406017685363411
         },
         {
-          "skill": "Merchandising",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Merchandising",
-          "label": "Durable Skill",
-          "frequency": 0.089943,
-          "specificity": 0.117921868113801,
-          "growth": 0.473431230494873,
-          "wagePremium": -0.0194175577661999
-        },
-        {
-          "skill": "Arithmetic",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Mathematics and Mathematical Modeling",
-          "label": "Durable Skill",
-          "frequency": 0.056841,
-          "specificity": 0.0325622324521652,
-          "growth": 0.459140137840499,
-          "wagePremium": 0.0145487416698444
-        },
-        {
-          "skill": "Cycle Counting",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Inventory and Warehousing",
-          "label": "Durable Skill",
-          "frequency": 0.026818,
-          "specificity": 0.0900925603965603,
-          "growth": 0.404031825496156,
-          "wagePremium": 0.0248330556971907
-        },
-        {
           "skill": "Inventory Staging",
           "category": "Baseline Applied Skills",
           "subcategory": "Inventory and Warehousing",
@@ -8463,26 +6933,6 @@
           "specificity": 0.118684887045286,
           "growth": -0.00171237825496363,
           "wagePremium": -0.00509033675971781
-        },
-        {
-          "skill": "Stock Control",
-          "category": "Specialization",
-          "subcategory": "Inventory and Warehousing",
-          "label": "Declining Skill",
-          "frequency": 0.016164,
-          "specificity": 0.0803622891664526,
-          "growth": -0.867850868631661,
-          "wagePremium": null
-        },
-        {
-          "skill": "Smartphone Operation",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Basic Technical Knowledge",
-          "label": "Declining Skill",
-          "frequency": 0.057668,
-          "specificity": 0.0765778463315914,
-          "growth": -0.951246060575378,
-          "wagePremium": null
         }
       ],
       "pipelineDropped": [
@@ -8551,101 +7001,11 @@
     },
     "Product Managers": {
       "occupation": "Product Managers",
-      "totalSkills": 49,
+      "totalSkills": 29,
       "overlapCount": 25,
-      "addedCount": 22,
+      "addedCount": 2,
       "droppedCount": 2,
       "pipelineAdded": [
-        {
-          "skill": "Scalability",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Software Development",
-          "label": "High Value Skill",
-          "frequency": 0.084803,
-          "specificity": 0.0480314748364359,
-          "growth": 1.0,
-          "wagePremium": 0.175474556730429
-        },
-        {
-          "skill": "Market Trend",
-          "category": "Specialization",
-          "subcategory": "Market Analysis",
-          "label": "High Growth Skill",
-          "frequency": 0.085766,
-          "specificity": 0.0554104647281434,
-          "growth": 0.681115449939756,
-          "wagePremium": null
-        },
-        {
-          "skill": "Ideation",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Critical Thinking and Problem Solving",
-          "label": "High Value Skill",
-          "frequency": 0.078,
-          "specificity": 0.0590552473589574,
-          "growth": 0.564974964065141,
-          "wagePremium": 0.083534624929886
-        },
-        {
-          "skill": "Data Analysis",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Data Analysis",
-          "label": "High Value Skill",
-          "frequency": 0.132224,
-          "specificity": 0.0102292324678134,
-          "growth": 0.550689911592167,
-          "wagePremium": 0.0590801897007724
-        },
-        {
-          "skill": "Key Performance Indicators (KPIs)",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Process Improvement and Optimization",
-          "label": "Durable Skill",
-          "frequency": 0.136776,
-          "specificity": 0.0295681624454425,
-          "growth": 0.481083796694454,
-          "wagePremium": 0.0194270317215204
-        },
-        {
-          "skill": "Competitive Analysis",
-          "category": "Specialization",
-          "subcategory": "Market Analysis",
-          "label": "Durable Skill",
-          "frequency": 0.079745,
-          "specificity": 0.0742713917722849,
-          "growth": 0.389800607204398,
-          "wagePremium": 0.0348614719864946
-        },
-        {
-          "skill": "User Research",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "User Interface and User Experience (UI/UX) Design",
-          "label": "High Value Skill",
-          "frequency": 0.051035,
-          "specificity": 0.0747918390278729,
-          "growth": 0.312787814381863,
-          "wagePremium": 0.152177239741623
-        },
-        {
-          "skill": "Business Strategies",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Business Strategy",
-          "label": "High Value Skill",
-          "frequency": 0.08743,
-          "specificity": 0.0404245787038135,
-          "growth": 0.287591905784371,
-          "wagePremium": 0.136422521222499
-        },
-        {
-          "skill": "JIRA",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Agile Software Development",
-          "label": "Durable Skill",
-          "frequency": 0.083965,
-          "specificity": 0.0655423215114861,
-          "growth": 0.268668650299511,
-          "wagePremium": 0.0308773294737965
-        },
         {
           "skill": "Leadership",
           "category": "Foundational & Leadership Skills",
@@ -8657,26 +7017,6 @@
           "wagePremium": 0.0829132203601812
         },
         {
-          "skill": "Finance",
-          "category": "Specialization",
-          "subcategory": "General Finance",
-          "label": "High Value Skill",
-          "frequency": 0.126332,
-          "specificity": 0.0128483632511963,
-          "growth": 0.125969352413455,
-          "wagePremium": 0.121136865620343
-        },
-        {
-          "skill": "Business Valuation",
-          "category": "Specialization",
-          "subcategory": "Financial Analysis",
-          "label": "High Value Skill",
-          "frequency": 0.059077,
-          "specificity": 0.0599597669296274,
-          "growth": 0.120883205709613,
-          "wagePremium": 0.132514383061527
-        },
-        {
           "skill": "Product Roadmaps",
           "category": "Core Role-Specific Skills",
           "subcategory": "Product Management",
@@ -8685,96 +7025,6 @@
           "specificity": 0.293422684305174,
           "growth": 0.0660515286396569,
           "wagePremium": 0.182362957069926
-        },
-        {
-          "skill": "Project Portfolio Management",
-          "category": "Specialization",
-          "subcategory": "Project Management",
-          "label": "High Value Skill",
-          "frequency": 0.079172,
-          "specificity": 0.0617900541940894,
-          "growth": 0.0112824555353008,
-          "wagePremium": 0.0954111155552053
-        },
-        {
-          "skill": "Value Propositions",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Market Analysis",
-          "label": "High Value Skill",
-          "frequency": 0.074257,
-          "specificity": 0.0489818534747047,
-          "growth": -0.00813235000996613,
-          "wagePremium": 0.123650946522146
-        },
-        {
-          "skill": "Product Design",
-          "category": "Specialization",
-          "subcategory": "Industrial Design",
-          "label": "High Value Skill",
-          "frequency": 0.083927,
-          "specificity": 0.0657246468051488,
-          "growth": -0.0311733330078483,
-          "wagePremium": 0.115465777002626
-        },
-        {
-          "skill": "Software As A Service (SaaS)",
-          "category": "Specialization",
-          "subcategory": "Cloud Solutions",
-          "label": "High Value Skill",
-          "frequency": 0.093951,
-          "specificity": 0.0893239484663976,
-          "growth": -0.0711330795525171,
-          "wagePremium": 0.196700519331986
-        },
-        {
-          "skill": "Digital Product Management",
-          "category": "Specialization",
-          "subcategory": "Product Management",
-          "label": "High Value Skill",
-          "frequency": 0.038625,
-          "specificity": 0.0784473409105975,
-          "growth": -0.233572512409022,
-          "wagePremium": 0.118643722506276
-        },
-        {
-          "skill": "Scrum (Software Development)",
-          "category": "Specialization",
-          "subcategory": "Agile Software Development",
-          "label": "High Value Skill",
-          "frequency": 0.161729,
-          "specificity": 0.145586527844386,
-          "growth": -0.2354531389029,
-          "wagePremium": 0.0904337790930327
-        },
-        {
-          "skill": "Writing",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Writing and Editing",
-          "label": "Declining Skill",
-          "frequency": 0.160403,
-          "specificity": 0.000334248422592987,
-          "growth": -0.251771514502495,
-          "wagePremium": -0.0569126789503642
-        },
-        {
-          "skill": "Software Development",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Software Development",
-          "label": "High Value Skill",
-          "frequency": 0.079038,
-          "specificity": 0.0460722811660407,
-          "growth": -0.334164851380788,
-          "wagePremium": 0.164391160827033
-        },
-        {
-          "skill": "Business Case",
-          "category": "Specialization",
-          "subcategory": "Business Solutions",
-          "label": "High Value Skill",
-          "frequency": 0.057415,
-          "specificity": 0.0561175314228998,
-          "growth": -0.337231295784796,
-          "wagePremium": 0.0915298354782022
         }
       ],
       "pipelineDropped": [
@@ -8803,21 +7053,11 @@
     },
     "Production and Expediting Clerks": {
       "occupation": "Production and Expediting Clerks",
-      "totalSkills": 33,
+      "totalSkills": 30,
       "overlapCount": 12,
-      "addedCount": 12,
+      "addedCount": 9,
       "droppedCount": 9,
       "pipelineAdded": [
-        {
-          "skill": "Primavera (Software)",
-          "category": "Specialization",
-          "subcategory": "Project Management",
-          "label": "High Value Skill",
-          "frequency": 0.041476,
-          "specificity": 0.11578853662546,
-          "growth": 0.959183673469388,
-          "wagePremium": 0.469144028588371
-        },
         {
           "skill": "Project Schedules",
           "category": "Baseline Applied Skills",
@@ -8847,16 +7087,6 @@
           "specificity": 0.00972967925328914,
           "growth": 0.492671465576715,
           "wagePremium": 0.0421123677543793
-        },
-        {
-          "skill": "Microsoft Project",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Project Management",
-          "label": "High Value Skill",
-          "frequency": 0.031536,
-          "specificity": 0.0489871834532244,
-          "growth": 0.326464661825647,
-          "wagePremium": 0.290960803583253
         },
         {
           "skill": "Project Management",
@@ -8897,16 +7127,6 @@
           "specificity": 0.0033614795436161,
           "growth": 0.0596103299765659,
           "wagePremium": 0.0890244150006554
-        },
-        {
-          "skill": "Production Planning",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Supply Chain Management",
-          "label": "Durable Skill",
-          "frequency": 0.030872,
-          "specificity": 0.050810102309765,
-          "growth": 0.0500741456012692,
-          "wagePremium": 0.0272807916341868
         },
         {
           "skill": "Microsoft PowerPoint",
@@ -9025,9 +7245,9 @@
     },
     "Project Management Specialists": {
       "occupation": "Project Management Specialists",
-      "totalSkills": 31,
+      "totalSkills": 25,
       "overlapCount": 13,
-      "addedCount": 12,
+      "addedCount": 6,
       "droppedCount": 6,
       "pipelineAdded": [
         {
@@ -9051,46 +7271,6 @@
           "wagePremium": null
         },
         {
-          "skill": "Change Orders",
-          "category": "Specialization",
-          "subcategory": "General Construction and Construction Labor",
-          "label": "High Growth Skill",
-          "frequency": 0.108387,
-          "specificity": 0.107470027172851,
-          "growth": 0.746325997762029,
-          "wagePremium": null
-        },
-        {
-          "skill": "Submittals (Construction)",
-          "category": "Specialization",
-          "subcategory": "Construction Management",
-          "label": "High Growth Skill",
-          "frequency": 0.060365,
-          "specificity": 0.0596494971930635,
-          "growth": 0.705180912202157,
-          "wagePremium": null
-        },
-        {
-          "skill": "Forecasting",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Data Analysis",
-          "label": "High Value Skill",
-          "frequency": 0.086636,
-          "specificity": 0.0431166318071336,
-          "growth": 0.305378748027354,
-          "wagePremium": 0.100686878371736
-        },
-        {
-          "skill": "Milestones (Project Management)",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Project Management",
-          "label": "High Value Skill",
-          "frequency": 0.109036,
-          "specificity": 0.101010786897591,
-          "growth": 0.142838648826091,
-          "wagePremium": 0.0564288277208251
-        },
-        {
           "skill": "Planning",
           "category": "Foundational & Leadership Skills",
           "subcategory": "Initiative and Leadership",
@@ -9111,16 +7291,6 @@
           "wagePremium": 0.0613054499071277
         },
         {
-          "skill": "Microsoft Project",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Project Management",
-          "label": "High Value Skill",
-          "frequency": 0.101391,
-          "specificity": 0.115188738601859,
-          "growth": -0.0662995717225651,
-          "wagePremium": 0.06644641666864
-        },
-        {
           "skill": "Presentations",
           "category": "Baseline Applied Skills",
           "subcategory": "Communication",
@@ -9139,16 +7309,6 @@
           "specificity": 0.00647498094035565,
           "growth": -0.18385975237597,
           "wagePremium": -0.0357914523041042
-        },
-        {
-          "skill": "Scrum (Software Development)",
-          "category": "Specialization",
-          "subcategory": "Agile Software Development",
-          "label": "High Value Skill",
-          "frequency": 0.048044,
-          "specificity": 0.0667977021057392,
-          "growth": -0.353350415153088,
-          "wagePremium": 0.163536878431203
         }
       ],
       "pipelineDropped": [
@@ -9217,41 +7377,11 @@
     },
     "Purchasing Agents": {
       "occupation": "Purchasing Agents",
-      "totalSkills": 48,
+      "totalSkills": 41,
       "overlapCount": 21,
-      "addedCount": 17,
+      "addedCount": 10,
       "droppedCount": 10,
       "pipelineAdded": [
-        {
-          "skill": "Procurement Strategy",
-          "category": "Specialization",
-          "subcategory": "Procurement",
-          "label": "High Growth Skill",
-          "frequency": 0.029365,
-          "specificity": 0.0748038184119998,
-          "growth": 0.844476876767308,
-          "wagePremium": null
-        },
-        {
-          "skill": "Business Administration",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Business Operations",
-          "label": "Durable Skill",
-          "frequency": 0.093264,
-          "specificity": 0.0637250913649461,
-          "growth": 0.425708593097243,
-          "wagePremium": -0.046295055123038
-        },
-        {
-          "skill": "Government Contracting",
-          "category": "Specialization",
-          "subcategory": "Contract Management",
-          "label": "High Value Skill",
-          "frequency": 0.031517,
-          "specificity": 0.068469665965226,
-          "growth": 0.41557664997384,
-          "wagePremium": 0.171510931281494
-        },
         {
           "skill": "Leadership",
           "category": "Foundational & Leadership Skills",
@@ -9261,16 +7391,6 @@
           "specificity": 0.0108014412111497,
           "growth": 0.296286083491482,
           "wagePremium": 0.170965534161936
-        },
-        {
-          "skill": "SAP Applications",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Business Solutions",
-          "label": "Durable Skill",
-          "frequency": 0.081511,
-          "specificity": 0.0543851078554318,
-          "growth": 0.227546336107105,
-          "wagePremium": null
         },
         {
           "skill": "Coordinating",
@@ -9313,26 +7433,6 @@
           "wagePremium": -0.050498879769921
         },
         {
-          "skill": "Presentations",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Communication",
-          "label": "High Value Skill",
-          "frequency": 0.10889,
-          "specificity": 0.0239705478525597,
-          "growth": 0.0545689286842155,
-          "wagePremium": 0.101959897239298
-        },
-        {
-          "skill": "Proposal Development",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Project Management",
-          "label": "High Value Skill",
-          "frequency": 0.059765,
-          "specificity": 0.0902883834256533,
-          "growth": 0.0414136386261823,
-          "wagePremium": 0.138018633639811
-        },
-        {
           "skill": "Management",
           "category": "Foundational & Leadership Skills",
           "subcategory": "Business Management",
@@ -9351,16 +7451,6 @@
           "specificity": 0.0585521414795445,
           "growth": 0.00872128316853045,
           "wagePremium": -0.0760352278172063
-        },
-        {
-          "skill": "Proposal Management",
-          "category": "Specialization",
-          "subcategory": "Project Management",
-          "label": "High Value Skill",
-          "frequency": 0.030046,
-          "specificity": 0.0695631415244515,
-          "growth": 0.00586135760830409,
-          "wagePremium": 0.152864917433474
         },
         {
           "skill": "Microsoft PowerPoint",
@@ -9499,9 +7589,9 @@
     },
     "Receptionists and Information Clerks": {
       "occupation": "Receptionists and Information Clerks",
-      "totalSkills": 27,
+      "totalSkills": 18,
       "overlapCount": 14,
-      "addedCount": 11,
+      "addedCount": 2,
       "droppedCount": 2,
       "pipelineAdded": [
         {
@@ -9515,76 +7605,6 @@
           "wagePremium": 0.0191430479329551
         },
         {
-          "skill": "Confidentiality",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Labor Compliance",
-          "label": "High Growth Skill",
-          "frequency": 0.096977,
-          "specificity": 0.0322377866228331,
-          "growth": 0.75546661719102,
-          "wagePremium": 0.0264156533430277
-        },
-        {
-          "skill": "Office Supply Management",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Office Management",
-          "label": "Durable Skill",
-          "frequency": 0.111414,
-          "specificity": 0.15532315996145,
-          "growth": 0.467606633541976,
-          "wagePremium": 0.0427135535420853
-        },
-        {
-          "skill": "Time Management",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Initiative and Leadership",
-          "label": "Durable Skill",
-          "frequency": 0.121118,
-          "specificity": 0.0101726795147418,
-          "growth": 0.357315660351642,
-          "wagePremium": null
-        },
-        {
-          "skill": "Management",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Business Management",
-          "label": "Durable Skill",
-          "frequency": 0.113072,
-          "specificity": 0.00204296817090461,
-          "growth": 0.181165440303822,
-          "wagePremium": 0.0170908118081032
-        },
-        {
-          "skill": "Invoicing",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Billing and Invoicing",
-          "label": "Durable Skill",
-          "frequency": 0.054856,
-          "specificity": 0.0363964782010295,
-          "growth": 0.149103841257653,
-          "wagePremium": 0.0126052370446967
-        },
-        {
-          "skill": "Writing",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Writing and Editing",
-          "label": "Durable Skill",
-          "frequency": 0.110838,
-          "specificity": 0.00782803247934383,
-          "growth": 0.142377597882774,
-          "wagePremium": 0.0118849182326359
-        },
-        {
-          "skill": "Prioritization",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Project Management",
-          "label": "Durable Skill",
-          "frequency": 0.114158,
-          "specificity": 0.0267643881117646,
-          "growth": 0.0824413145539907,
-          "wagePremium": null
-        },
-        {
           "skill": "Clerical Works",
           "category": "Baseline Applied Skills",
           "subcategory": "Administrative Support and Clerical Tasks",
@@ -9593,26 +7613,6 @@
           "specificity": 0.131959238520845,
           "growth": 0.0669861763412569,
           "wagePremium": null
-        },
-        {
-          "skill": "Billing",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Billing and Invoicing",
-          "label": "Durable Skill",
-          "frequency": 0.06864,
-          "specificity": 0.0450438521158154,
-          "growth": -0.0359534048228185,
-          "wagePremium": 0.0164809272766777
-        },
-        {
-          "skill": "Microsoft Word",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Office and Productivity Equipment and Technology",
-          "label": "Durable Skill",
-          "frequency": 0.071228,
-          "specificity": 0.0287608898530322,
-          "growth": -0.128582465234511,
-          "wagePremium": 0.033030250236854
         }
       ],
       "pipelineDropped": [
@@ -9657,9 +7657,9 @@
     },
     "Retail Salespersons": {
       "occupation": "Retail Salespersons",
-      "totalSkills": 38,
+      "totalSkills": 32,
       "overlapCount": 20,
-      "addedCount": 12,
+      "addedCount": 6,
       "droppedCount": 6,
       "pipelineAdded": [
         {
@@ -9693,36 +7693,6 @@
           "wagePremium": -0.0375217229363608
         },
         {
-          "skill": "Food Safety And Sanitation",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Food and Beverage",
-          "label": "Durable Skill",
-          "frequency": 0.029361,
-          "specificity": 0.0418078749404496,
-          "growth": 0.37058599695586,
-          "wagePremium": null
-        },
-        {
-          "skill": "Wardrobe Styling",
-          "category": "Specialization",
-          "subcategory": "Retail Sales",
-          "label": "Durable Skill",
-          "frequency": 0.00868,
-          "specificity": 0.0561756296142063,
-          "growth": 0.278080326752893,
-          "wagePremium": 0.0360448161386841
-        },
-        {
-          "skill": "Merchandise Maintenance",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Merchandising",
-          "label": "Durable Skill",
-          "frequency": 0.012403,
-          "specificity": 0.057783177546341,
-          "growth": 0.101819395760307,
-          "wagePremium": -0.0759981089969191
-        },
-        {
           "skill": "Returns & Exchanges",
           "category": "Core Role-Specific Skills",
           "subcategory": "Customer Transactions",
@@ -9743,16 +7713,6 @@
           "wagePremium": -0.0811000971689468
         },
         {
-          "skill": "Cycle Counting",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Inventory and Warehousing",
-          "label": "Durable Skill",
-          "frequency": 0.020033,
-          "specificity": 0.0501684093427466,
-          "growth": -0.0248373240335133,
-          "wagePremium": -0.0798559727267657
-        },
-        {
           "skill": "Management",
           "category": "Foundational & Leadership Skills",
           "subcategory": "Business Management",
@@ -9760,26 +7720,6 @@
           "frequency": 0.231718,
           "specificity": 0.00410384652376455,
           "growth": -0.227014755959137,
-          "wagePremium": null
-        },
-        {
-          "skill": "Wireless Sales",
-          "category": "Specialization",
-          "subcategory": "Specialized Sales",
-          "label": "Declining Skill",
-          "frequency": 0.010333,
-          "specificity": 0.0627270939977435,
-          "growth": -0.518708777270421,
-          "wagePremium": 0.154975556935982
-        },
-        {
-          "skill": "Price Markdowns",
-          "category": "Specialization",
-          "subcategory": "General Sales Practices",
-          "label": "Declining Skill",
-          "frequency": 0.007062,
-          "specificity": 0.0572936269373927,
-          "growth": -0.599974349108631,
           "wagePremium": null
         }
       ],
@@ -9849,31 +7789,11 @@
     },
     "Sales Managers": {
       "occupation": "Sales Managers",
-      "totalSkills": 35,
+      "totalSkills": 23,
       "overlapCount": 15,
-      "addedCount": 16,
+      "addedCount": 4,
       "droppedCount": 4,
       "pipelineAdded": [
-        {
-          "skill": "Market Trend",
-          "category": "Specialization",
-          "subcategory": "Market Analysis",
-          "label": "High Growth Skill",
-          "frequency": 0.070079,
-          "specificity": 0.0814322840024164,
-          "growth": 1.0,
-          "wagePremium": null
-        },
-        {
-          "skill": "Revenue Growth",
-          "category": "Specialization",
-          "subcategory": "Financial Modeling",
-          "label": "High Growth Skill",
-          "frequency": 0.067674,
-          "specificity": 0.096772781908474,
-          "growth": 1.0,
-          "wagePremium": 0.0980768658970599
-        },
         {
           "skill": "Sales Strategy",
           "category": "Specialization",
@@ -9883,26 +7803,6 @@
           "specificity": 0.203044047953278,
           "growth": 0.515771178115318,
           "wagePremium": 0.0703489982716548
-        },
-        {
-          "skill": "Go-to-Market Strategy",
-          "category": "Specialization",
-          "subcategory": "Marketing Strategy and Techniques",
-          "label": "High Value Skill",
-          "frequency": 0.04564,
-          "specificity": 0.0746097494419475,
-          "growth": 0.382459049454366,
-          "wagePremium": 0.166402127394765
-        },
-        {
-          "skill": "Market Share",
-          "category": "Specialization",
-          "subcategory": "Sales Management",
-          "label": "Durable Skill",
-          "frequency": 0.082329,
-          "specificity": 0.111780203301841,
-          "growth": 0.324046439230582,
-          "wagePremium": 0.0148451566639243
         },
         {
           "skill": "Operations",
@@ -9925,66 +7825,6 @@
           "wagePremium": null
         },
         {
-          "skill": "Sales Leadership",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Sales Management",
-          "label": "High Value Skill",
-          "frequency": 0.061158,
-          "specificity": 0.106162482237857,
-          "growth": 0.177887805625032,
-          "wagePremium": 0.202091251824309
-        },
-        {
-          "skill": "Regional Sales",
-          "category": "Specialization",
-          "subcategory": "Sales Management",
-          "label": "High Value Skill",
-          "frequency": 0.114929,
-          "specificity": 0.194720611953148,
-          "growth": 0.114244680656434,
-          "wagePremium": 0.127589795009102
-        },
-        {
-          "skill": "Business Acumen",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Personal Attributes",
-          "label": "Durable Skill",
-          "frequency": 0.076121,
-          "specificity": 0.0556910322023679,
-          "growth": 0.114081818699789,
-          "wagePremium": null
-        },
-        {
-          "skill": "Value Propositions",
-          "category": "Specialization",
-          "subcategory": "Market Analysis",
-          "label": "High Value Skill",
-          "frequency": 0.069854,
-          "specificity": 0.0797352651944227,
-          "growth": 0.0877818020548451,
-          "wagePremium": 0.123650946522146
-        },
-        {
-          "skill": "Sales Presentations",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Communication",
-          "label": "Durable Skill",
-          "frequency": 0.044236,
-          "specificity": 0.0671785895725039,
-          "growth": 0.04114320152056,
-          "wagePremium": null
-        },
-        {
-          "skill": "Cold Calling",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "General Sales Practices",
-          "label": "Durable Skill",
-          "frequency": 0.056529,
-          "specificity": 0.0784667012245103,
-          "growth": 0.0409392473794926,
-          "wagePremium": -0.107619036862813
-        },
-        {
           "skill": "Management",
           "category": "Foundational & Leadership Skills",
           "subcategory": "Business Management",
@@ -9993,26 +7833,6 @@
           "specificity": 0.00436746830310705,
           "growth": -0.0301045590628342,
           "wagePremium": -0.026194459039072
-        },
-        {
-          "skill": "Microsoft PowerPoint",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Office and Productivity Equipment and Technology",
-          "label": "Durable Skill",
-          "frequency": 0.104045,
-          "specificity": 0.0243482336550889,
-          "growth": -0.0628365062751642,
-          "wagePremium": -0.0631376787428072
-        },
-        {
-          "skill": "Outside Sales",
-          "category": "Specialization",
-          "subcategory": "Specialized Sales",
-          "label": "Durable Skill",
-          "frequency": 0.067427,
-          "specificity": 0.0882469320327983,
-          "growth": -0.0995549174443648,
-          "wagePremium": -0.0988460883754705
         }
       ],
       "pipelineDropped": [
@@ -10061,81 +7881,11 @@
     },
     "Sales Representatives": {
       "occupation": "Sales Representatives",
-      "totalSkills": 34,
+      "totalSkills": 21,
       "overlapCount": 17,
-      "addedCount": 15,
+      "addedCount": 2,
       "droppedCount": 2,
       "pipelineAdded": [
-        {
-          "skill": "Revenue Growth",
-          "category": "Specialization",
-          "subcategory": "Financial Modeling",
-          "label": "High Growth Skill",
-          "frequency": 0.048992,
-          "specificity": 0.0840826847268989,
-          "growth": 0.847859193608788,
-          "wagePremium": 0.062790624694659
-        },
-        {
-          "skill": "Account Strategy",
-          "category": "Specialization",
-          "subcategory": "Account Management",
-          "label": "High Value Skill",
-          "frequency": 0.027922,
-          "specificity": 0.0746875472910408,
-          "growth": 0.490283472989838,
-          "wagePremium": 0.263683406874367
-        },
-        {
-          "skill": "Negotiation",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "General Sales Practices",
-          "label": "High Value Skill",
-          "frequency": 0.160084,
-          "specificity": 0.0906851193415502,
-          "growth": 0.395938044927685,
-          "wagePremium": 0.073498258524215
-        },
-        {
-          "skill": "Value Propositions",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Market Analysis",
-          "label": "High Value Skill",
-          "frequency": 0.062201,
-          "specificity": 0.0852255355434481,
-          "growth": 0.331889909688493,
-          "wagePremium": 0.170992711875058
-        },
-        {
-          "skill": "Operations",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Business Operations",
-          "label": "Durable Skill",
-          "frequency": 0.127938,
-          "specificity": 0.00109545987283048,
-          "growth": 0.301266490285392,
-          "wagePremium": 0.035290192834454
-        },
-        {
-          "skill": "Influencing Skills",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Initiative and Leadership",
-          "label": "High Value Skill",
-          "frequency": 0.086273,
-          "specificity": 0.0287106931453901,
-          "growth": 0.250837691018937,
-          "wagePremium": 0.156870765730755
-        },
-        {
-          "skill": "Leadership",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Initiative and Leadership",
-          "label": "High Value Skill",
-          "frequency": 0.176656,
-          "specificity": 0.0108034917932496,
-          "growth": 0.234472894806789,
-          "wagePremium": 0.189015735345658
-        },
         {
           "skill": "Presentations",
           "category": "Baseline Applied Skills",
@@ -10147,16 +7897,6 @@
           "wagePremium": 0.101287956428263
         },
         {
-          "skill": "Sales Process",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "General Sales Practices",
-          "label": "High Value Skill",
-          "frequency": 0.108587,
-          "specificity": 0.15147527383218,
-          "growth": 0.134052048337763,
-          "wagePremium": 0.0905198474908078
-        },
-        {
           "skill": "Management",
           "category": "Foundational & Leadership Skills",
           "subcategory": "Business Management",
@@ -10165,56 +7905,6 @@
           "specificity": 0.00334920402564672,
           "growth": -0.0210649338834011,
           "wagePremium": 0.0314179873177349
-        },
-        {
-          "skill": "Microsoft PowerPoint",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Office and Productivity Equipment and Technology",
-          "label": "Durable Skill",
-          "frequency": 0.097867,
-          "specificity": 0.027489485463202,
-          "growth": -0.0610134957939118,
-          "wagePremium": null
-        },
-        {
-          "skill": "Microsoft Excel",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Office and Productivity Equipment and Technology",
-          "label": "Durable Skill",
-          "frequency": 0.140929,
-          "specificity": 0.0238599083632526,
-          "growth": -0.0819807578064718,
-          "wagePremium": -0.0405574765467572
-        },
-        {
-          "skill": "Time Management",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Initiative and Leadership",
-          "label": "Durable Skill",
-          "frequency": 0.141193,
-          "specificity": 0.0078778861682583,
-          "growth": -0.120538255959597,
-          "wagePremium": -0.0520645257922802
-        },
-        {
-          "skill": "Inside Sales",
-          "category": "Specialization",
-          "subcategory": "Specialized Sales",
-          "label": "Durable Skill",
-          "frequency": 0.042035,
-          "specificity": 0.0760419265359975,
-          "growth": -0.137037441327366,
-          "wagePremium": -0.168328245381837
-        },
-        {
-          "skill": "Writing",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Writing and Editing",
-          "label": "Declining Skill",
-          "frequency": 0.138993,
-          "specificity": 0.00652139375477443,
-          "growth": -0.187872609056721,
-          "wagePremium": -0.0425828808809854
         }
       ],
       "pipelineDropped": [
@@ -10243,9 +7933,9 @@
     },
     "Security Guards": {
       "occupation": "Security Guards",
-      "totalSkills": 34,
+      "totalSkills": 19,
       "overlapCount": 15,
-      "addedCount": 18,
+      "addedCount": 3,
       "droppedCount": 1,
       "pipelineAdded": [
         {
@@ -10259,36 +7949,6 @@
           "wagePremium": 0.11060683136958
         },
         {
-          "skill": "Management",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Business Management",
-          "label": "High Growth Skill",
-          "frequency": 0.112341,
-          "specificity": 0.00273623307917553,
-          "growth": 1.0,
-          "wagePremium": 0.0226272938429399
-        },
-        {
-          "skill": "Operations",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Business Operations",
-          "label": "High Growth Skill",
-          "frequency": 0.09288,
-          "specificity": 0.00161383303503608,
-          "growth": 1.0,
-          "wagePremium": 0.0628557671142398
-        },
-        {
-          "skill": "Armed Guard",
-          "category": "Specialization",
-          "subcategory": "Safety and Security",
-          "label": "High Growth Skill",
-          "frequency": 0.012016,
-          "specificity": 0.134146430864685,
-          "growth": 1.0,
-          "wagePremium": 0.142127278905816
-        },
-        {
           "skill": "Closed-Circuit Television Systems (CCTV)",
           "category": "Specialization",
           "subcategory": "Safety and Surveillance Technology",
@@ -10299,16 +7959,6 @@
           "wagePremium": null
         },
         {
-          "skill": "Defensive Tactics",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Law Enforcement and Criminal Justice",
-          "label": "High Value Skill",
-          "frequency": 0.008686,
-          "specificity": 0.0570225279863376,
-          "growth": 0.612546125461255,
-          "wagePremium": 0.157249990374358
-        },
-        {
           "skill": "Alarm Devices",
           "category": "Core Role-Specific Skills",
           "subcategory": "Safety and Security",
@@ -10317,116 +7967,6 @@
           "specificity": 0.216931061642025,
           "growth": 0.59669491792432,
           "wagePremium": 0.0678914493046476
-        },
-        {
-          "skill": "Taser",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Safety and Security",
-          "label": "High Value Skill",
-          "frequency": 0.007438,
-          "specificity": 0.0694495101069286,
-          "growth": 0.522187442459952,
-          "wagePremium": 0.178709136037375
-        },
-        {
-          "skill": "Physical Security Operations",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Safety and Security",
-          "label": "High Value Skill",
-          "frequency": 0.028708,
-          "specificity": 0.124420736702158,
-          "growth": 0.496280829962156,
-          "wagePremium": 0.12856735495586
-        },
-        {
-          "skill": "Traffic Control",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Road and Bridge Construction",
-          "label": "High Value Skill",
-          "frequency": 0.016847,
-          "specificity": 0.051424788494804,
-          "growth": 0.305795037109229,
-          "wagePremium": 0.0827502072540702
-        },
-        {
-          "skill": "Property Damage",
-          "category": "Specialization",
-          "subcategory": "Insurance and Warranty Claims Processing",
-          "label": "Durable Skill",
-          "frequency": 0.019984,
-          "specificity": 0.0588494369391608,
-          "growth": 0.301477352670599,
-          "wagePremium": 0.0146032014937723
-        },
-        {
-          "skill": "Use Of Force",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Law Enforcement and Criminal Justice",
-          "label": "High Value Skill",
-          "frequency": 0.013835,
-          "specificity": 0.0951173011736767,
-          "growth": 0.229589820595906,
-          "wagePremium": 0.0565815587125817
-        },
-        {
-          "skill": "Radio Operations",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Wireless Technologies",
-          "label": "Durable Skill",
-          "frequency": 0.016686,
-          "specificity": 0.0835084059607577,
-          "growth": 0.216707688916645,
-          "wagePremium": -0.0279512062969024
-        },
-        {
-          "skill": "Writing",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Writing and Editing",
-          "label": "Durable Skill",
-          "frequency": 0.104517,
-          "specificity": 0.00995122207453516,
-          "growth": 0.196129934227946,
-          "wagePremium": 0.0201496021438015
-        },
-        {
-          "skill": "Baton (Law Enforcement)",
-          "category": "Specialization",
-          "subcategory": "Military Technology and Weapons",
-          "label": "High Value Skill",
-          "frequency": 0.006851,
-          "specificity": 0.0697196051036047,
-          "growth": 0.066569613552144,
-          "wagePremium": 0.233010035382967
-        },
-        {
-          "skill": "English Language",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Language Competency",
-          "label": "Declining Skill",
-          "frequency": 0.100835,
-          "specificity": 0.00316196102505506,
-          "growth": -0.190758235841206,
-          "wagePremium": 0.0377416646313753
-        },
-        {
-          "skill": "Officer Training",
-          "category": "Specialization",
-          "subcategory": "Training Programs",
-          "label": "Declining Skill",
-          "frequency": 0.009566,
-          "specificity": 0.0640582023176189,
-          "growth": -0.544072948328267,
-          "wagePremium": 0.108684317279739
-        },
-        {
-          "skill": "Innovation",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Critical Thinking and Problem Solving",
-          "label": "Declining Skill",
-          "frequency": 0.136499,
-          "specificity": 0.0490543453204773,
-          "growth": -0.934147448307159,
-          "wagePremium": 0.0872464034661691
         }
       ],
       "pipelineDropped": [
@@ -10445,21 +7985,11 @@
     },
     "Shipping & Receiving Clerks": {
       "occupation": "Shipping & Receiving Clerks",
-      "totalSkills": 42,
+      "totalSkills": 35,
       "overlapCount": 15,
-      "addedCount": 17,
+      "addedCount": 10,
       "droppedCount": 10,
       "pipelineAdded": [
-        {
-          "skill": "Greeting Customers",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Customer Service",
-          "label": "High Growth Skill",
-          "frequency": 0.0496,
-          "specificity": 0.0607484954567965,
-          "growth": 1.0,
-          "wagePremium": -0.0779107798225825
-        },
         {
           "skill": "Operations",
           "category": "Baseline Applied Skills",
@@ -10491,16 +8021,6 @@
           "wagePremium": 0.0147601202088179
         },
         {
-          "skill": "Material Handling Equipment",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Material Handling",
-          "label": "Durable Skill",
-          "frequency": 0.045279,
-          "specificity": 0.0817103769803541,
-          "growth": 0.417351619994265,
-          "wagePremium": 0.0250926961670408
-        },
-        {
           "skill": "Inventory Management System",
           "category": "Baseline Applied Skills",
           "subcategory": "Inventory and Warehousing",
@@ -10519,16 +8039,6 @@
           "specificity": 0.043577915093351,
           "growth": 0.264333653638442,
           "wagePremium": 0.00803776559931956
-        },
-        {
-          "skill": "SAP Applications",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Business Solutions",
-          "label": "High Value Skill",
-          "frequency": 0.054475,
-          "specificity": 0.0550088797018024,
-          "growth": 0.204149920193843,
-          "wagePremium": 0.0632948036883589
         },
         {
           "skill": "Supply Chain",
@@ -10571,16 +8081,6 @@
           "wagePremium": 0.0615766434360545
         },
         {
-          "skill": "Returns & Exchanges",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Cash Register Operation",
-          "label": "Durable Skill",
-          "frequency": 0.039125,
-          "specificity": 0.0961783694585752,
-          "growth": -0.0122910651373473,
-          "wagePremium": -0.0337647516249292
-        },
-        {
           "skill": "Warehousing",
           "category": "Baseline Applied Skills",
           "subcategory": "Inventory and Warehousing",
@@ -10589,36 +8089,6 @@
           "specificity": 0.227898590820781,
           "growth": -0.0402275121129134,
           "wagePremium": -0.0193070456933924
-        },
-        {
-          "skill": "Package Delivery",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "General Shipping and Receiving",
-          "label": "Durable Skill",
-          "frequency": 0.02338,
-          "specificity": 0.0944133943818498,
-          "growth": -0.0595987232102144,
-          "wagePremium": -0.0774836350907532
-        },
-        {
-          "skill": "Direct Store Delivery",
-          "category": "Specialization",
-          "subcategory": "Business Operations",
-          "label": "Durable Skill",
-          "frequency": 0.024643,
-          "specificity": 0.122842413184748,
-          "growth": -0.0703613033935506,
-          "wagePremium": -0.0776903810843634
-        },
-        {
-          "skill": "Barcoding",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Inventory and Warehousing",
-          "label": "Declining Skill",
-          "frequency": 0.052495,
-          "specificity": 0.103996820806748,
-          "growth": -0.522790751803864,
-          "wagePremium": -0.0221225269978154
         }
       ],
       "pipelineDropped": [
@@ -10930,91 +8400,11 @@
     },
     "Stockers and Order Fillers": {
       "occupation": "Stockers and Order Fillers",
-      "totalSkills": 46,
+      "totalSkills": 27,
       "overlapCount": 19,
-      "addedCount": 23,
+      "addedCount": 4,
       "droppedCount": 4,
       "pipelineAdded": [
-        {
-          "skill": "Quality Assurance",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Quality Assurance and Control",
-          "label": "High Growth Skill",
-          "frequency": 0.042322,
-          "specificity": 0.0142255222153314,
-          "growth": 1.0,
-          "wagePremium": -0.0156552930540561
-        },
-        {
-          "skill": "Technical Requirements",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Process Engineering",
-          "label": "High Growth Skill",
-          "frequency": 0.029586,
-          "specificity": 0.0298509809884242,
-          "growth": 0.70771300032466,
-          "wagePremium": 0.0378606832567427
-        },
-        {
-          "skill": "Process Driven Development",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Software Development",
-          "label": "High Growth Skill",
-          "frequency": 0.017915,
-          "specificity": 0.0468794523158552,
-          "growth": 0.664957264957265,
-          "wagePremium": -0.0813433944537038
-        },
-        {
-          "skill": "Retail Operations",
-          "category": "Specialization",
-          "subcategory": "Retail Sales",
-          "label": "High Growth Skill",
-          "frequency": 0.074198,
-          "specificity": 0.146386627171858,
-          "growth": 0.538537585588225,
-          "wagePremium": -0.018166791306672
-        },
-        {
-          "skill": "General Mathematics",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Mathematics and Mathematical Modeling",
-          "label": "Durable Skill",
-          "frequency": 0.137757,
-          "specificity": 0.0450972761427221,
-          "growth": 0.486098380690498,
-          "wagePremium": null
-        },
-        {
-          "skill": "Food Safety And Sanitation",
-          "category": "Specialization",
-          "subcategory": "Food and Beverage",
-          "label": "Durable Skill",
-          "frequency": 0.144508,
-          "specificity": 0.199380202357261,
-          "growth": 0.468619358749231,
-          "wagePremium": 0.0303871364217396
-        },
-        {
-          "skill": "Price Checks",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Pricing Analysis",
-          "label": "Durable Skill",
-          "frequency": 0.01275,
-          "specificity": 0.066420029378446,
-          "growth": 0.254273687827506,
-          "wagePremium": -0.0352214964542137
-        },
-        {
-          "skill": "Merchandise Maintenance",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Merchandising",
-          "label": "Durable Skill",
-          "frequency": 0.016245,
-          "specificity": 0.0732872718879876,
-          "growth": 0.213899613899614,
-          "wagePremium": -0.0174934745229542
-        },
         {
           "skill": "Visual Merchandising",
           "category": "Specialization",
@@ -11024,16 +8414,6 @@
           "specificity": 0.216167514664159,
           "growth": 0.172543782541078,
           "wagePremium": 0.013489515831596
-        },
-        {
-          "skill": "Safety Procedures",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Occupational Health and Safety",
-          "label": "Durable Skill",
-          "frequency": 0.058359,
-          "specificity": 0.0209918445774643,
-          "growth": 0.16863353427455,
-          "wagePremium": null
         },
         {
           "skill": "Problem Solving",
@@ -11064,106 +8444,6 @@
           "specificity": 0.00168403089610463,
           "growth": -0.0693845790007706,
           "wagePremium": 0.0308136522500126
-        },
-        {
-          "skill": "Cash Handling",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Cash Management",
-          "label": "Durable Skill",
-          "frequency": 0.036088,
-          "specificity": 0.0586788543703956,
-          "growth": -0.0740600555135,
-          "wagePremium": -0.0335667469857293
-        },
-        {
-          "skill": "Palletizing",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Inventory and Warehousing",
-          "label": "Durable Skill",
-          "frequency": 0.060048,
-          "specificity": 0.0831637788633522,
-          "growth": -0.0980136877847956,
-          "wagePremium": 0.0182790838735372
-        },
-        {
-          "skill": "Management",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Business Management",
-          "label": "Durable Skill",
-          "frequency": 0.291739,
-          "specificity": 0.00500639895151349,
-          "growth": -0.106054784774102,
-          "wagePremium": 0.022885671321053
-        },
-        {
-          "skill": "Stocks (Inventory)",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Inventory and Warehousing",
-          "label": "Declining Skill",
-          "frequency": 0.062312,
-          "specificity": 0.0755898521312738,
-          "growth": -0.156800542072194,
-          "wagePremium": 0.0185282631154833
-        },
-        {
-          "skill": "Mathematics",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Mathematics and Mathematical Modeling",
-          "label": "Declining Skill",
-          "frequency": 0.050945,
-          "specificity": 0.00736478212433279,
-          "growth": -0.306855314131716,
-          "wagePremium": null
-        },
-        {
-          "skill": "Time Management",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Initiative and Leadership",
-          "label": "Declining Skill",
-          "frequency": 0.059157,
-          "specificity": 0.00471962186425165,
-          "growth": -0.337250852569938,
-          "wagePremium": 0.0172546035226742
-        },
-        {
-          "skill": "Returns & Exchanges",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Cash Register Operation",
-          "label": "Declining Skill",
-          "frequency": 0.024725,
-          "specificity": 0.066692106190354,
-          "growth": -0.431824493196334,
-          "wagePremium": null
-        },
-        {
-          "skill": "Planning",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Initiative and Leadership",
-          "label": "Declining Skill",
-          "frequency": 0.050997,
-          "specificity": 0.00643619055719466,
-          "growth": -0.529984532665537,
-          "wagePremium": 0.0651009941109655
-        },
-        {
-          "skill": "Computer Literacy",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Basic Technical Knowledge",
-          "label": "Declining Skill",
-          "frequency": 0.044339,
-          "specificity": 0.00387662545983455,
-          "growth": -0.531292313393481,
-          "wagePremium": null
-        },
-        {
-          "skill": "Reverse Logistics",
-          "category": "Specialization",
-          "subcategory": "Supply Chain Management",
-          "label": "Declining Skill",
-          "frequency": 0.01213,
-          "specificity": 0.0550527100415291,
-          "growth": -0.921951219512195,
-          "wagePremium": -0.0710000548573614
         }
       ],
       "pipelineDropped": [
@@ -11233,9 +8513,9 @@
     },
     "Transportation Supervisors": {
       "occupation": "Transportation Supervisors",
-      "totalSkills": 49,
+      "totalSkills": 40,
       "overlapCount": 14,
-      "addedCount": 22,
+      "addedCount": 13,
       "droppedCount": 13,
       "pipelineAdded": [
         {
@@ -11279,46 +8559,6 @@
           "wagePremium": -0.0395981247908647
         },
         {
-          "skill": "Warehouse Management Systems",
-          "category": "Specialization",
-          "subcategory": "Inventory and Warehousing",
-          "label": "Durable Skill",
-          "frequency": 0.100918,
-          "specificity": 0.193218971405051,
-          "growth": 0.269501512979774,
-          "wagePremium": 0.033311852886073
-        },
-        {
-          "skill": "Inventory Staging",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Inventory and Warehousing",
-          "label": "Durable Skill",
-          "frequency": 0.048132,
-          "specificity": 0.0445734411624981,
-          "growth": 0.19437549910431,
-          "wagePremium": -0.0466831114769769
-        },
-        {
-          "skill": "Packaging And Labeling",
-          "category": "Baseline Applied Skills",
-          "subcategory": "General Shipping and Receiving",
-          "label": "Durable Skill",
-          "frequency": 0.088917,
-          "specificity": 0.0332783065805018,
-          "growth": 0.179068549191778,
-          "wagePremium": -0.029733838826766
-        },
-        {
-          "skill": "Order Fulfillment",
-          "category": "Specialization",
-          "subcategory": "General Shipping and Receiving",
-          "label": "Durable Skill",
-          "frequency": 0.062026,
-          "specificity": 0.0864443793199037,
-          "growth": 0.16350175893029,
-          "wagePremium": -0.0441408968021033
-        },
-        {
           "skill": "Operations",
           "category": "Baseline Applied Skills",
           "subcategory": "Business Operations",
@@ -11339,16 +8579,6 @@
           "wagePremium": 0.0290269173775646
         },
         {
-          "skill": "Material Handling Equipment",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Material Handling",
-          "label": "Durable Skill",
-          "frequency": 0.044667,
-          "specificity": 0.0652243389990948,
-          "growth": 0.0879130973979745,
-          "wagePremium": null
-        },
-        {
           "skill": "Lifting Ability",
           "category": "Baseline Applied Skills",
           "subcategory": "Physical Abilities",
@@ -11359,16 +8589,6 @@
           "wagePremium": -0.0562080490799325
         },
         {
-          "skill": "Time Management",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Initiative and Leadership",
-          "label": "Durable Skill",
-          "frequency": 0.104282,
-          "specificity": 0.00613504067111245,
-          "growth": 0.0176663927691044,
-          "wagePremium": null
-        },
-        {
           "skill": "Shipping And Receiving",
           "category": "Baseline Applied Skills",
           "subcategory": "General Shipping and Receiving",
@@ -11377,26 +8597,6 @@
           "specificity": 0.182742537561713,
           "growth": 0.0146296307878985,
           "wagePremium": -0.0364844255775709
-        },
-        {
-          "skill": "Team Leadership",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "People Management",
-          "label": "Durable Skill",
-          "frequency": 0.070692,
-          "specificity": 0.0305549417329785,
-          "growth": -0.00734210660027449,
-          "wagePremium": -0.0287598813974279
-        },
-        {
-          "skill": "SAP Applications",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Business Solutions",
-          "label": "High Value Skill",
-          "frequency": 0.052786,
-          "specificity": 0.0431312241271631,
-          "growth": -0.0334268612046391,
-          "wagePremium": 0.0740727886360535
         },
         {
           "skill": "Multitasking",
@@ -11437,16 +8637,6 @@
           "specificity": 0.0601849499642322,
           "growth": -0.195260807793789,
           "wagePremium": 0.0679863760383428
-        },
-        {
-          "skill": "Physical Inventory",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Inventory and Warehousing",
-          "label": "Declining Skill",
-          "frequency": 0.040731,
-          "specificity": 0.0609761210087831,
-          "growth": -0.215699268738574,
-          "wagePremium": -0.0335837894739517
         },
         {
           "skill": "Computer Literacy",
@@ -11595,91 +8785,11 @@
     },
     "Transportation, Storage, and Distribution Managers": {
       "occupation": "Transportation, Storage, and Distribution Managers",
-      "totalSkills": 29,
+      "totalSkills": 18,
       "overlapCount": 10,
-      "addedCount": 15,
+      "addedCount": 4,
       "droppedCount": 4,
       "pipelineAdded": [
-        {
-          "skill": "Supply Chain Strategy",
-          "category": "Specialization",
-          "subcategory": "Supply Chain Management",
-          "label": "High Value Skill",
-          "frequency": 0.024695,
-          "specificity": 0.0710254638393642,
-          "growth": 0.666216945493794,
-          "wagePremium": 0.352023811706102
-        },
-        {
-          "skill": "Warehouse Operations",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Inventory and Warehousing",
-          "label": "Durable Skill",
-          "frequency": 0.089023,
-          "specificity": 0.134113143693573,
-          "growth": 0.49256050955414,
-          "wagePremium": null
-        },
-        {
-          "skill": "Warehouse Management Systems",
-          "category": "Specialization",
-          "subcategory": "Inventory and Warehousing",
-          "label": "Durable Skill",
-          "frequency": 0.072956,
-          "specificity": 0.112442114938363,
-          "growth": 0.442900051124745,
-          "wagePremium": null
-        },
-        {
-          "skill": "Continuous Improvement Process",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Business Analysis",
-          "label": "High Value Skill",
-          "frequency": 0.158504,
-          "specificity": 0.0324514979048272,
-          "growth": 0.406263586562708,
-          "wagePremium": 0.11095138398583
-        },
-        {
-          "skill": "Key Performance Indicators (KPIs)",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Process Improvement and Optimization",
-          "label": "High Value Skill",
-          "frequency": 0.139604,
-          "specificity": 0.0744782367962443,
-          "growth": 0.386580962252165,
-          "wagePremium": 0.0817069114385422
-        },
-        {
-          "skill": "Lean Manufacturing",
-          "category": "Specialization",
-          "subcategory": "Lean Manufacturing",
-          "label": "High Value Skill",
-          "frequency": 0.056149,
-          "specificity": 0.0493188126448626,
-          "growth": 0.332873236577692,
-          "wagePremium": 0.107699606151372
-        },
-        {
-          "skill": "Supply Chain Planning",
-          "category": "Specialization",
-          "subcategory": "Supply Chain Management",
-          "label": "High Value Skill",
-          "frequency": 0.042357,
-          "specificity": 0.0894610255257735,
-          "growth": 0.282988246996309,
-          "wagePremium": 0.211703581212153
-        },
-        {
-          "skill": "Finance",
-          "category": "Specialization",
-          "subcategory": "General Finance",
-          "label": "High Value Skill",
-          "frequency": 0.090225,
-          "specificity": 0.0343028215483384,
-          "growth": 0.258028587339892,
-          "wagePremium": 0.163965125347111
-        },
         {
           "skill": "Problem Solving",
           "category": "Foundational & Leadership Skills",
@@ -11689,16 +8799,6 @@
           "specificity": 0.00469475179393413,
           "growth": 0.240515655381074,
           "wagePremium": 0.0213632199784748
-        },
-        {
-          "skill": "Auditing",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Auditing",
-          "label": "Durable Skill",
-          "frequency": 0.108413,
-          "specificity": 0.0208776757283871,
-          "growth": 0.221357644153054,
-          "wagePremium": -0.0640949111289787
         },
         {
           "skill": "Planning",
@@ -11721,16 +8821,6 @@
           "wagePremium": null
         },
         {
-          "skill": "Influencing Skills",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Initiative and Leadership",
-          "label": "High Value Skill",
-          "frequency": 0.090138,
-          "specificity": 0.0254524255983811,
-          "growth": -0.0275205369010524,
-          "wagePremium": 0.213471247339227
-        },
-        {
           "skill": "Customer Service",
           "category": "Baseline Applied Skills",
           "subcategory": "Customer Service",
@@ -11739,16 +8829,6 @@
           "specificity": 0.00792087125063962,
           "growth": -0.136155247126798,
           "wagePremium": -0.0170198951910868
-        },
-        {
-          "skill": "Writing",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Writing and Editing",
-          "label": "Declining Skill",
-          "frequency": 0.129236,
-          "specificity": 0.00514552913751261,
-          "growth": -0.266979666760802,
-          "wagePremium": null
         }
       ],
       "pipelineDropped": [
@@ -11797,21 +8877,11 @@
     },
     "Truck Drivers": {
       "occupation": "Truck Drivers",
-      "totalSkills": 30,
+      "totalSkills": 21,
       "overlapCount": 9,
-      "addedCount": 15,
+      "addedCount": 6,
       "droppedCount": 6,
       "pipelineAdded": [
-        {
-          "skill": "No-Touch Freight",
-          "category": "Specialization",
-          "subcategory": "Transportation Operations",
-          "label": "High Value Skill",
-          "frequency": 0.052235,
-          "specificity": 0.709848794957577,
-          "growth": 1.0,
-          "wagePremium": 0.221071068281164
-        },
         {
           "skill": "Load Securement",
           "category": "Core Role-Specific Skills",
@@ -11843,16 +8913,6 @@
           "wagePremium": -0.0203066991483514
         },
         {
-          "skill": "Air Brakes",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Vehicle Repair and Maintenance",
-          "label": "Durable Skill",
-          "frequency": 0.024583,
-          "specificity": 0.127429059360318,
-          "growth": -0.0214186720423334,
-          "wagePremium": -0.0565852630370087
-        },
-        {
           "skill": "Vehicle Inspection",
           "category": "Core Role-Specific Skills",
           "subcategory": "Vehicle Repair and Maintenance",
@@ -11861,36 +8921,6 @@
           "specificity": 0.194044487627896,
           "growth": -0.0445618682869237,
           "wagePremium": -0.132703212872551
-        },
-        {
-          "skill": "Safe Driving",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Transportation Operations",
-          "label": "High Value Skill",
-          "frequency": 0.091949,
-          "specificity": 0.148484451427596,
-          "growth": -0.0741527950984114,
-          "wagePremium": 0.0622597310963731
-        },
-        {
-          "skill": "Forklift Truck",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Heavy Equipment Operation",
-          "label": "Durable Skill",
-          "frequency": 0.087178,
-          "specificity": 0.11580594739646,
-          "growth": -0.11786208686624,
-          "wagePremium": -0.144428621921368
-        },
-        {
-          "skill": "Tires",
-          "category": "Specialization",
-          "subcategory": "Vehicle Repair and Maintenance",
-          "label": "Durable Skill",
-          "frequency": 0.019644,
-          "specificity": 0.0856072859293229,
-          "growth": -0.134245134139926,
-          "wagePremium": -0.0938185159591316
         },
         {
           "skill": "Flatbed Truck Operation",
@@ -11903,16 +8933,6 @@
           "wagePremium": 0.143431868076081
         },
         {
-          "skill": "Commercial Driving",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Transportation Operations",
-          "label": "High Value Skill",
-          "frequency": 0.08576,
-          "specificity": 0.314441816924192,
-          "growth": -0.226793287848055,
-          "wagePremium": 0.0920962315496021
-        },
-        {
           "skill": "Over-The-Road Driving",
           "category": "Specialization",
           "subcategory": "Ground Freight Transportation",
@@ -11921,36 +8941,6 @@
           "specificity": 0.389395496165786,
           "growth": -0.422000928309211,
           "wagePremium": 0.374205765899418
-        },
-        {
-          "skill": "Dropping And Hooking",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Ground Freight Transportation",
-          "label": "Declining Skill",
-          "frequency": 0.005497,
-          "specificity": 0.0853520764826841,
-          "growth": -0.512866015971606,
-          "wagePremium": 0.0785429744434258
-        },
-        {
-          "skill": "Tanker Truck Operation",
-          "category": "Specialization",
-          "subcategory": "Heavy Equipment Operation",
-          "label": "Declining Skill",
-          "frequency": 0.014535,
-          "specificity": 0.100345851325998,
-          "growth": -0.598587570621469,
-          "wagePremium": 0.311266751361561
-        },
-        {
-          "skill": "Freight Handling",
-          "category": "Core Role-Specific Skills",
-          "subcategory": "Material Handling",
-          "label": "Declining Skill",
-          "frequency": 0.011247,
-          "specificity": 0.0823327176825911,
-          "growth": -0.671281198003328,
-          "wagePremium": -0.105004784335651
         }
       ],
       "pipelineDropped": [
@@ -12106,9 +9096,9 @@
     },
     "Assemblers and Fabricators": {
       "roleStatus": "existing",
-      "total": 46,
+      "total": 31,
       "overlap": 9,
-      "added": 26,
+      "added": 11,
       "dropped": 11,
       "newRoleSkill": 0
     },
@@ -12130,9 +9120,9 @@
     },
     "Cashiers": {
       "roleStatus": "existing",
-      "total": 19,
+      "total": 14,
       "overlap": 8,
-      "added": 8,
+      "added": 3,
       "dropped": 3,
       "newRoleSkill": 0
     },
@@ -12146,97 +9136,97 @@
     },
     "Customer Service Managers": {
       "roleStatus": "existing",
-      "total": 40,
+      "total": 20,
       "overlap": 10,
-      "added": 25,
+      "added": 5,
       "dropped": 5,
       "newRoleSkill": 0
     },
     "Customer Service Representatives": {
       "roleStatus": "existing",
-      "total": 35,
+      "total": 24,
       "overlap": 14,
-      "added": 16,
+      "added": 5,
       "dropped": 5,
       "newRoleSkill": 0
     },
     "Cybersecurity Analysts": {
       "roleStatus": "existing",
-      "total": 33,
+      "total": 27,
       "overlap": 11,
-      "added": 14,
+      "added": 8,
       "dropped": 8,
       "newRoleSkill": 0
     },
     "Data Scientists": {
       "roleStatus": "existing",
-      "total": 47,
+      "total": 38,
       "overlap": 16,
-      "added": 20,
+      "added": 11,
       "dropped": 11,
       "newRoleSkill": 0
     },
     "Financial Analysts": {
       "roleStatus": "existing",
-      "total": 39,
+      "total": 34,
       "overlap": 14,
-      "added": 15,
+      "added": 10,
       "dropped": 10,
       "newRoleSkill": 0
     },
     "Financial Managers": {
       "roleStatus": "existing",
-      "total": 40,
+      "total": 27,
       "overlap": 23,
-      "added": 15,
+      "added": 2,
       "dropped": 2,
       "newRoleSkill": 0
     },
     "First-Line Supervisors of Retail Sales Workers": {
       "roleStatus": "existing",
-      "total": 43,
+      "total": 28,
       "overlap": 24,
-      "added": 17,
+      "added": 2,
       "dropped": 2,
       "newRoleSkill": 0
     },
     "Human Resources Specialists": {
       "roleStatus": "existing",
-      "total": 33,
+      "total": 28,
       "overlap": 12,
-      "added": 13,
+      "added": 8,
       "dropped": 8,
       "newRoleSkill": 0
     },
     "Industrial Machinery Mechanics": {
       "roleStatus": "existing",
-      "total": 48,
+      "total": 36,
       "overlap": 10,
-      "added": 25,
+      "added": 13,
       "dropped": 13,
       "newRoleSkill": 0
     },
     "Inspectors, Testers, and Samplers": {
       "roleStatus": "existing",
-      "total": 35,
+      "total": 22,
       "overlap": 12,
-      "added": 18,
+      "added": 5,
       "dropped": 5,
       "newRoleSkill": 0
     },
     "Laborers and Material Movers": {
       "roleStatus": "existing",
-      "total": 31,
+      "total": 27,
       "overlap": 17,
-      "added": 9,
+      "added": 5,
       "dropped": 5,
       "newRoleSkill": 0
     },
     "Maintenance and Repair Workers": {
       "roleStatus": "existing",
-      "total": 57,
+      "total": 44,
       "overlap": 14,
-      "added": 28,
+      "added": 15,
       "dropped": 15,
       "newRoleSkill": 0
     },
@@ -12266,9 +9256,9 @@
     },
     "Packers and Packagers": {
       "roleStatus": "existing",
-      "total": 35,
+      "total": 26,
       "overlap": 14,
-      "added": 15,
+      "added": 6,
       "dropped": 6,
       "newRoleSkill": 0
     },
@@ -12282,65 +9272,65 @@
     },
     "Product Managers": {
       "roleStatus": "existing",
-      "total": 49,
+      "total": 29,
       "overlap": 25,
-      "added": 22,
+      "added": 2,
       "dropped": 2,
       "newRoleSkill": 0
     },
     "Production and Expediting Clerks": {
       "roleStatus": "existing",
-      "total": 33,
+      "total": 30,
       "overlap": 12,
-      "added": 12,
+      "added": 9,
       "dropped": 9,
       "newRoleSkill": 0
     },
     "Project Management Specialists": {
       "roleStatus": "existing",
-      "total": 31,
+      "total": 25,
       "overlap": 13,
-      "added": 12,
+      "added": 6,
       "dropped": 6,
       "newRoleSkill": 0
     },
     "Purchasing Agents": {
       "roleStatus": "existing",
-      "total": 48,
+      "total": 41,
       "overlap": 21,
-      "added": 17,
+      "added": 10,
       "dropped": 10,
       "newRoleSkill": 0
     },
     "Receptionists and Information Clerks": {
       "roleStatus": "existing",
-      "total": 27,
+      "total": 18,
       "overlap": 14,
-      "added": 11,
+      "added": 2,
       "dropped": 2,
       "newRoleSkill": 0
     },
     "Retail Salespersons": {
       "roleStatus": "existing",
-      "total": 38,
+      "total": 32,
       "overlap": 20,
-      "added": 12,
+      "added": 6,
       "dropped": 6,
       "newRoleSkill": 0
     },
     "Sales Managers": {
       "roleStatus": "existing",
-      "total": 35,
+      "total": 23,
       "overlap": 15,
-      "added": 16,
+      "added": 4,
       "dropped": 4,
       "newRoleSkill": 0
     },
     "Sales Representatives": {
       "roleStatus": "existing",
-      "total": 34,
+      "total": 21,
       "overlap": 17,
-      "added": 15,
+      "added": 2,
       "dropped": 2,
       "newRoleSkill": 0
     },
@@ -12354,17 +9344,17 @@
     },
     "Security Guards": {
       "roleStatus": "existing",
-      "total": 34,
+      "total": 19,
       "overlap": 15,
-      "added": 18,
+      "added": 3,
       "dropped": 1,
       "newRoleSkill": 0
     },
     "Shipping & Receiving Clerks": {
       "roleStatus": "existing",
-      "total": 42,
+      "total": 35,
       "overlap": 15,
-      "added": 17,
+      "added": 10,
       "dropped": 10,
       "newRoleSkill": 0
     },
@@ -12378,33 +9368,33 @@
     },
     "Transportation Supervisors": {
       "roleStatus": "existing",
-      "total": 49,
+      "total": 40,
       "overlap": 14,
-      "added": 22,
+      "added": 13,
       "dropped": 13,
       "newRoleSkill": 0
     },
     "Transportation, Storage, and Distribution Managers": {
       "roleStatus": "existing",
-      "total": 29,
+      "total": 18,
       "overlap": 10,
-      "added": 15,
+      "added": 4,
       "dropped": 4,
       "newRoleSkill": 0
     },
     "Truck Drivers": {
       "roleStatus": "existing",
-      "total": 30,
+      "total": 21,
       "overlap": 9,
-      "added": 15,
+      "added": 6,
       "dropped": 6,
       "newRoleSkill": 0
     },
     "Stockers and Order Fillers": {
       "roleStatus": "existing",
-      "total": 46,
+      "total": 27,
       "overlap": 19,
-      "added": 23,
+      "added": 4,
       "dropped": 4,
       "newRoleSkill": 0
     },
@@ -12506,7 +9496,7 @@
   "meta": {
     "sourceFile": "2026.05.13 Skills-First Skills Profiles v2.xlsx",
     "totalOccupations": 40,
-    "totalSkills": 1427,
+    "totalSkills": 1126,
     "lastUpdated": "2026-05-26"
   }
 }
