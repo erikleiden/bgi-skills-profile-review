@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { ChevronDown, ChevronRight, PlusCircle, MinusCircle, RotateCcw, Wrench, Info } from 'lucide-react'
+import { ChevronRight, PlusCircle, MinusCircle, Info } from 'lucide-react'
 import data from '../data/data.json'
 
 const CATEGORY_COLORS = {
@@ -14,12 +14,6 @@ const LABEL_STYLES = {
   'High Value Skill':    { bg: 'bg-amber-100',   text: 'text-amber-800' },
   'High Growth Skill':   { bg: 'bg-sky-100',     text: 'text-sky-800' },
   'Declining Skill':     { bg: 'bg-gray-200',    text: 'text-gray-700' },
-}
-
-const ACTION_ICONS = {
-  removed: { Icon: MinusCircle, color: '#C12035', bg: 'bg-rose-50', border: 'border-rose-200', label: 'Removed' },
-  restored: { Icon: RotateCcw, color: '#059669', bg: 'bg-emerald-50', border: 'border-emerald-200', label: 'Restored' },
-  consolidated: { Icon: Wrench, color: '#E0712A', bg: 'bg-amber-50', border: 'border-amber-200', label: 'Consolidated' },
 }
 
 function fmtPct(v, dec=0) {
@@ -91,27 +85,6 @@ function SkillCard({ skill, kind }) {
   )
 }
 
-function CurationCard({ item }) {
-  const cfg = ACTION_ICONS[item.action] || ACTION_ICONS.removed
-  const { Icon } = cfg
-  return (
-    <div className={`border ${cfg.border} ${cfg.bg} rounded-lg p-3`}>
-      <div className="flex items-start gap-2">
-        <Icon className="h-4 w-4 mt-0.5 flex-shrink-0" style={{color: cfg.color}} />
-        <div className="flex-1">
-          <div className="flex items-center gap-2 flex-wrap">
-            <span className="font-semibold text-gray-900">{item.skill}</span>
-            <span className="text-[10px] uppercase tracking-wider px-1.5 py-0.5 rounded font-bold" style={{color: cfg.color, backgroundColor: 'white'}}>
-              {cfg.label}
-            </span>
-          </div>
-          <div className="text-xs text-gray-700 mt-1">{item.reason}</div>
-        </div>
-      </div>
-    </div>
-  )
-}
-
 export default function ChangelogTab() {
   const occs = data.existingOccupations
   const [selected, setSelected] = useState(occs[0])
@@ -121,14 +94,13 @@ export default function ChangelogTab() {
   const counts = data.counts
 
   const totals = useMemo(() => {
-    let added = 0, dropped = 0, curated = 0
+    let added = 0, dropped = 0
     occs.forEach(o => {
       const d = data.existingDiffs[o]
       added += d.addedCount
       dropped += d.droppedCount
-      curated += d.curation.length
     })
-    return { added, dropped, curated }
+    return { added, dropped }
   }, [occs])
 
   const occIdx = occs.indexOf(selected) + 1
@@ -140,7 +112,7 @@ export default function ChangelogTab() {
         <div className="flex items-center justify-between gap-4 flex-wrap">
           <div>
             <h2 className="text-2xl font-bold">Existing-role updates</h2>
-            <p className="text-sm opacity-90 mt-1">Minimal-change updates to the 30 currently-published profiles. Each role shows the new skills emerging (added), skills retiring (dropped), and the rationale for each change. Most of each role's prior skill list stays exactly as published.</p>
+            <p className="text-sm opacity-90 mt-1">Proposed updates to the 30 currently-published profiles for the 2026 edition. Each role shows the skills added and the skills dropped, with rationale. Everything else on the role stays exactly as published.</p>
           </div>
           <div className="flex gap-3">
             <div className="bg-white/10 rounded p-3 text-center">
@@ -216,7 +188,7 @@ export default function ChangelogTab() {
           </div>
 
           {/* Per-occupation stats row */}
-          <div className="grid grid-cols-2 lg:grid-cols-5 gap-3 mb-3">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-5">
             <div className="bg-white border border-gray-200 rounded-lg p-3">
               <div className="text-xs text-gray-500 uppercase tracking-wide font-medium">Total skills</div>
               <div className="text-2xl font-bold text-bgi-navy mt-0.5">{(counts[selected].overlap + counts[selected].added)}</div>
@@ -234,47 +206,13 @@ export default function ChangelogTab() {
               <div className="text-xs text-rose-700 uppercase tracking-wide font-medium">Dropped</div>
               <div className="text-2xl font-bold text-rose-700 mt-0.5">−{diff.droppedCount}</div>
             </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-3">
-              <div className="text-xs text-bgi-orange uppercase tracking-wide font-medium">Preserved</div>
-              <div className="text-2xl font-bold text-bgi-orange mt-0.5">{diff.preservedCount || 0}</div>
-              <div className="text-[10px] text-gray-400 mt-0.5">kept despite drop proposal</div>
-            </div>
           </div>
-
-          {/* Preserved skills callout */}
-          {diff.preservedCount > 0 && (
-            <details className="mb-5 bg-amber-50 border border-amber-200 rounded-lg group">
-              <summary className="px-4 py-2.5 cursor-pointer text-sm font-semibold text-amber-900 list-none flex items-center gap-2">
-                <ChevronRight className="h-4 w-4 transition-transform group-open:rotate-90" />
-                Pipeline proposed dropping {diff.preservedCount} additional skill{diff.preservedCount === 1 ? '' : 's'} — these stay on the role
-              </summary>
-              <div className="px-4 pb-3 pt-1 text-xs text-amber-900">
-                <div className="flex flex-wrap gap-1.5 mt-1">
-                  {diff.preservedSkills?.map(s => (
-                    <span key={s} className="bg-white border border-amber-300 rounded px-2 py-0.5">{s}</span>
-                  ))}
-                </div>
-              </div>
-            </details>
-          )}
-
-          {/* Curation actions */}
-          {diff.curation.length > 0 && (
-            <section className="mb-6">
-              <h3 className="text-base font-bold text-bgi-orange mb-2 flex items-center gap-2">
-                <Wrench className="h-4 w-4" /> Hand-curation applied to this role ({diff.curation.length})
-              </h3>
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
-                {diff.curation.map((c, i) => <CurationCard key={i} item={c} />)}
-              </div>
-            </section>
-          )}
 
           {/* Two-column: Added | Dropped */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
             <section>
               <h3 className="text-base font-bold text-sky-700 mb-2 flex items-center gap-2">
-                <PlusCircle className="h-4 w-4" /> Added in current vintage ({diff.addedCount})
+                <PlusCircle className="h-4 w-4" /> Added for 2026 edition ({diff.addedCount})
               </h3>
               {diff.pipelineAdded.length === 0 ? (
                 <p className="text-sm text-gray-400 italic">None.</p>
@@ -286,7 +224,7 @@ export default function ChangelogTab() {
             </section>
             <section>
               <h3 className="text-base font-bold text-rose-700 mb-2 flex items-center gap-2">
-                <MinusCircle className="h-4 w-4" /> Dropped from reference vintage ({diff.droppedCount})
+                <MinusCircle className="h-4 w-4" /> Dropped from 2026 edition ({diff.droppedCount})
               </h3>
               {diff.pipelineDropped.length === 0 ? (
                 <p className="text-sm text-gray-400 italic">None.</p>
@@ -306,26 +244,23 @@ export default function ChangelogTab() {
             <thead className="bg-gray-50 text-xs uppercase tracking-wide text-gray-500">
               <tr>
                 <th className="px-4 py-2.5 text-left">Occupation</th>
-                <th className="px-3 py-2.5 text-right">Total</th>
-                <th className="px-3 py-2.5 text-right text-emerald-700">Overlap</th>
+                <th className="px-3 py-2.5 text-right">Total skills</th>
+                <th className="px-3 py-2.5 text-right text-emerald-700">Unchanged</th>
                 <th className="px-3 py-2.5 text-right text-sky-700">Added</th>
                 <th className="px-3 py-2.5 text-right text-rose-600">Dropped</th>
-                <th className="px-3 py-2.5 text-right text-bgi-orange">Curated</th>
                 <th className="px-4 py-2.5"></th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
               {occs.map(occ => {
                 const c = counts[occ]
-                const d = data.existingDiffs[occ]
                 return (
                   <tr key={occ} className="hover:bg-gray-50 cursor-pointer" onClick={() => { setSelected(occ); setView('detail') }}>
                     <td className="px-4 py-2 font-medium text-gray-900">{occ}</td>
-                    <td className="px-3 py-2 text-right font-mono font-bold">{c.total}</td>
+                    <td className="px-3 py-2 text-right font-mono font-bold">{c.overlap + c.added}</td>
                     <td className="px-3 py-2 text-right font-mono text-emerald-700">{c.overlap}</td>
                     <td className="px-3 py-2 text-right font-mono text-sky-700">+{c.added}</td>
                     <td className="px-3 py-2 text-right font-mono text-rose-600">−{c.dropped}</td>
-                    <td className="px-3 py-2 text-right font-mono text-bgi-orange">{d.curation.length || '—'}</td>
                     <td className="px-4 py-2 text-right text-gray-400">
                       <ChevronRight className="h-4 w-4 inline" />
                     </td>
