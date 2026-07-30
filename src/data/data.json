@@ -102,7 +102,7 @@
         },
         {
           "skill": "General Ledger",
-          "category": "Specialization",
+          "category": "Core Role-Specific Skills",
           "subcategory": "General Accounting",
           "definition": "General Ledger refers to the ability to record, organize, and maintain a complete set of financial accounts that summarize business transactions. It supports accurate posting, account reconciliation, and the preparation of reliable financial statements.",
           "utilization": "Accountants & Auditors use the general ledger to ensure transactions are properly classified, posted, and balanced across accounts. They rely on it as the central record to review entries, verify completeness, and support financial reporting and audit work.",
@@ -214,7 +214,7 @@
         },
         {
           "skill": "Writing",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "Writing and Editing",
           "definition": "Writing refers to the ability to organize ideas clearly in written form so others can understand instructions, findings, and decisions. It includes choosing appropriate tone, structure, and detail for reports, memos, emails, and documentation.",
           "utilization": "Accountants & Auditors use writing to prepare financial reports, audit findings, internal notes, and client communications. Clear writing helps them explain issues, document procedures, and support accurate records that others can review and act on.",
@@ -230,7 +230,7 @@
         },
         {
           "skill": "Research",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "General Science and Research",
           "definition": "Research refers to the ability to locate, gather, and review information from reliable sources in order to answer questions, verify facts, and support decisions. It involves comparing evidence, checking accuracy, and organizing findings so they can be used clearly and responsibly.",
           "utilization": "Accountants & Auditors use research to confirm accounting rules, investigate unusual transactions, and gather background for audits or financial reviews. They also consult records, policies, and external references to support accurate reporting and explain findings to others.",
@@ -246,7 +246,7 @@
         },
         {
           "skill": "Budgeting",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "Budget Management",
           "definition": "Budgeting refers to the ability to plan, allocate, and monitor financial resources so spending aligns with organizational goals and expected obligations. It provides a structured framework for controlling costs, setting priorities, and comparing actual results against planned amounts.",
           "utilization": "Accountants & Auditors use budgeting to prepare financial plans, track departmental spending, and support compliance with internal controls. They also review variances, explain differences between planned and actual results, and help management make informed spending decisions.",
@@ -262,7 +262,7 @@
         },
         {
           "skill": "External Auditing",
-          "category": "Specialization",
+          "category": "Core Role-Specific Skills",
           "subcategory": "Auditing",
           "definition": "External Auditing refers to the ability to examine an organization\u2019s financial records, controls, and supporting evidence from an independent perspective. It focuses on verifying that reported information is accurate, compliant, and fairly presented for outside stakeholders.",
           "utilization": "Accountants & Auditors use external auditing to review statements, test records, and assess whether reporting follows required standards. They also document findings, communicate exceptions, and support confidence in the organization\u2019s financial disclosures.",
@@ -278,7 +278,7 @@
         },
         {
           "skill": "Account Reconciliation",
-          "category": "Baseline Applied Skills",
+          "category": "Core Role-Specific Skills",
           "subcategory": "General Accounting",
           "definition": "Account Reconciliation refers to the process of comparing financial records from different sources to confirm that balances match and differences are identified. It helps ensure that accounts are accurate, complete, and ready for reporting.",
           "utilization": "Accountants & Auditors use account reconciliation to verify ledger balances, resolve discrepancies, and support reliable financial statements. They apply it regularly to maintain record integrity and detect errors or unusual transactions.",
@@ -310,7 +310,7 @@
         },
         {
           "skill": "Internal Auditing",
-          "category": "Specialization",
+          "category": "Core Role-Specific Skills",
           "subcategory": "Auditing",
           "definition": "Internal Auditing refers to the ability to examine an organization\u2019s controls, records, and procedures to confirm they are working as intended and to identify weaknesses that could affect accuracy, compliance, or efficiency. It supports dependable operations by testing processes, documenting findings, and recommending corrective actions.",
           "utilization": "Accountants & Auditors use internal auditing to review financial records, evaluate control procedures, and verify that transactions are properly authorized and recorded. They also communicate findings clearly so management can address gaps, strengthen oversight, and improve the reliability of reporting.",
@@ -326,7 +326,7 @@
         },
         {
           "skill": "Analytical Skills",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "Critical Thinking and Problem Solving",
           "definition": "Analytical Skills refers to the ability to examine information carefully, identify patterns, and separate relevant facts from noise. It supports sound judgment by helping a person interpret evidence, compare alternatives, and draw clear conclusions from complex or incomplete situations.",
           "utilization": "Accountants & Auditors use analytical skills to review records, spot inconsistencies, and evaluate whether financial information is accurate and complete. They also apply this skill when interpreting reports, tracing errors, and explaining findings in a clear, organized way.",
@@ -358,7 +358,7 @@
         },
         {
           "skill": "Forecasting",
-          "category": "Baseline Applied Skills",
+          "category": "Core Role-Specific Skills",
           "subcategory": "Data Analysis",
           "definition": "Forecasting refers to the ability to anticipate future financial conditions, cash needs, and reporting outcomes by using current information and past patterns. It helps accountants and auditors plan work, identify likely variances, and support timely decisions.",
           "utilization": "Accountants & Auditors use forecasting to estimate budgets, expected expenses, and reporting impacts across accounting periods. They also rely on it to flag unusual trends, prepare for deadlines, and communicate likely financial results to stakeholders.",
@@ -390,7 +390,7 @@
         },
         {
           "skill": "Financial Data",
-          "category": "Baseline Applied Skills",
+          "category": "Core Role-Specific Skills",
           "subcategory": "Financial Analysis",
           "definition": "Financial Data refers to the ability to collect, organize, and interpret records such as transactions, balances, revenues, expenses, and supporting documents. It provides a reliable basis for reporting, monitoring performance, and confirming that financial information is complete and accurate.",
           "utilization": "Accountants & Auditors use financial data to prepare statements, verify entries, and check whether records align with source documents. They also rely on it to identify discrepancies, support compliance, and present clear information for internal review or external audit.",
@@ -422,7 +422,7 @@
         },
         {
           "skill": "QuickBooks (Accounting Software)",
-          "category": "Baseline Applied Skills",
+          "category": "Specialization",
           "subcategory": "Accounting and Finance Software",
           "definition": "QuickBooks (Accounting Software) refers to the ability to record, organize, and monitor financial transactions in a digital accounting system. It supports invoicing, expense tracking, bank reconciliation, and basic reporting for day-to-day bookkeeping tasks.",
           "utilization": "Accountants & Auditors use QuickBooks to maintain accurate ledgers, process routine entries, and prepare records for review. They also use it to reconcile accounts, support financial statements, and keep documentation organized for audits and compliance work.",
@@ -470,7 +470,7 @@
         },
         {
           "skill": "Variance Analysis",
-          "category": "Baseline Applied Skills",
+          "category": "Core Role-Specific Skills",
           "subcategory": "Financial Analysis",
           "definition": "Variance Analysis refers to the ability to compare actual financial results with budgets, forecasts, or prior periods and identify the reasons behind differences. It helps accountants and auditors spot unusual trends, explain deviations, and support accurate reporting and control.",
           "utilization": "Accountants & Auditors use variance analysis to review account balances, expense patterns, and revenue movements for consistency and accuracy. They document explanations, investigate exceptions, and help management understand whether differences reflect timing, error, or operational change.",
@@ -668,7 +668,7 @@
         },
         {
           "skill": "Research",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "General Science and Research",
           "definition": "Description of the skill: Research refers to the ability to locate, review, and compare information from reliable sources to answer questions or verify facts. It supports careful judgment by helping workers confirm details, resolve discrepancies, and understand records before taking action.",
           "utilization": "Bookkeepers and Auditing Clerks use research to verify transaction details, check supporting documents, and clarify unfamiliar account entries. They consult records, policies, and source materials to resolve inconsistencies and ensure bookkeeping and audit files are accurate.",
@@ -796,7 +796,7 @@
         },
         {
           "skill": "Financial Data",
-          "category": "Baseline Applied Skills",
+          "category": "Core Role-Specific Skills",
           "subcategory": "Financial Analysis",
           "definition": "Financial Data refers to the ability to record, organize, and interpret monetary information from transactions, accounts, and supporting documents. It includes maintaining accurate figures, spotting inconsistencies, and preserving clear records that support reporting, reconciliation, and compliance.",
           "utilization": "Bookkeepers and Auditing Clerks use financial data to enter transactions, verify account balances, and compare records against receipts or statements. They rely on it to keep ledgers current, support audits, and ensure documentation is complete and accurate.",
@@ -828,7 +828,7 @@
         },
         {
           "skill": "Payroll Processing",
-          "category": "Baseline Applied Skills",
+          "category": "Core Role-Specific Skills",
           "subcategory": "Payroll",
           "definition": "Payroll Processing refers to the ability to calculate wages, apply deductions, and prepare employee pay accurately and on schedule. It also includes maintaining payroll records and ensuring payments align with established policies and reporting requirements.",
           "utilization": "Bookkeepers and Auditing Clerks use payroll processing to enter time, verify pay details, and record payroll transactions in the accounts. They also help reconcile payroll records with supporting documents so financial files remain complete and consistent.",
@@ -892,7 +892,7 @@
         },
         {
           "skill": "Full Cycle Accounting",
-          "category": "Specialization",
+          "category": "Core Role-Specific Skills",
           "subcategory": "General Accounting",
           "definition": "Full Cycle Accounting refers to the ability to manage accounting activities from initial transaction recording through account reconciliation and period-end close. It includes maintaining complete records, ensuring entries are accurate, and keeping financial information organized for routine reporting and review.",
           "utilization": "Bookkeepers and Auditing Clerks use full cycle accounting to record transactions, post entries, reconcile accounts, and support closing tasks. They also help maintain orderly books so financial records are complete, traceable, and ready for internal checks or audit support.",
@@ -1010,7 +1010,7 @@
         },
         {
           "skill": "Planning",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "Initiative and Leadership",
           "definition": "Planning refers to the ability to set objectives, organize tasks, and arrange resources in a logical sequence to reach desired outcomes. It involves anticipating needs, coordinating timing, and adjusting actions so work proceeds efficiently and goals remain clear.",
           "utilization": "Business Operations Specialists use planning to coordinate workflows, align activities across teams, and keep projects moving on schedule. They also use it to prepare for routine changes, manage competing priorities, and support smooth day-to-day operations.",
@@ -1026,7 +1026,7 @@
         },
         {
           "skill": "Writing",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "Writing and Editing",
           "definition": "Writing refers to the ability to organize ideas clearly in words so others can understand instructions, updates, decisions, and expectations. It supports accurate communication across emails, reports, procedures, and other business documents.",
           "utilization": "Business Operations Specialists use writing to document processes, explain operational changes, and communicate with teams and stakeholders. They produce clear messages that support coordination, consistency, and follow-through across daily business activities.",
@@ -1090,7 +1090,7 @@
         },
         {
           "skill": "Research",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "General Science and Research",
           "definition": "Research refers to the ability to gather, review, and organize information from reliable sources to answer questions or support decisions. It includes identifying relevant facts, comparing findings, and summarizing what matters for a specific business need.",
           "utilization": "Business Operations Specialists use research to investigate procedures, policies, market conditions, and internal issues before recommending actions. They rely on it to support clearer problem solving, better coordination across teams, and more informed operational decisions.",
@@ -1122,7 +1122,7 @@
         },
         {
           "skill": "Coordinating",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "Project Management",
           "definition": "Coordinating refers to the ability to align people, tasks, and timing so work moves smoothly toward a shared result. It involves organizing activities, communicating expectations, and adjusting plans when priorities or dependencies change.",
           "utilization": "Business Operations Specialists use coordinating to keep projects, procedures, and cross-functional requests moving in the right order. They help different teams stay informed, resolve scheduling conflicts, and ensure routine operations are completed without unnecessary delays.",
@@ -1138,7 +1138,7 @@
         },
         {
           "skill": "Key Performance Indicators (KPIs)",
-          "category": "Baseline Applied Skills",
+          "category": "Core Role-Specific Skills",
           "subcategory": "Process Improvement and Optimization",
           "definition": "Key Performance Indicators (KPIs) refers to the ability to identify and track the measures that show whether work is meeting business goals. It involves using agreed indicators to monitor performance, compare results over time, and highlight areas needing attention.",
           "utilization": "Business Operations Specialists use key performance indicators (KPIs) to monitor process performance, service levels, and progress toward operational targets. They review indicator trends to support decisions, coordinate improvements, and keep teams aligned on priorities.",
@@ -1154,7 +1154,7 @@
         },
         {
           "skill": "Auditing",
-          "category": "Core Role-Specific Skills",
+          "category": "Specialization",
           "subcategory": "Auditing",
           "definition": "Auditing refers to the systematic review of records, processes, and controls to verify accuracy, compliance, and consistency with established requirements. It helps identify errors, gaps, and irregularities so organizations can improve reliability and accountability.",
           "utilization": "Business Operations Specialists use auditing to examine workflows, documentation, and internal procedures for compliance and operational accuracy. They use it to support process improvement by identifying weak controls, incomplete records, and practices that need correction.",
@@ -1170,7 +1170,7 @@
         },
         {
           "skill": "Data Analysis",
-          "category": "Baseline Applied Skills",
+          "category": "Core Role-Specific Skills",
           "subcategory": "Data Analysis",
           "definition": "Data Analysis refers to the ability to collect, organize, and interpret information so patterns, trends, and exceptions become clear. It supports informed decisions by turning raw business data into practical insights that can guide planning, monitoring, and problem solving.",
           "utilization": "Business Operations Specialists use data analysis to review operational results, identify process issues, and track performance against goals. They rely on findings to support reporting, improve workflows, and help managers make timely decisions.",
@@ -1186,7 +1186,7 @@
         },
         {
           "skill": "Analytical Skills",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "Critical Thinking and Problem Solving",
           "definition": "Analytical Skills refers to the ability to examine information carefully, identify patterns, and draw sound conclusions that support effective decisions. It also includes breaking complex problems into manageable parts and evaluating options with clear reasoning.",
           "utilization": "Business Operations Specialists use analytical skills to review processes, spot inefficiencies, and interpret operational information. They apply this insight to support improvements, coordinate actions across teams, and help keep business activities running smoothly.",
@@ -1202,7 +1202,7 @@
         },
         {
           "skill": "Process Improvement",
-          "category": "Foundational & Leadership Skills",
+          "category": "Core Role-Specific Skills",
           "subcategory": "Process Improvement and Optimization",
           "definition": "Process Improvement refers to the ability to examine how work is done, identify inefficiencies, and adjust steps so tasks are completed more smoothly and consistently. It focuses on removing waste, clarifying responsibilities, and strengthening everyday operations without changing the core purpose of the work.",
           "utilization": "Business Operations Specialists use process improvement to refine workflows, reduce delays, and make routine procedures easier for teams to follow. They help align day-to-day operations with business goals by spotting recurring problems and recommending practical changes.",
@@ -1352,7 +1352,7 @@
         },
         {
           "skill": "Operating Systems",
-          "category": "Baseline Applied Skills",
+          "category": "Core Role-Specific Skills",
           "subcategory": "Computer Science",
           "definition": "Operating Systems refers to the ability to use and understand the software that manages a computer\u2019s hardware, files, applications, and user access. It includes navigating system settings, recognizing basic functions, and keeping devices usable for everyday work.",
           "utilization": "Computer User Support Specialists use operating systems to diagnose user problems, adjust settings, and restore normal computer function. They rely on system features to manage accounts, install or remove software, and guide users through routine troubleshooting steps.",
@@ -1448,7 +1448,7 @@
         },
         {
           "skill": "Writing",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "Writing and Editing",
           "definition": "Writing refers to the ability to communicate information clearly, accurately, and in an organized way through text. It includes choosing appropriate wording, structuring messages, and documenting details so others can understand instructions, updates, or explanations without confusion.",
           "utilization": "Computer User Support Specialists use writing to document user issues, record troubleshooting steps, and explain solutions in clear language. They also write emails, knowledge base notes, and ticket updates that help users and coworkers follow the support process.",
@@ -1512,7 +1512,7 @@
         },
         {
           "skill": "Customer Support",
-          "category": "Foundational & Leadership Skills",
+          "category": "Core Role-Specific Skills",
           "subcategory": "Customer Service",
           "definition": "Customer Support refers to the ability to respond to user questions, listen carefully to problems, and provide clear, helpful guidance. It also includes maintaining a professional tone while resolving concerns and making sure users feel understood and supported.",
           "utilization": "Computer User Support Specialists use customer support to diagnose user issues, explain solutions, and guide people through common computer problems. They also rely on it to keep interactions calm, accurate, and focused on restoring access or functionality quickly.",
@@ -1674,7 +1674,7 @@
     },
     "Computer and Information Systems Managers": {
       "name": "Computer and Information Systems Managers",
-      "totalSkills": 28,
+      "totalSkills": 27,
       "skills": [
         {
           "skill": "Communication",
@@ -1710,7 +1710,7 @@
         },
         {
           "skill": "Planning",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "Initiative and Leadership",
           "definition": "Planning refers to the ability to set goals, organize tasks, and sequence actions so work can be completed efficiently and on time. It involves anticipating needs, allocating resources, and preparing for likely obstacles before they disrupt progress.",
           "utilization": "Computer and Information Systems Managers use planning to guide technology projects, staffing, budgets, and system upgrades so business needs are met without unnecessary disruption. They also use it to coordinate timelines, prioritize requests, and align technical work with organizational goals.",
@@ -1726,7 +1726,7 @@
         },
         {
           "skill": "Project Management",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "Project Management",
           "definition": "Project Management refers to the ability to plan, organize, and coordinate work so a defined objective is completed on time and within scope. It includes setting priorities, assigning responsibilities, tracking progress, and adjusting plans when conditions change.",
           "utilization": "Computer and Information Systems Managers use project management to guide technology initiatives from planning through implementation. They align teams, schedules, budgets, and system requirements so software, infrastructure, and service changes support organizational goals.",
@@ -1790,7 +1790,7 @@
         },
         {
           "skill": "Governance",
-          "category": "Foundational & Leadership Skills",
+          "category": "Core Role-Specific Skills",
           "subcategory": "Business Management",
           "definition": "Governance refers to the ability to establish decision rights, policies, and oversight practices that guide how technology resources are directed and controlled. It ensures responsibilities are clear, standards are followed, and actions align with organizational goals and risk expectations.",
           "utilization": "Computer and Information Systems Managers use governance to coordinate policies for systems, data access, security, and service priorities. They help ensure technology decisions are consistent, accountable, and aligned with business needs, compliance requirements, and operational continuity.",
@@ -1806,7 +1806,7 @@
         },
         {
           "skill": "Presentations",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "Communication",
           "definition": "Presentations refers to the ability to organize information into a clear spoken or visual message for a specific audience. It includes structuring key points, using supporting materials, and delivering ideas in a way that is understandable, persuasive, and appropriate to the setting.",
           "utilization": "Computer and Information Systems Managers use presentations to explain technology plans, system changes, and project priorities to executives, staff, and vendors. They also use them to gain support, clarify decisions, and communicate progress in a concise and organized way.",
@@ -1838,7 +1838,7 @@
         },
         {
           "skill": "Budgeting",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "Budget Management",
           "definition": "Budgeting refers to the ability to plan, allocate, and monitor financial resources so work can be completed within approved limits. It helps organizations prioritize spending, control costs, and align available funds with operational goals and expected outcomes.",
           "utilization": "Computer and Information Systems Managers use budgeting to plan technology spending, justify system investments, and track costs across projects and departments. They balance staffing, hardware, software, and service needs while keeping initiatives aligned with organizational priorities and funding limits.",
@@ -1854,7 +1854,7 @@
         },
         {
           "skill": "Research",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "General Science and Research",
           "definition": "Research refers to the ability to gather, review, and interpret information from credible sources to answer questions or support decisions. It involves identifying relevant evidence, comparing findings, and organizing what is learned into useful insights.",
           "utilization": "Computer and Information Systems Managers use research to evaluate technologies, understand user needs, and compare vendor options before making recommendations. They also rely on research to track industry trends, assess risks, and support planning for system improvements.",
@@ -2093,24 +2093,8 @@
           "wagePremium": -0.0746166554151103
         },
         {
-          "skill": "Data Governance",
-          "category": "Specialization",
-          "subcategory": "Data Management",
-          "definition": "Data Governance refers to the practices that define how data is owned, protected, documented, shared, and kept consistent across an organization. It establishes rules and accountability so information remains accurate, secure, and usable for business decisions and operations.",
-          "utilization": "Computer and Information Systems Managers use Data Governance to set standards for data quality, access, retention, and security across systems. They coordinate policies with technical teams and business leaders so information supports reliable operations, compliance, and strategic planning.",
-          "level1": "At Level 1 Proficiency, workers can follow established data rules, apply access procedures, and keep records aligned with basic governance requirements. They can identify obvious data issues and route them to the appropriate team for review or correction.",
-          "level2": "At Level 2 Proficiency, workers can apply governance standards across multiple systems, monitor compliance with data handling rules, and resolve routine issues with data definitions or access. They can coordinate with stakeholders to keep policies consistent and support dependable information use.",
-          "level3": "At Level 3 Proficiency, workers can lead data governance practices across departments, align policies with organizational goals, and ensure consistent enforcement of standards. They can manage complex governance issues, guide system-wide adoption, and maintain dependable oversight of data ownership and accountability.",
-          "label": "High Value Skill",
-          "frequency": 0.067759,
-          "specificity": 0.0855843439350631,
-          "growth": 0.74419037341619,
-          "growthRaw": 0.74419037341619,
-          "wagePremium": 0.0725105660192269
-        },
-        {
           "skill": "Enterprise Architecture",
-          "category": "Specialization",
+          "category": "Core Role-Specific Skills",
           "subcategory": "Enterprise Application Management",
           "definition": "Enterprise Architecture refers to the ability to define and organize an organization\u2019s business processes, information, applications, and technology into a coherent structure. It helps align current systems and future investments so technology decisions support long-term operational goals.",
           "utilization": "Computer and Information Systems Managers use Enterprise Architecture to coordinate technology strategy across departments and keep systems aligned with business priorities. They guide platform choices, integration planning, and modernization efforts so infrastructure changes support service delivery and organizational goals.",
@@ -2164,7 +2148,7 @@
         },
         {
           "skill": "Project Management",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "Project Management",
           "definition": "Project Management refers to the ability to plan, organize, and coordinate work so tasks are completed on time and within scope. It involves setting priorities, assigning responsibilities, tracking progress, and adjusting plans when conditions change.",
           "utilization": "Management Analysts use project management to structure improvement initiatives, coordinate stakeholders, and keep recommendations moving from analysis to implementation. They help define milestones, monitor deadlines, and maintain communication so changes are delivered smoothly.",
@@ -2244,7 +2228,7 @@
         },
         {
           "skill": "Planning",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "Initiative and Leadership",
           "definition": "Planning refers to the ability to set objectives, organize tasks, and sequence actions so work moves toward a desired outcome. It helps identify priorities, allocate time, and anticipate dependencies before execution begins.",
           "utilization": "Management Analysts use planning to structure assessments, coordinate stakeholder input, and organize recommendations into workable steps. They use it to manage timelines, align activities with client goals, and prepare clear implementation paths.",
@@ -2260,7 +2244,7 @@
         },
         {
           "skill": "Writing",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "Writing and Editing",
           "definition": "Description of the skill: Writing refers to the ability to organize ideas clearly in words so others can understand, act on, or evaluate them. It includes choosing appropriate tone, structure, and detail for different audiences and purposes.",
           "utilization": "Management Analysts use writing to document findings, explain recommendations, and present process improvements to clients and internal teams. They also prepare concise reports, memos, and summaries that help decision makers understand issues and next steps.",
@@ -2372,7 +2356,7 @@
         },
         {
           "skill": "Analytical Skills",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "Critical Thinking and Problem Solving",
           "definition": "Analytical Skills refers to the ability to examine information carefully, identify patterns, and separate relevant facts from noise. It supports clear reasoning, sound judgment, and practical problem solving in complex situations.",
           "utilization": "Management Analysts use analytical skills to review business processes, compare current performance with desired outcomes, and identify where improvements are needed. They turn observations into practical recommendations that help organizations operate more effectively.",
@@ -2388,7 +2372,7 @@
         },
         {
           "skill": "Business Systems Analysis",
-          "category": "Specialization",
+          "category": "Core Role-Specific Skills",
           "subcategory": "Business Analysis",
           "definition": "Business Systems Analysis refers to the ability to examine how people, processes, and information flow through an organization and identify where systems support or hinder work. It translates business needs into clear requirements that guide improvements, align operations, and reduce confusion across teams.",
           "utilization": "Management Analysts use business systems analysis to review current practices, identify gaps between goals and actual workflows, and recommend changes that improve efficiency. They help leaders understand how system changes affect departments, procedures, and service delivery.",
@@ -2404,7 +2388,7 @@
         },
         {
           "skill": "Consulting",
-          "category": "Foundational & Leadership Skills",
+          "category": "Core Role-Specific Skills",
           "subcategory": "Business Consulting",
           "definition": "Consulting refers to the ability to assess a client\u2019s situation, identify needs, and recommend practical actions that improve performance or solve problems. It combines structured inquiry, clear communication, and tailored advice so organizations can make informed decisions and implement workable changes.",
           "utilization": "Management Analysts use consulting to gather information from stakeholders, understand current workflows, and translate findings into recommendations for better operations. They rely on it to present options clearly, support change efforts, and help managers choose solutions that fit organizational goals.",
@@ -2420,7 +2404,7 @@
         },
         {
           "skill": "Business Operations",
-          "category": "Specialization",
+          "category": "Core Role-Specific Skills",
           "subcategory": "Business Operations",
           "definition": "Business Operations refers to the ability to coordinate day-to-day organizational activities so work moves efficiently, consistently, and in line with business goals. It includes understanding workflows, resources, and procedures that keep services, products, and internal functions running smoothly.",
           "utilization": "Management Analysts use Business Operations to review how tasks are performed, identify process gaps, and recommend practical improvements. They rely on this skill to align procedures, support better coordination, and help organizations operate more effectively.",
@@ -2452,7 +2436,7 @@
         },
         {
           "skill": "Change Management",
-          "category": "Foundational & Leadership Skills",
+          "category": "Core Role-Specific Skills",
           "subcategory": "Business Management",
           "definition": "Change Management refers to the ability to guide people, processes, and communication through organizational transitions so new ways of working are adopted smoothly. It includes preparing stakeholders, addressing resistance, and helping changes become part of routine practice.",
           "utilization": "Management Analysts use change management to support process redesign, policy updates, and organizational improvements. They help leaders explain the need for change, coordinate affected teams, and reduce disruption while new procedures are introduced.",
@@ -2506,7 +2490,7 @@
         },
         {
           "skill": "Writing",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "Writing and Editing",
           "definition": "Writing refers to the ability to organize ideas clearly and express them in precise, readable language for a specific audience and purpose. It includes drafting, revising, and tailoring content so information is accurate, coherent, and persuasive.",
           "utilization": "Market Research Analysts / Marketing Specialists use writing to turn research findings, campaign ideas, and audience insights into reports, summaries, and promotional materials. Strong writing helps them communicate recommendations clearly to colleagues, clients, and decision makers.",
@@ -2522,7 +2506,7 @@
         },
         {
           "skill": "Research",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "General Science and Research",
           "definition": "Research refers to the ability to gather, review, and organize information from reliable sources to answer questions or support decisions. It includes identifying relevant facts, comparing findings, and drawing clear conclusions that can guide planning or problem solving.",
           "utilization": "Market Research Analysts / Marketing Specialists use research to understand customers, competitors, and market conditions before recommending actions. They collect background information, review trends, and summarize findings so campaigns, positioning, and messaging are based on evidence rather than guesswork.",
@@ -2618,7 +2602,7 @@
         },
         {
           "skill": "Customer Relationship Management",
-          "category": "Core Role-Specific Skills",
+          "category": "Specialization",
           "subcategory": "Customer Relationship Management (CRM)",
           "definition": "Customer Relationship Management refers to the practices used to organize, track, and strengthen interactions with customers across the relationship lifecycle. It helps teams maintain consistent communication, understand customer needs, and support retention through timely follow-up and responsive service.",
           "utilization": "Market Research Analysts / Marketing Specialists use Customer Relationship Management to keep customer contact information, interaction history, and campaign responses organized. This supports targeted outreach, coordinated follow-up, and a clearer understanding of customer preferences and engagement patterns.",
@@ -2764,7 +2748,7 @@
     },
     "Office & Admin Supervisors": {
       "name": "Office & Admin Supervisors",
-      "totalSkills": 24,
+      "totalSkills": 23,
       "skills": [
         {
           "skill": "Customer Service",
@@ -2896,7 +2880,7 @@
         },
         {
           "skill": "Multitasking",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "Personal Attributes",
           "definition": "Description of the skill: Multitasking refers to the ability to handle several tasks, requests, or interruptions within the same work period while keeping work organized and accurate. It involves shifting attention efficiently, prioritizing what needs immediate action, and maintaining steady progress on routine responsibilities.",
           "utilization": "Office & Admin Supervisors use multitasking to oversee daily office operations while responding to staff questions, scheduling needs, and administrative issues. They balance competing demands so work continues smoothly, deadlines are met, and support remains consistent across the team.",
@@ -2944,7 +2928,7 @@
         },
         {
           "skill": "Writing",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "Writing and Editing",
           "definition": "Writing refers to the ability to communicate information clearly, accurately, and in an organized way through written words. It includes drafting messages, reports, instructions, and records that help others understand tasks, decisions, and expectations.",
           "utilization": "Office & Admin Supervisors use writing to prepare schedules, notices, procedures, and internal communications that keep daily operations organized. They also write clear instructions, summaries, and records that support staff coordination and consistent office administration.",
@@ -2959,24 +2943,8 @@
           "wagePremium": 0.00670559207725007
         },
         {
-          "skill": "Planning",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Initiative and Leadership",
-          "definition": "Planning refers to the ability to set priorities, organize tasks, and arrange resources so work can be completed efficiently and on time. It involves anticipating needs, sequencing activities, and adjusting schedules when conditions change.",
-          "utilization": "Office & Admin Supervisors use planning to coordinate daily office operations, assign tasks, and keep administrative work moving smoothly. They also plan schedules, deadlines, and coverage so staff support remains consistent and disruptions are minimized.",
-          "level1": "At Level 1 Proficiency, workers can follow simple plans, organize routine tasks, and keep track of basic deadlines. They handle familiar assignments in the order given and make small adjustments when priorities are clearly stated.",
-          "level2": "At Level 2 Proficiency, workers can plan several routine activities at once, balance competing deadlines, and coordinate work with others. They adjust schedules or task order when needed and keep operations on track with limited supervision.",
-          "level3": "At Level 3 Proficiency, workers can develop dependable plans for office operations, anticipate staffing or workflow needs, and revise priorities smoothly when conditions shift. They coordinate multiple responsibilities with confidence and keep administrative work aligned with broader office goals.",
-          "label": "High Value Skill",
-          "frequency": 0.134918,
-          "specificity": 0.0112962617896222,
-          "growth": 0.0142343226228435,
-          "growthRaw": 0.0142343226228435,
-          "wagePremium": 0.0800602802711452
-        },
-        {
           "skill": "Time Management",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "Initiative and Leadership",
           "definition": "Time Management refers to the ability to plan, prioritize, and allocate working hours so tasks are completed efficiently and on schedule. It helps people balance competing demands, meet deadlines, and maintain steady productivity without unnecessary delays.",
           "utilization": "Office & Admin Supervisors use time management to coordinate staff schedules, monitor daily workflows, and keep office operations moving smoothly. They also adjust priorities when urgent requests arise, ensuring routine duties and administrative deadlines are handled reliably.",
@@ -3056,7 +3024,7 @@
         },
         {
           "skill": "Project Management",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "Project Management",
           "definition": "Project Management refers to the ability to plan, organize, and coordinate tasks, people, and timelines so work is completed efficiently and on schedule. It includes setting priorities, tracking progress, and adjusting plans when needs or conditions change.",
           "utilization": "Office & Admin Supervisors use project management to coordinate office workflows, assign responsibilities, and keep administrative tasks aligned with deadlines. They help ensure meetings, records, communications, and routine operations move smoothly across the team.",
@@ -3120,7 +3088,7 @@
         },
         {
           "skill": "Key Performance Indicators (KPIs)",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "Process Improvement and Optimization",
           "definition": "Key Performance Indicators (KPIs) refers to the ability to identify, track, and interpret the measures that show whether work is meeting expected standards. It helps connect daily tasks to broader goals by turning performance targets into clear, observable results.",
           "utilization": "Office & Admin Supervisors use key performance indicators (KPIs) to monitor team productivity, service timeliness, and completion of routine administrative duties. They rely on these measures to spot delays, support staff coordination, and keep office operations aligned with expectations.",
@@ -3222,7 +3190,7 @@
         },
         {
           "skill": "Legal Discovery",
-          "category": "Specialization",
+          "category": "Core Role-Specific Skills",
           "subcategory": "Legal Support",
           "definition": "Legal Discovery refers to the process of identifying, collecting, reviewing, and organizing information that may be requested or exchanged in litigation. It includes handling documents, correspondence, and other records so attorneys can assess relevance, privilege, and compliance with court requirements.",
           "utilization": "Paralegals and Legal Assistants use legal discovery to support attorneys by gathering records, tracking requests, and preparing materials for review and production. They help maintain organized files, monitor deadlines, and ensure discovery responses are complete, accurate, and properly documented.",
@@ -3238,7 +3206,7 @@
         },
         {
           "skill": "Writing",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "Writing and Editing",
           "definition": "Writing refers to the ability to organize ideas clearly in written form so information is accurate, readable, and suited to the audience. It includes drafting, revising, and formatting text to communicate facts, instructions, or arguments effectively.",
           "utilization": "Paralegals and Legal Assistants use writing to prepare correspondence, summaries, pleadings, and other legal documents under attorney direction. Strong writing helps ensure records are precise, deadlines are supported, and case materials are presented in a professional manner.",
@@ -3430,7 +3398,7 @@
         },
         {
           "skill": "Case Management",
-          "category": "Baseline Applied Skills",
+          "category": "Core Role-Specific Skills",
           "subcategory": "Nursing and Patient Care",
           "definition": "Case Management refers to the ability to organize, track, and coordinate legal matters from intake through resolution. It includes maintaining accurate records, monitoring deadlines, and ensuring that case information is accessible and current for attorneys and support staff.",
           "utilization": "Paralegals and Legal Assistants use case management to keep files orderly, update case status, and support attorneys with timely information. They help manage deadlines, document requests, and communication so matters move forward efficiently and nothing important is missed.",
@@ -3676,7 +3644,7 @@
         },
         {
           "skill": "Writing",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "Writing and Editing",
           "definition": "Writing refers to the ability to communicate information clearly, accurately, and appropriately in written form for different audiences and purposes. It includes drafting messages, organizing ideas, and choosing language that supports understanding and professional tone.",
           "utilization": "Secretaries & Administrative Assistants use writing to prepare emails, memos, meeting notes, and routine correspondence. They also use it to record information accurately, relay instructions, and maintain clear communication across the office.",
@@ -3724,7 +3692,7 @@
         },
         {
           "skill": "Coordinating",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "Project Management",
           "definition": "Coordinating refers to the ability to organize people, tasks, schedules, and information so work moves smoothly and deadlines are met. It involves aligning priorities, communicating updates, and adjusting plans when conditions change.",
           "utilization": "Secretaries and Administrative Assistants use coordinating skills to manage calendars, meetings, travel, and office communications so daily operations stay orderly. They also align requests from managers, staff, and visitors so information and resources reach the right people on time.",
@@ -3772,7 +3740,7 @@
         },
         {
           "skill": "Time Management",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": "Initiative and Leadership",
           "definition": "Time Management refers to the ability to plan, prioritize, and allocate working hours so tasks are completed on schedule and interruptions are handled without losing control of deadlines. It helps workers balance routine duties, urgent requests, and shifting demands efficiently.",
           "utilization": "Secretaries & Administrative Assistants use time management to coordinate calendars, prepare materials, and keep meetings, calls, and office tasks moving smoothly. They organize competing requests, maintain deadlines, and adjust schedules when priorities change.",
@@ -5611,11 +5579,11 @@
     },
     "Computer and Information Systems Managers": {
       "roleStatus": "new",
-      "total": 28,
+      "total": 27,
       "overlap": 0,
       "added": 0,
       "dropped": 0,
-      "newRoleSkill": 28
+      "newRoleSkill": 27
     },
     "Management Analysts": {
       "roleStatus": "new",
@@ -5635,11 +5603,11 @@
     },
     "Office & Admin Supervisors": {
       "roleStatus": "new",
-      "total": 24,
+      "total": 23,
       "overlap": 0,
       "added": 0,
       "dropped": 0,
-      "newRoleSkill": 24
+      "newRoleSkill": 23
     },
     "Paralegals and Legal Assistants": {
       "roleStatus": "new",
@@ -5747,7 +5715,7 @@
   "meta": {
     "sourceFile": "2026.05.13 Skills-First Skills Profiles v3.xlsx (rebuilt on 2025 published base)",
     "totalOccupations": 40,
-    "totalSkills": 1046,
+    "totalSkills": 1044,
     "lastUpdated": "2026-05-26"
   }
 }
