@@ -174,9 +174,11 @@ function DetailPanel({ skill, roleName }) {
             <div className="text-[9px] uppercase tracking-wide text-gray-500 font-medium flex items-center justify-center gap-0.5">
               Wage <Info className="h-2 w-2" />
             </div>
-            <div className={`text-sm font-bold font-mono ${(skill.wagePremium ?? 0) >= 0 ? 'text-emerald-700' : 'text-rose-600'}`}>
-              {skill.wagePremium === null ? 'N/A' : (skill.wagePremium >= 0 ? '+' : '') + fmtPct(skill.wagePremium)}
-            </div>
+            {skill.wagePremium === null || skill.wagePremium < 0 ? (
+              <div className="text-sm font-bold font-mono text-gray-400">N/A</div>
+            ) : (
+              <div className="text-sm font-bold font-mono text-emerald-700">+{fmtPct(skill.wagePremium)}</div>
+            )}
           </div>
         </MetricTip>
       </div>

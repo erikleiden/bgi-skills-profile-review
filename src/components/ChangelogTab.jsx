@@ -70,9 +70,11 @@ function SkillCard({ skill, kind }) {
         </div>
         <div>
           <div className="text-gray-400 text-[10px]">Wage</div>
-          <div className={`font-mono font-semibold ${(skill.wagePremium ?? 0) >= 0 ? 'text-emerald-700' : 'text-rose-600'}`}>
-            {skill.wagePremium !== null && skill.wagePremium >= 0 ? '+' : ''}{fmtPct(skill.wagePremium, 1)}
-          </div>
+          {skill.wagePremium === null || skill.wagePremium < 0 ? (
+            <div className="font-mono font-semibold text-gray-400">N/A</div>
+          ) : (
+            <div className="font-mono font-semibold text-emerald-700">+{fmtPct(skill.wagePremium, 1)}</div>
+          )}
         </div>
       </div>
       {skill.rationale && (
