@@ -69,32 +69,37 @@ function MetricTip({ label, body, children }) {
   )
 }
 
-function CategoryBlock({ category, skills, selectedSkill, onSelectSkill }) {
+function CategoryCard({ category, skills, selectedSkill, onSelectSkill }) {
   const color = CATEGORY_COLORS[category]
   const tint = CATEGORY_TINTS[category]
   return (
-    <section>
-      <div className="flex items-baseline gap-2 mb-1.5">
-        <div className="w-1 h-4 rounded" style={{backgroundColor: color}}></div>
-        <h3 className="text-xs font-bold uppercase tracking-wider" style={{color}}>
-          {category.replace(' Skills','')}
-        </h3>
-        <span className="text-[11px] text-gray-400">({skills.length})</span>
+    <div className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm flex flex-col">
+      {/* Header bar */}
+      <div className="px-4 py-2.5 flex items-center justify-between" style={{backgroundColor: color}}>
+        <div className="flex items-center gap-2">
+          <h3 className="text-sm font-bold uppercase tracking-wider text-white">
+            {category.replace(' Skills','')}
+          </h3>
+        </div>
+        <span className="text-xs font-bold text-white/80 bg-white/15 px-2 py-0.5 rounded-full">
+          {skills.length}
+        </span>
       </div>
-      <div className="flex flex-wrap gap-1.5">
+      {/* Pills area */}
+      <div className="p-3 flex flex-wrap gap-1.5 content-start flex-1" style={{backgroundColor: '#FAFBFC'}}>
         {skills.map(s => {
           const isSelected = selectedSkill && selectedSkill.skill === s.skill
           return (
             <button
               key={s.skill}
               onClick={() => onSelectSkill(s)}
-              className="text-[11px] px-2.5 py-1 rounded-full border transition-all leading-tight"
+              className="text-xs px-3 py-1.5 rounded-full border transition-all leading-tight font-medium"
               style={{
-                backgroundColor: isSelected ? color : tint,
-                color: isSelected ? 'white' : '#221E20',
+                backgroundColor: isSelected ? color : 'white',
+                color: isSelected ? 'white' : color,
                 borderColor: color,
-                borderWidth: isSelected ? '1.5px' : '1px',
-                fontWeight: isSelected ? 600 : 500,
+                borderWidth: '1.5px',
+                boxShadow: isSelected ? `0 2px 8px ${color}55` : 'none',
               }}
             >
               {s.skill}
@@ -102,7 +107,7 @@ function CategoryBlock({ category, skills, selectedSkill, onSelectSkill }) {
           )
         })}
       </div>
-    </section>
+    </div>
   )
 }
 
@@ -297,25 +302,27 @@ export default function ProfilesTab() {
 
       {/* Split area: skills left, detail right */}
       <div className="flex-1 flex overflow-hidden">
-        {/* Left panel — skill pills grouped */}
-        <div className="flex-1 overflow-y-auto p-5 space-y-4">
-          <div className="mb-1">
+        {/* Left panel — skill pills grouped in 2x2 category cards */}
+        <div className="flex-1 overflow-y-auto p-5">
+          <div className="mb-4">
             <h1 className="text-2xl font-bold text-bgi-navy leading-tight">{selected}</h1>
             <p className="text-xs text-gray-500 mt-0.5">{profile.totalSkills} skills · click any pill for details</p>
           </div>
-          {CATEGORY_ORDER.map(cat => {
-            const list = groupedSkills[cat] || []
-            if (list.length === 0) return null
-            return (
-              <CategoryBlock
-                key={cat}
-                category={cat}
-                skills={list}
-                selectedSkill={selectedSkill}
-                onSelectSkill={setSelectedSkill}
-              />
-            )
-          })}
+          <div className="grid grid-cols-2 gap-4">
+            {CATEGORY_ORDER.map(cat => {
+              const list = groupedSkills[cat] || []
+              if (list.length === 0) return null
+              return (
+                <CategoryCard
+                  key={cat}
+                  category={cat}
+                  skills={list}
+                  selectedSkill={selectedSkill}
+                  onSelectSkill={setSelectedSkill}
+                />
+              )
+            })}
+          </div>
         </div>
 
         {/* Right panel — skill detail */}
