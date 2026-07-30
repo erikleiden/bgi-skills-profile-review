@@ -3122,7 +3122,7 @@
     },
     "Paralegals and Legal Assistants": {
       "name": "Paralegals and Legal Assistants",
-      "totalSkills": 28,
+      "totalSkills": 27,
       "skills": [
         {
           "skill": "Communication",
@@ -3443,22 +3443,6 @@
           "growth": 0.310706583324195,
           "growthRaw": 0.310706583324195,
           "wagePremium": -0.0076185731408529
-        },
-        {
-          "skill": "Medical Records",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Health Information Management and Medical Records",
-          "definition": "Medical Records refers to the ability to locate, review, organize, and maintain patient documentation so information is accurate, complete, and accessible. It includes handling charts, reports, and related files while preserving confidentiality and supporting timely retrieval.",
-          "utilization": "Paralegals and Legal Assistants use medical records to gather case documents, track treatment histories, and prepare materials for attorneys. They organize files, verify completeness, and ensure records are available for deadlines, filings, and client matters.",
-          "level1": "At Level 1 Proficiency, workers can file medical records, identify basic document types, and retrieve requested charts from organized systems. They follow routine instructions to keep records orderly and pass along missing items or obvious errors to a supervisor.",
-          "level2": "At Level 2 Proficiency, workers can assemble medical record sets for cases, compare documents for completeness, and flag inconsistencies in dates, providers, or treatment entries. They manage routine requests independently and maintain organized files that support attorney review and case preparation.",
-          "level3": "At Level 3 Proficiency, workers can reliably manage complex medical record files, coordinate retrieval from multiple sources, and maintain accurate, confidential case documentation. They anticipate missing information, resolve routine record issues, and deliver well-organized materials that support legal work efficiently.",
-          "label": "Durable Skill",
-          "frequency": 0.074828,
-          "specificity": 0.07084324242433,
-          "growth": 0.157560535079302,
-          "growthRaw": 0.157560535079302,
-          "wagePremium": -0.0282626623418501
         },
         {
           "skill": "Document Management Systems",
@@ -5611,11 +5595,11 @@
     },
     "Paralegals and Legal Assistants": {
       "roleStatus": "new",
-      "total": 28,
+      "total": 27,
       "overlap": 0,
       "added": 0,
       "dropped": 0,
-      "newRoleSkill": 28
+      "newRoleSkill": 27
     },
     "Secretaries & Administrative Assistants": {
       "roleStatus": "new",
@@ -5715,7 +5699,7 @@
   "meta": {
     "sourceFile": "2026.05.13 Skills-First Skills Profiles v3.xlsx (rebuilt on 2025 published base)",
     "totalOccupations": 40,
-    "totalSkills": 1044,
+    "totalSkills": 1043,
     "lastUpdated": "2026-05-26"
   }
 }
