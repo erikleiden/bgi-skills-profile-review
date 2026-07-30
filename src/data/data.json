@@ -910,7 +910,7 @@
     },
     "Business Operations Specialists": {
       "name": "Business Operations Specialists",
-      "totalSkills": 25,
+      "totalSkills": 23,
       "skills": [
         {
           "skill": "Communication",
@@ -1231,38 +1231,6 @@
           "growth": 0.497408244003708,
           "growthRaw": 0.497408244003708,
           "wagePremium": 0.0715716966405868
-        },
-        {
-          "skill": "Digital Marketing",
-          "category": "Specialization",
-          "subcategory": "Digital Marketing",
-          "definition": "Digital Marketing refers to the ability to promote products, services, or ideas through online channels such as search, email, social media, and websites. It combines audience targeting, content planning, and campaign execution to reach customers where they spend time digitally.",
-          "utilization": "Business Operations Specialists use digital marketing to support outreach, coordinate campaigns, and align messaging with business goals. They help ensure promotional activities are timely, consistent, and connected to broader operational plans.",
-          "level1": "At Level 1 Proficiency, workers can follow established digital marketing instructions to post content, send basic email messages, and update website or social media information. They handle routine tasks accurately and recognize when materials need review before release.",
-          "level2": "At Level 2 Proficiency, workers can manage standard digital marketing tasks across multiple channels and adapt messages for different audiences or campaign goals. They coordinate routine scheduling, monitor basic performance indicators, and make small adjustments to improve consistency and reach.",
-          "level3": "At Level 3 Proficiency, workers can independently plan and execute digital marketing activities that support business operations and maintain brand consistency across channels. They troubleshoot issues, refine campaign details, and coordinate with others to keep messaging aligned and effective.",
-          "label": "High Value Skill",
-          "frequency": 0.067108,
-          "specificity": 0.0886296407411985,
-          "growth": -0.0338378406736091,
-          "growthRaw": -0.0338378406736091,
-          "wagePremium": 0.0883836338141224
-        },
-        {
-          "skill": "Organizational Leadership",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Business Leadership",
-          "definition": "Organizational Leadership refers to the ability to guide people, align priorities, and shape work so teams move toward shared goals with clarity and accountability. It involves setting direction, coordinating effort, and maintaining productive relationships across functions.",
-          "utilization": "Business Operations Specialists use organizational leadership to coordinate processes, support cross-functional execution, and keep daily operations aligned with business objectives. They help teams understand responsibilities, resolve workflow issues, and maintain consistent follow-through on operational plans.",
-          "level1": "At Level 1 Proficiency, workers can follow established directions, organize routine tasks, and communicate basic expectations to support team activities. They help keep work moving by tracking assignments, sharing updates, and escalating issues when coordination is needed.",
-          "level2": "At Level 2 Proficiency, workers can coordinate small groups or workstreams, adjust priorities when conditions change, and reinforce clear roles and deadlines. They support smoother operations by guiding day-to-day collaboration and helping others stay aligned with agreed procedures.",
-          "level3": "At Level 3 Proficiency, workers can lead operational efforts with confidence, align multiple stakeholders around shared goals, and sustain consistent execution across teams. They handle coordination challenges independently, maintain accountability, and keep business operations organized and responsive.",
-          "label": "Durable Skill",
-          "frequency": 0.05484,
-          "specificity": 0.0556243775630826,
-          "growth": 0.156971746231876,
-          "growthRaw": 0.156971746231876,
-          "wagePremium": null
         },
         {
           "skill": "Business Continuity",
@@ -1706,24 +1674,8 @@
     },
     "Computer and Information Systems Managers": {
       "name": "Computer and Information Systems Managers",
-      "totalSkills": 32,
+      "totalSkills": 28,
       "skills": [
-        {
-          "skill": "Leadership",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Initiative and Leadership",
-          "definition": "Leadership refers to the ability to guide people toward shared goals, set direction, and create the conditions for effective work. It includes communicating expectations, building trust, and making decisions that help a team stay coordinated and accountable.",
-          "utilization": "Computer and Information Systems Managers use leadership to lead technical teams, align projects with business needs, and keep staff focused on priorities. They coordinate responsibilities, resolve conflicts, and communicate decisions so systems work supports organizational goals.",
-          "level1": "At Level 1 Proficiency, workers can give clear instructions, monitor assigned tasks, and keep team members informed about immediate priorities. They support routine coordination by answering questions, reinforcing expectations, and helping the group stay organized during day-to-day work.",
-          "level2": "At Level 2 Proficiency, workers can guide small teams through changing priorities, adjust assignments when issues arise, and keep work moving across related tasks. They communicate decisions with confidence, encourage cooperation, and address basic performance or coordination problems before they grow.",
-          "level3": "At Level 3 Proficiency, workers can lead technical teams through complex initiatives, align diverse stakeholders, and maintain steady direction during competing demands. They make sound decisions, build commitment, and keep people accountable while ensuring the team delivers reliable results.",
-          "label": "High Value Skill",
-          "frequency": 0.634545,
-          "specificity": 0.023335624296703,
-          "growth": 0.242119857734604,
-          "growthRaw": 0.242119857734604,
-          "wagePremium": 0.186943264198225
-        },
         {
           "skill": "Communication",
           "category": "Foundational & Leadership Skills",
@@ -1738,22 +1690,6 @@
           "specificity": 0.0,
           "growth": 0.204360202217963,
           "growthRaw": 0.204360202217963,
-          "wagePremium": null
-        },
-        {
-          "skill": "Operations",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Business Operations",
-          "definition": "Operations refers to the ability to coordinate day-to-day activities, resources, and workflows so work is completed efficiently and consistently. It includes monitoring processes, resolving routine issues, and keeping services aligned with organizational goals and standards.",
-          "utilization": "Computer and Information Systems Managers use operations to keep technology services, support activities, and project work running smoothly. They coordinate teams, prioritize requests, and adjust procedures so systems remain reliable and business needs are met.",
-          "level1": "At Level 1 Proficiency, workers can follow established operational procedures to support routine technology tasks and maintain basic service continuity. They recognize common issues, communicate status updates, and complete assigned work accurately under supervision.",
-          "level2": "At Level 2 Proficiency, workers can manage recurring operational activities with limited guidance and adapt standard procedures to fit changing priorities. They coordinate with staff across functions, track progress, and resolve familiar problems before they disrupt service.",
-          "level3": "At Level 3 Proficiency, workers can independently oversee operational workflows, align resources with priorities, and keep technology services stable across multiple demands. They anticipate issues, refine procedures, and ensure teams execute work consistently and effectively.",
-          "label": "Durable Skill",
-          "frequency": 0.399335,
-          "specificity": 0.00205612262594038,
-          "growth": 0.20704010462075,
-          "growthRaw": 0.20704010462075,
           "wagePremium": null
         },
         {
@@ -1965,22 +1901,6 @@
           "wagePremium": 0.0697460541591435
         },
         {
-          "skill": "Finance",
-          "category": "Specialization",
-          "subcategory": "General Finance",
-          "definition": "Finance refers to the ability to understand, manage, and communicate how money, budgets, and funding support organizational goals. It includes planning expenditures, tracking costs, and making informed choices about resource use.",
-          "utilization": "Computer and Information Systems Managers use finance to align technology initiatives with budgets, justify system investments, and monitor spending across projects. They also help prioritize upgrades, staffing, and vendor contracts so information systems support business needs efficiently.",
-          "level1": "At Level 1 Proficiency, workers can follow basic budget instructions, review simple cost summaries, and recognize how technology purchases affect spending. They can support routine tracking of expenses and provide clear updates on approved costs.",
-          "level2": "At Level 2 Proficiency, workers can manage standard technology budgets, compare spending against plans, and explain routine variances to supervisors or project teams. They can help evaluate vendor proposals and adjust resource use to stay within financial limits.",
-          "level3": "At Level 3 Proficiency, workers can independently oversee finance-related decisions for information systems work, balancing budget constraints with operational priorities. They can coordinate spending across projects, anticipate financial impacts, and provide dependable guidance on cost-conscious technology planning.",
-          "label": "High Value Skill",
-          "frequency": 0.136633,
-          "specificity": 0.0368115017316415,
-          "growth": 0.452545797299925,
-          "growthRaw": 0.452545797299925,
-          "wagePremium": 0.0867011314880717
-        },
-        {
           "skill": "Cyber Security",
           "category": "Specialization",
           "subcategory": "Cybersecurity",
@@ -2011,22 +1931,6 @@
           "growth": 0.810754884547069,
           "growthRaw": 0.810754884547069,
           "wagePremium": null
-        },
-        {
-          "skill": "Consulting",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Business Consulting",
-          "definition": "Consulting refers to the ability to assess a situation, identify needs, and provide informed recommendations that help others make better decisions. It combines listening, problem framing, and practical guidance tailored to the client or organization.",
-          "utilization": "Computer and Information Systems Managers use consulting to translate business needs into technology strategies and advise leaders on system choices. They also use it to align IT priorities, explain tradeoffs, and guide implementation decisions across departments.",
-          "level1": "At Level 1 Proficiency, workers can gather basic information from stakeholders and explain straightforward technology options in clear terms. They can answer routine questions, share standard recommendations, and support discussions by summarizing needs and concerns accurately.",
-          "level2": "At Level 2 Proficiency, workers can evaluate common business and system issues, compare practical alternatives, and recommend an appropriate course of action. They can adapt their advice to different audiences and help teams understand the implications of proposed technology changes.",
-          "level3": "At Level 3 Proficiency, workers can lead consulting conversations on complex IT needs, shape recommendations for multiple stakeholders, and guide decisions with confidence. They can balance technical and business considerations, anticipate concerns, and support adoption of solutions that fit organizational goals.",
-          "label": "High Value Skill",
-          "frequency": 0.125183,
-          "specificity": 0.0346357274370266,
-          "growth": 0.165272545745904,
-          "growthRaw": 0.165272545745904,
-          "wagePremium": 0.127243375596299
         },
         {
           "skill": "Change Management",
@@ -2224,7 +2128,7 @@
     },
     "Management Analysts": {
       "name": "Management Analysts",
-      "totalSkills": 26,
+      "totalSkills": 22,
       "skills": [
         {
           "skill": "Communication",
@@ -2291,22 +2195,6 @@
           "wagePremium": null
         },
         {
-          "skill": "Operations",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Business Operations",
-          "definition": "Operations refers to the ability to coordinate day-to-day work so services, processes, and resources run smoothly and consistently. It includes organizing tasks, monitoring workflow, and keeping activities aligned with established procedures and goals.",
-          "utilization": "Management Analysts use operations to examine how work is performed and identify ways to improve efficiency and consistency. They rely on operational understanding to recommend process changes that support better service delivery and smoother execution.",
-          "level1": "At Level 1 Proficiency, workers can follow established operational procedures and help keep routine tasks on schedule. They recognize basic workflow issues and communicate them clearly to others for guidance or correction.",
-          "level2": "At Level 2 Proficiency, workers can apply operational knowledge to review standard processes and suggest practical improvements. They coordinate with others to adjust routines, resolve common disruptions, and keep work moving with less supervision.",
-          "level3": "At Level 3 Proficiency, workers can manage operational activities reliably across multiple tasks and ensure procedures are applied consistently. They anticipate workflow problems, adapt processes when needed, and support stable performance in changing conditions.",
-          "label": "Durable Skill",
-          "frequency": 0.267757,
-          "specificity": 0.00161225394204681,
-          "growth": 0.170645517197269,
-          "growthRaw": 0.170645517197269,
-          "wagePremium": null
-        },
-        {
           "skill": "Business Requirements",
           "category": "Core Role-Specific Skills",
           "subcategory": "Business Analysis",
@@ -2321,22 +2209,6 @@
           "growth": 0.00964215186940809,
           "growthRaw": 0.00964215186940809,
           "wagePremium": 0.0513311820608828
-        },
-        {
-          "skill": "Leadership",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Initiative and Leadership",
-          "definition": "Leadership refers to the ability to guide people toward shared goals by setting direction, building commitment, and coordinating effort. It involves clear communication, sound judgment, and the confidence to influence others while maintaining accountability and trust.",
-          "utilization": "Management Analysts use leadership to organize stakeholders, direct project activities, and keep improvement efforts aligned with business goals. They help teams accept recommendations, resolve resistance, and move from analysis to practical action.",
-          "level1": "At Level 1 Proficiency, workers can support a supervisor by helping coordinate meetings, sharing clear instructions, and following up on assigned tasks. They can keep small groups organized and communicate basic expectations without taking full responsibility for direction.",
-          "level2": "At Level 2 Proficiency, workers can lead routine workgroups, explain priorities, and adjust plans when issues arise during a project. They can encourage participation, keep members focused on agreed tasks, and help maintain steady progress with limited oversight.",
-          "level3": "At Level 3 Proficiency, workers can lead complex initiatives, align diverse stakeholders, and sustain commitment through changing priorities or resistance. They can set direction, delegate effectively, and guide teams to implement recommendations reliably while preserving cooperation and accountability.",
-          "label": "Durable Skill",
-          "frequency": 0.261552,
-          "specificity": 0.0112484681089248,
-          "growth": 0.164163991817627,
-          "growthRaw": 0.164163991817627,
-          "wagePremium": 0.0494633548519396
         },
         {
           "skill": "Data Analysis",
@@ -2467,23 +2339,7 @@
           "wagePremium": null
         },
         {
-          "skill": "Customer Service",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Customer Service",
-          "definition": "Customer Service refers to the ability to respond to questions, concerns, and requests in a courteous, timely, and helpful manner. It includes listening carefully, clarifying needs, and providing clear information that supports a positive experience and builds trust.",
-          "utilization": "Management Analysts use customer service to gather client concerns, explain recommendations clearly, and maintain cooperative working relationships. They help stakeholders feel heard, manage expectations, and support adoption of process changes through respectful communication.",
-          "level1": "At Level 1 Proficiency, workers can answer routine questions, acknowledge concerns politely, and direct people to the right contact or information. They follow basic service expectations and keep interactions professional, even when requests are simple or repetitive.",
-          "level2": "At Level 2 Proficiency, workers can handle a wider range of client questions, explain recommendations in plain language, and adjust their approach to different audiences. They resolve common concerns calmly, maintain rapport, and support smoother communication across projects.",
-          "level3": "At Level 3 Proficiency, workers can consistently manage complex client interactions, anticipate concerns, and tailor responses to preserve trust and cooperation. They handle difficult conversations professionally, align service with project goals, and sustain strong relationships across varied stakeholders.",
-          "label": "Durable Skill",
-          "frequency": 0.164436,
-          "specificity": 0.00278882275846962,
-          "growth": -0.0403570764366748,
-          "growthRaw": -0.0403570764366748,
-          "wagePremium": -0.0659425312952409
-        },
-        {
-          "skill": "Finance",
+          "skill": "Financial Analysis",
           "category": "Specialization",
           "subcategory": "General Finance",
           "definition": "Finance refers to the ability to understand how money is obtained, allocated, and monitored within an organization. It includes using financial information to support planning, control spending, and evaluate the effects of business decisions.",
@@ -2579,23 +2435,7 @@
           "wagePremium": null
         },
         {
-          "skill": "Systems Development Life Cycle",
-          "category": "Specialization",
-          "subcategory": "System Design and Implementation",
-          "definition": "Systems Development Life Cycle refers to the structured sequence of planning, analysis, design, development, testing, deployment, and maintenance used to guide information system work. It helps ensure changes are organized, documented, and aligned with business needs from start to finish.",
-          "utilization": "Management Analysts use the Systems Development Life Cycle to evaluate process needs, define requirements, and coordinate improvements with technical teams. It supports clear communication, controlled implementation, and review of whether proposed system changes address organizational goals.",
-          "level1": "At Level 1 Proficiency, workers can follow SDLC steps to gather basic requirements, document current processes, and track simple project tasks. They can support reviews, confirm information with stakeholders, and help keep routine system-related work organized and consistent.",
-          "level2": "At Level 2 Proficiency, workers can apply SDLC methods to shape requirements, compare process options, and participate in testing or implementation planning. They can coordinate with users and technical staff to refine deliverables and resolve common issues during system changes.",
-          "level3": "At Level 3 Proficiency, workers can independently apply SDLC practices to guide complex improvement efforts, align stakeholders, and manage documentation across phases. They can anticipate implementation impacts, support decisions with clear process analysis, and ensure system changes remain practical and well controlled.",
-          "label": "Durable Skill",
-          "frequency": 0.08791,
-          "specificity": 0.102992782988526,
-          "growth": 0.00115926216372878,
-          "growthRaw": 0.00115926216372878,
-          "wagePremium": null
-        },
-        {
-          "skill": "Tableau (Business Intelligence Software)",
+          "skill": "Data Visualization Tools",
           "category": "Baseline Applied Skills",
           "subcategory": "Business Intelligence Software",
           "definition": "Tableau (Business Intelligence Software) refers to the ability to build interactive dashboards, visualize data, and present business information in a clear, accessible format. It helps users turn raw data into charts and reports that support decision-making and communication.",
@@ -2646,7 +2486,7 @@
     },
     "Market Research Analysts / Marketing Specialists": {
       "name": "Market Research Analysts / Marketing Specialists",
-      "totalSkills": 23,
+      "totalSkills": 17,
       "skills": [
         {
           "skill": "Communication",
@@ -2663,22 +2503,6 @@
           "growth": 0.0698439933911216,
           "growthRaw": 0.0698439933911216,
           "wagePremium": -0.0205579962672728
-        },
-        {
-          "skill": "Management",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Business Management",
-          "definition": "Management refers to the ability to organize people, tasks, and resources so work is completed efficiently and goals are met. It includes planning, coordinating, guiding, and monitoring activities while keeping priorities clear and supporting consistent performance.",
-          "utilization": "Market Research Analysts / Marketing Specialists use management to coordinate research schedules, align team efforts, and keep projects moving toward deadlines. They also use it to organize information, communicate expectations, and ensure findings support marketing decisions.",
-          "level1": "At Level 1 Proficiency, workers can follow basic instructions, manage assigned tasks, and keep simple work organized. They can track deadlines, share updates, and complete routine coordination with limited supervision.",
-          "level2": "At Level 2 Proficiency, workers can manage several related tasks, adjust priorities when needed, and coordinate with others to keep projects on track. They can handle routine planning and communication with growing independence and confidence.",
-          "level3": "At Level 3 Proficiency, workers can independently manage complex workstreams, coordinate multiple contributors, and maintain steady progress across competing priorities. They can anticipate issues, keep stakeholders informed, and apply management practices reliably to support effective marketing research work.",
-          "label": "Durable Skill",
-          "frequency": 0.25445,
-          "specificity": 0.00241083123398712,
-          "growth": -0.0726997290957363,
-          "growthRaw": -0.0726997290957363,
-          "wagePremium": null
         },
         {
           "skill": "Writing",
@@ -2711,22 +2535,6 @@
           "growth": -0.043117125524965,
           "growthRaw": -0.043117125524965,
           "wagePremium": null
-        },
-        {
-          "skill": "Customer Service",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Customer Service",
-          "definition": "Customer Service refers to the ability to respond to questions, concerns, and requests in a courteous, timely, and helpful manner. It includes listening carefully, clarifying needs, and providing clear information that supports a positive experience and builds trust.",
-          "utilization": "Market Research Analysts / Marketing Specialists use customer service to gather feedback, answer participant questions, and maintain professional interactions with clients and audiences. They use it to keep communication smooth, encourage cooperation, and represent the organization positively.",
-          "level1": "At Level 1 Proficiency, workers can answer routine questions politely, follow basic service scripts, and direct people to the right contact or resource. They handle simple concerns consistently and maintain a respectful tone during everyday interactions.",
-          "level2": "At Level 2 Proficiency, workers can manage a wider range of customer needs, explain information clearly, and adjust their approach to different audiences. They resolve common issues independently, keep conversations organized, and maintain steady service quality under normal conditions.",
-          "level3": "At Level 3 Proficiency, workers can handle complex service situations with confidence, balance competing needs, and preserve positive relationships during difficult interactions. They communicate clearly, de-escalate concerns effectively, and provide reliable support that aligns with the role's communication demands.",
-          "label": "Durable Skill",
-          "frequency": 0.21336,
-          "specificity": 0.00406213040910335,
-          "growth": -0.0799979217638556,
-          "growthRaw": -0.0799979217638556,
-          "wagePremium": -0.0483089723439789
         },
         {
           "skill": "Presentations",
@@ -2777,22 +2585,6 @@
           "wagePremium": null
         },
         {
-          "skill": "Leadership",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Initiative and Leadership",
-          "definition": "Description of the skill: Leadership refers to the ability to guide people toward shared goals, set direction, and maintain focus when work becomes complex or uncertain. It also involves motivating others, making decisions, and creating a clear sense of accountability.",
-          "utilization": "Market Research Analysts / Marketing Specialists use leadership to coordinate projects, align stakeholders, and keep research or campaign tasks moving on schedule. They also help clarify priorities, resolve disagreements, and support consistent execution across teams.",
-          "level1": "At Level 1 Proficiency, workers can follow direction, organize simple tasks, and keep teammates informed about basic progress. They contribute to small group efforts by staying dependable, sharing updates, and helping maintain order in routine work.",
-          "level2": "At Level 2 Proficiency, workers can guide small projects, assign straightforward responsibilities, and adjust plans when priorities shift. They communicate expectations clearly, encourage cooperation, and help the team stay focused on delivering work that meets role requirements.",
-          "level3": "At Level 3 Proficiency, workers can lead complex assignments, coordinate multiple contributors, and keep work aligned with broader business goals. They make sound decisions, handle competing priorities confidently, and sustain team performance through clear direction and steady accountability.",
-          "label": "High Value Skill",
-          "frequency": 0.17024,
-          "specificity": 0.00821770776529328,
-          "growth": 0.219132881604018,
-          "growthRaw": 0.219132881604018,
-          "wagePremium": 0.147638194152114
-        },
-        {
           "skill": "Business Development",
           "category": "Specialization",
           "subcategory": "Business Strategy",
@@ -2807,22 +2599,6 @@
           "growth": 0.240085263570697,
           "growthRaw": 0.240085263570697,
           "wagePremium": null
-        },
-        {
-          "skill": "Planning",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Initiative and Leadership",
-          "definition": "Description of the skill: Planning refers to the ability to set objectives, organize tasks, and sequence work so activities are completed efficiently and on time. It involves anticipating needs, allocating resources, and adjusting steps when priorities or conditions change.",
-          "utilization": "Market Research Analysts / Marketing Specialists use planning to schedule research activities, coordinate campaign tasks, and align deliverables with business deadlines. They organize data collection, reporting, and communication so projects stay focused and timely.",
-          "level1": "At Level 1 Proficiency, workers can follow a simple work plan, complete assigned tasks in order, and meet basic deadlines with guidance. They can organize routine activities and keep track of immediate next steps without needing to manage complex priorities.",
-          "level2": "At Level 2 Proficiency, workers can plan multiple related tasks, adjust schedules when priorities shift, and coordinate routine work with limited supervision. They can organize research or marketing activities into clear steps and keep stakeholders informed about progress and timing.",
-          "level3": "At Level 3 Proficiency, workers can independently plan complex workstreams, balance competing deadlines, and adapt plans to changing business needs with confidence. They can coordinate research or marketing efforts reliably, ensuring tasks, timelines, and deliverables remain aligned across the role.",
-          "label": "Durable Skill",
-          "frequency": 0.169071,
-          "specificity": 0.0117801970189169,
-          "growth": 0.0368250512935996,
-          "growthRaw": 0.0368250512935996,
-          "wagePremium": 0.030545502806816
         },
         {
           "skill": "Problem Solving",
@@ -2919,38 +2695,6 @@
           "growth": -0.0368825383642575,
           "growthRaw": -0.0368825383642575,
           "wagePremium": 0.070964566042065
-        },
-        {
-          "skill": "Salesforce",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Customer Relationship Management (CRM)",
-          "definition": "Salesforce refers to the ability to use a customer relationship management platform to organize contacts, track interactions, and manage sales or marketing records. It supports consistent information sharing, follow-up, and campaign coordination across teams.",
-          "utilization": "Market Research Analysts / Marketing Specialists use Salesforce to record audience and prospect information, monitor campaign responses, and coordinate outreach activities. They use it to keep customer data current, support targeted messaging, and align research findings with marketing actions.",
-          "level1": "At Level 1 Proficiency, workers can enter and update basic contact and account information in Salesforce with supervision. They can also retrieve standard records and follow routine steps to keep marketing lists and activity notes organized.",
-          "level2": "At Level 2 Proficiency, workers can manage Salesforce records independently, apply standard filters, and maintain accurate campaign or lead information. They can also use the system to track follow-up tasks, review activity history, and support day-to-day marketing coordination.",
-          "level3": "At Level 3 Proficiency, workers can use Salesforce reliably to manage complex contact and campaign records, maintain data consistency, and support multiple marketing workflows. They can adapt system use to changing priorities, coordinate information across teams, and resolve routine issues without close guidance.",
-          "label": "High Value Skill",
-          "frequency": 0.093393,
-          "specificity": 0.075193450380446,
-          "growth": 0.128707915297395,
-          "growthRaw": 0.128707915297395,
-          "wagePremium": 0.0602332688939449
-        },
-        {
-          "skill": "Business To Business",
-          "category": "Specialization",
-          "subcategory": "Business-to-Business (B2B) Sales",
-          "definition": "Business To Business refers to the ability to understand and support transactions, relationships, and communication between organizations rather than individual consumers. It involves recognizing buyer needs, decision-making structures, and value propositions that shape how companies market and sell to other companies.",
-          "utilization": "Market Research Analysts / Marketing Specialists use business to business knowledge to study organizational buyers, segment markets, and tailor messaging to professional audiences. They also interpret industry needs and purchasing patterns to help shape campaigns, product positioning, and outreach strategies.",
-          "level1": "At Level 1 Proficiency, workers can identify basic business customer types and describe common organizational needs in simple terms. They can support routine research tasks by gathering information about companies, industries, and buying roles without independently shaping strategy.",
-          "level2": "At Level 2 Proficiency, workers can apply Business To Business knowledge to distinguish between different organizational buyers and explain how their priorities affect marketing messages. They can use this understanding to help refine campaign materials, audience segments, and research summaries with moderate confidence.",
-          "level3": "At Level 3 Proficiency, workers can consistently apply Business To Business knowledge to guide research and marketing decisions for organizational audiences. They can align insights, messaging, and market understanding across complex buyer groups while working reliably with minimal supervision.",
-          "label": "High Value Skill",
-          "frequency": 0.074073,
-          "specificity": 0.075943689256557,
-          "growth": 0.0983033866353798,
-          "growthRaw": 0.0983033866353798,
-          "wagePremium": 0.0912243097335015
         },
         {
           "skill": "Email Marketing",
@@ -3864,7 +3608,7 @@
     },
     "Secretaries & Administrative Assistants": {
       "name": "Secretaries & Administrative Assistants",
-      "totalSkills": 22,
+      "totalSkills": 20,
       "skills": [
         {
           "skill": "Communication",
@@ -3897,22 +3641,6 @@
           "growth": -0.0347681446148844,
           "growthRaw": -0.0347681446148844,
           "wagePremium": -0.0363213983588188
-        },
-        {
-          "skill": "Management",
-          "category": "Foundational & Leadership Skills",
-          "subcategory": "Business Management",
-          "definition": "Management refers to the ability to organize people, tasks, and resources so work is completed efficiently and on time. It includes planning, prioritizing, coordinating, and adjusting activities to support smooth day-to-day operations.",
-          "utilization": "Secretaries and Administrative Assistants use management to schedule meetings, track deadlines, and keep office activities moving in an orderly way. They coordinate communication, prepare materials, and help ensure supervisors and teams stay organized and informed.",
-          "level1": "At Level 1 Proficiency, workers can follow established instructions to organize routine tasks, maintain calendars, and keep basic records in order. They handle simple scheduling and coordination duties reliably when priorities are clearly set by others.",
-          "level2": "At Level 2 Proficiency, workers can manage several routine responsibilities at once, adjust schedules when plans change, and coordinate with multiple people to keep work on track. They use judgment to prioritize common tasks and resolve straightforward conflicts in timing or workflow.",
-          "level3": "At Level 3 Proficiency, workers can independently manage office routines, anticipate scheduling needs, and coordinate tasks across people and priorities with minimal supervision. They keep operations organized, respond effectively to changing demands, and maintain dependable follow-through on administrative commitments.",
-          "label": "High Value Skill",
-          "frequency": 0.232033,
-          "specificity": 0.0029823471525617,
-          "growth": 0.107243821199653,
-          "growthRaw": 0.107243821199653,
-          "wagePremium": 0.0667367381391144
         },
         {
           "skill": "Multitasking",
@@ -4105,22 +3833,6 @@
           "growth": -0.0312547696169043,
           "growthRaw": -0.0312547696169043,
           "wagePremium": -0.0372612624104107
-        },
-        {
-          "skill": "Word Processing",
-          "category": "Baseline Applied Skills",
-          "subcategory": "Basic Technical Knowledge",
-          "definition": "Word Processing refers to the ability to create, edit, format, and save written documents using standard document software. It includes producing clear letters, memos, forms, and reports with correct layout, spelling, and punctuation.",
-          "utilization": "Secretaries & Administrative Assistants use word processing to prepare correspondence, meeting materials, and routine office documents. They also revise drafts, apply consistent formatting, and maintain organized records that support daily administrative work.",
-          "level1": "At Level 1 Proficiency, workers can type simple documents, make basic edits, and use common formatting features such as bold text, spacing, and alignment. They can follow templates and produce clean copies of routine letters or notes with minimal guidance.",
-          "level2": "At Level 2 Proficiency, workers can draft and revise documents independently, using headings, tables, and consistent styles to improve readability. They can handle multiple document types, correct errors efficiently, and adjust formatting to match office standards and requests.",
-          "level3": "At Level 3 Proficiency, workers can produce polished documents reliably, managing complex formatting, revisions, and document organization with little supervision. They can adapt layouts for different office needs, maintain consistency across materials, and ensure final documents are accurate and ready for use.",
-          "label": "Declining Skill",
-          "frequency": 0.106958,
-          "specificity": 0.0469631860336804,
-          "growth": -0.294707874682473,
-          "growthRaw": -0.294707874682473,
-          "wagePremium": -0.0134530962596555
         },
         {
           "skill": "Presentations",
@@ -5883,11 +5595,11 @@
     },
     "Business Operations Specialists": {
       "roleStatus": "new",
-      "total": 25,
+      "total": 23,
       "overlap": 0,
       "added": 0,
       "dropped": 0,
-      "newRoleSkill": 25
+      "newRoleSkill": 23
     },
     "Computer User Support Specialists": {
       "roleStatus": "new",
@@ -5899,27 +5611,27 @@
     },
     "Computer and Information Systems Managers": {
       "roleStatus": "new",
-      "total": 32,
+      "total": 28,
       "overlap": 0,
       "added": 0,
       "dropped": 0,
-      "newRoleSkill": 32
+      "newRoleSkill": 28
     },
     "Management Analysts": {
       "roleStatus": "new",
-      "total": 26,
+      "total": 22,
       "overlap": 0,
       "added": 0,
       "dropped": 0,
-      "newRoleSkill": 26
+      "newRoleSkill": 22
     },
     "Market Research Analysts / Marketing Specialists": {
       "roleStatus": "new",
-      "total": 23,
+      "total": 17,
       "overlap": 0,
       "added": 0,
       "dropped": 0,
-      "newRoleSkill": 23
+      "newRoleSkill": 17
     },
     "Office & Admin Supervisors": {
       "roleStatus": "new",
@@ -5939,11 +5651,11 @@
     },
     "Secretaries & Administrative Assistants": {
       "roleStatus": "new",
-      "total": 22,
+      "total": 20,
       "overlap": 0,
       "added": 0,
       "dropped": 0,
-      "newRoleSkill": 22
+      "newRoleSkill": 20
     }
   },
   "allOccupations": [
@@ -6035,7 +5747,7 @@
   "meta": {
     "sourceFile": "2026.05.13 Skills-First Skills Profiles v3.xlsx (rebuilt on 2025 published base)",
     "totalOccupations": 40,
-    "totalSkills": 1064,
+    "totalSkills": 1046,
     "lastUpdated": "2026-05-26"
   }
 }
