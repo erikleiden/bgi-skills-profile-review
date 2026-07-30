@@ -308,7 +308,7 @@ export default function ProfilesTab() {
             <h1 className="text-2xl font-bold text-bgi-navy leading-tight">{selected}</h1>
             <p className="text-xs text-gray-500 mt-0.5">{profile.totalSkills} skills · click any pill for details</p>
           </div>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="space-y-3">
             {CATEGORY_ORDER.map(cat => {
               const list = groupedSkills[cat] || []
               if (list.length === 0) return null
@@ -326,7 +326,7 @@ export default function ProfilesTab() {
         </div>
 
         {/* Right panel — skill detail */}
-        <div className="w-[440px] flex-shrink-0 border-l border-gray-200 bg-gray-50">
+        <div className="w-[620px] flex-shrink-0 border-l border-gray-200 bg-gray-50">
           <DetailPanel skill={selectedSkill} roleName={selected} />
         </div>
       </div>
