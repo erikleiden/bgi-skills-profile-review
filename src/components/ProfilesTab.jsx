@@ -326,7 +326,7 @@ export default function ProfilesTab() {
         </div>
 
         {/* Right panel — skill detail */}
-        <div className="w-[620px] flex-shrink-0 border-l border-gray-200 bg-gray-50">
+        <div className="w-[780px] flex-shrink-0 border-l border-gray-200 bg-gray-50">
           <DetailPanel skill={selectedSkill} roleName={selected} />
         </div>
       </div>
