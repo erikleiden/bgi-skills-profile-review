@@ -2470,7 +2470,7 @@
     },
     "Market Research Analysts / Marketing Specialists": {
       "name": "Market Research Analysts / Marketing Specialists",
-      "totalSkills": 17,
+      "totalSkills": 20,
       "skills": [
         {
           "skill": "Communication",
@@ -2743,12 +2743,60 @@
           "growth": -0.065478060962903,
           "growthRaw": -0.065478060962903,
           "wagePremium": -0.139867806221024
+        },
+        {
+          "skill": "Marketing Analytics",
+          "category": "Core Role-Specific Skills",
+          "subcategory": "Market Analysis",
+          "definition": "Marketing Analytics refers to the ability to collect, interpret, and apply marketing data to understand audience behavior, campaign performance, and market trends. It supports clearer decisions about messaging, channel selection, and resource use.",
+          "utilization": "Market Research Analysts / Marketing Specialists use marketing analytics to evaluate campaign results, compare audience responses, and identify patterns that inform strategy. They also use it to refine targeting, adjust promotions, and communicate findings that support marketing decisions.",
+          "level1": "At Level 1 Proficiency, workers can review basic marketing reports, recognize simple trends, and identify which campaigns or channels performed better. They can use standard metrics to describe results and share straightforward observations with the team.",
+          "level2": "At Level 2 Proficiency, workers can interpret multiple marketing data sources, compare performance across segments, and explain what the results suggest for ongoing campaigns. They can connect findings to practical adjustments in messaging, timing, or channel emphasis.",
+          "level3": "At Level 3 Proficiency, workers can consistently apply marketing analytics to evaluate complex campaign outcomes, spot meaningful patterns, and recommend well-supported actions. They can translate results into clear guidance that improves targeting, planning, and overall marketing effectiveness.",
+          "label": "High Value Skill",
+          "frequency": 0.030952,
+          "specificity": 0.070302666,
+          "growth": 0.422622397,
+          "growthRaw": 0.422622397,
+          "wagePremium": 0.152546176
+        },
+        {
+          "skill": "Data Analysis",
+          "category": "Baseline Applied Skills",
+          "subcategory": "Data Analysis",
+          "definition": "Data Analysis refers to the ability to collect, organize, and interpret information so patterns, trends, and relationships become clear. It supports evidence-based decisions by turning raw data into practical insights that can guide planning, evaluation, and communication.",
+          "utilization": "Market Research Analysts / Marketing Specialists use data analysis to review survey results, customer feedback, and campaign performance. They compare findings across segments and time periods to identify audience needs, measure response, and refine marketing actions.",
+          "level1": "At Level 1 Proficiency, workers can sort basic data, identify simple trends, and summarize results in clear language. They follow established procedures to prepare information for review and can spot obvious inconsistencies or missing entries in routine datasets.",
+          "level2": "At Level 2 Proficiency, workers can examine multiple data sources, compare results across groups, and explain what the patterns suggest for marketing decisions. They work with moderate independence, selecting relevant information and presenting findings in a way that supports practical action.",
+          "level3": "At Level 3 Proficiency, workers can consistently apply data analysis to evaluate market information, interpret changing trends, and support decisions with well-organized evidence. They handle complex datasets confidently, connect findings to business goals, and communicate insights clearly to guide marketing strategy.",
+          "label": "High Value Skill",
+          "frequency": 0.107252,
+          "specificity": 0.032555461,
+          "growth": 0.297748574,
+          "growthRaw": 0.297748574,
+          "wagePremium": 0.123045757
+        },
+        {
+          "skill": "Forecasting",
+          "category": "Baseline Applied Skills",
+          "subcategory": "Data Analysis",
+          "definition": "Forecasting refers to the ability to anticipate future market conditions, customer demand, and campaign outcomes by interpreting available evidence and patterns. It helps professionals turn historical information and current signals into practical expectations that guide planning and decision-making.",
+          "utilization": "Market Research Analysts / Marketing Specialists use forecasting to estimate how audiences, sales interest, or response rates may change over time. They apply those expectations to shape research priorities, timing, messaging, and resource allocation for marketing activities.",
+          "level1": "At Level 1 Proficiency, workers can use basic forecasting inputs to identify simple trends and make straightforward short-term expectations. They can describe likely changes in demand or audience behavior using clear evidence from recent observations and established patterns.",
+          "level2": "At Level 2 Proficiency, workers can combine several sources of market information to build more dependable forecasts for campaigns or research projects. They can compare scenarios, recognize seasonal shifts, and adjust expectations when new customer or competitor signals appear.",
+          "level3": "At Level 3 Proficiency, workers can apply forecasting consistently to support marketing plans, research schedules, and audience targeting decisions. They can refine expectations as conditions change, explain the reasoning behind projections, and use forecasts to guide coordinated action across tasks.",
+          "label": "High Value Skill",
+          "frequency": 0.039344,
+          "specificity": 0.019953024,
+          "growth": -0.076751305,
+          "growthRaw": -0.076751305,
+          "wagePremium": 0.157213316
         }
       ]
     },
     "Office & Admin Supervisors": {
       "name": "Office & Admin Supervisors",
-      "totalSkills": 23,
+      "totalSkills": 25,
       "skills": [
         {
           "skill": "Customer Service",
@@ -3117,6 +3165,38 @@
           "growth": -0.0181532441707559,
           "growthRaw": -0.0181532441707559,
           "wagePremium": -0.0494290611528536
+        },
+        {
+          "skill": "Travel Arrangements",
+          "category": "Baseline Applied Skills",
+          "subcategory": "Travel and Tourism",
+          "definition": "Travel Arrangements refers to the ability to plan, book, and coordinate transportation, lodging, and related itinerary details for business or personal trips. It includes confirming schedules, handling changes, and ensuring travelers have the information needed for smooth movement and timely arrival.",
+          "utilization": "Office & Admin Supervisors use travel arrangements to support staff trips, meetings, and visitor logistics while keeping schedules aligned with office priorities. They coordinate bookings, communicate updates, and resolve routine travel issues so operations continue without disruption.",
+          "level1": "At Level 1 Proficiency, workers can make basic travel bookings using established instructions and confirm simple itinerary details for travelers. They handle straightforward changes, share reservation information, and follow office procedures to keep travel records accurate and organized.",
+          "level2": "At Level 2 Proficiency, workers can coordinate multi-step travel plans that include transportation, lodging, and timing across several travelers or trips. They adjust arrangements when schedules change, communicate options clearly, and manage common problems with limited supervision.",
+          "level3": "At Level 3 Proficiency, workers can independently manage complex travel arrangements for the office, balancing competing schedules, policy requirements, and traveler needs. They anticipate conflicts, resolve disruptions quickly, and ensure travel plans remain reliable, clear, and aligned with supervisory priorities.",
+          "label": "Durable Skill",
+          "frequency": 0.023592,
+          "specificity": 0.031333195,
+          "growth": -0.071755389,
+          "growthRaw": -0.071755389,
+          "wagePremium": -0.04957946
+        },
+        {
+          "skill": "Event Planning",
+          "category": "Baseline Applied Skills",
+          "subcategory": "Events and Conferences",
+          "definition": "Event Planning refers to the ability to organize meetings, gatherings, and special activities by setting objectives, arranging logistics, and coordinating people and resources. It also includes managing schedules, venues, materials, and communication so the event runs smoothly and meets its intended purpose.",
+          "utilization": "Office & Admin Supervisors use event planning to coordinate staff meetings, training sessions, and office celebrations while keeping daily operations on track. They align schedules, confirm supplies, communicate details, and resolve last-minute issues so events support the workplace efficiently.",
+          "level1": "At Level 1 Proficiency, workers can help prepare simple office events by following instructions, reserving basic resources, and checking that needed materials are available. They can communicate routine details to participants and support setup and cleanup without independently managing complex arrangements.",
+          "level2": "At Level 2 Proficiency, workers can organize standard events with limited supervision, balancing schedules, coordinating vendors or internal contacts, and tracking key tasks from start to finish. They can adjust plans when minor problems arise and keep stakeholders informed with clear, timely updates.",
+          "level3": "At Level 3 Proficiency, workers can independently plan and deliver office events that involve multiple schedules, priorities, and participants while maintaining smooth coordination across the workplace. They can anticipate issues, make practical adjustments, and ensure the event meets operational needs and professional standards.",
+          "label": "High Growth Skill",
+          "frequency": 0.013716,
+          "specificity": 0.016419687,
+          "growth": 1.0,
+          "growthRaw": 1.708353279,
+          "wagePremium": -0.03707024
         }
       ]
     },
@@ -3560,7 +3640,7 @@
     },
     "Secretaries & Administrative Assistants": {
       "name": "Secretaries & Administrative Assistants",
-      "totalSkills": 20,
+      "totalSkills": 22,
       "skills": [
         {
           "skill": "Communication",
@@ -3881,6 +3961,38 @@
           "growth": -0.152624607676582,
           "growthRaw": -0.152624607676582,
           "wagePremium": 0.136833830107791
+        },
+        {
+          "skill": "Scheduling",
+          "category": "Baseline Applied Skills",
+          "subcategory": "Scheduling",
+          "definition": "Scheduling refers to the ability to organize appointments, meetings, deadlines, and shared resources so work happens in the right order and at the right time. It involves balancing priorities, avoiding conflicts, and keeping calendars or plans accurate and current.",
+          "utilization": "Secretaries & Administrative Assistants use scheduling to coordinate calendars, arrange meetings, and confirm availability for managers, staff, and visitors. They also adjust plans when changes arise, helping the office stay organized and responsive.",
+          "level1": "At Level 1 Proficiency, workers can enter appointments, update basic calendars, and follow clear instructions for setting meeting times. They handle simple scheduling requests and flag obvious conflicts or missing details for review.",
+          "level2": "At Level 2 Proficiency, workers can coordinate multiple calendars, resolve routine conflicts, and arrange meetings with several participants while keeping details accurate. They manage changes with limited supervision and communicate updates clearly to the people involved.",
+          "level3": "At Level 3 Proficiency, workers can independently manage complex scheduling across busy calendars, shifting priorities, and recurring commitments while keeping plans dependable. They anticipate conflicts, make timely adjustments, and maintain smooth coordination for the office without needing close oversight.",
+          "label": "Durable Skill",
+          "frequency": 0.215683,
+          "specificity": 0.030688739,
+          "growth": 0.237485095,
+          "growthRaw": 0.237485095,
+          "wagePremium": 0.030565458
+        },
+        {
+          "skill": "Front Office",
+          "category": "Baseline Applied Skills",
+          "subcategory": "Office Management",
+          "definition": "Front Office refers to the ability to manage the first point of contact for visitors, callers, and staff with courtesy, organization, and clear communication. It includes greeting people, directing inquiries, and maintaining a professional reception environment that supports smooth daily operations.",
+          "utilization": "Secretaries & Administrative Assistants use front office skills to answer phones, welcome visitors, and route requests to the right person or department. They also help keep the office organized by handling basic information, providing scheduling support, and maintaining a professional first impression.",
+          "level1": "At Level 1 Proficiency, workers can greet visitors, answer routine calls, and pass messages accurately to the appropriate person. They follow standard office procedures, keep the reception area orderly, and respond politely to common questions using clear, basic communication.",
+          "level2": "At Level 2 Proficiency, workers can manage multiple front office tasks at once, such as screening calls, directing visitors, and coordinating routine scheduling requests. They handle common issues with confidence, adapt their communication to different people, and maintain steady service during busy periods.",
+          "level3": "At Level 3 Proficiency, workers can run front office activities smoothly and independently, balancing visitor flow, phone coverage, and administrative support with minimal supervision. They handle complex interactions professionally, resolve routine problems quickly, and ensure the office presents a consistent, reliable first impression.",
+          "label": "Durable Skill",
+          "frequency": 0.059602,
+          "specificity": 0.067282363,
+          "growth": 0.122057193,
+          "growthRaw": 0.122057193,
+          "wagePremium": -0.038438759
         }
       ]
     }
@@ -5579,19 +5691,19 @@
     },
     "Market Research Analysts / Marketing Specialists": {
       "roleStatus": "new",
-      "total": 17,
+      "total": 20,
       "overlap": 0,
       "added": 0,
       "dropped": 0,
-      "newRoleSkill": 17
+      "newRoleSkill": 20
     },
     "Office & Admin Supervisors": {
       "roleStatus": "new",
-      "total": 23,
+      "total": 25,
       "overlap": 0,
       "added": 0,
       "dropped": 0,
-      "newRoleSkill": 23
+      "newRoleSkill": 25
     },
     "Paralegals and Legal Assistants": {
       "roleStatus": "new",
@@ -5603,11 +5715,11 @@
     },
     "Secretaries & Administrative Assistants": {
       "roleStatus": "new",
-      "total": 20,
+      "total": 22,
       "overlap": 0,
       "added": 0,
       "dropped": 0,
-      "newRoleSkill": 20
+      "newRoleSkill": 22
     }
   },
   "allOccupations": [
@@ -5699,7 +5811,7 @@
   "meta": {
     "sourceFile": "2026.05.13 Skills-First Skills Profiles v3.xlsx (rebuilt on 2025 published base)",
     "totalOccupations": 40,
-    "totalSkills": 1043,
+    "totalSkills": 1050,
     "lastUpdated": "2026-05-26"
   }
 }
