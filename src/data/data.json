@@ -2928,7 +2928,7 @@
         },
         {
           "skill": "Multitasking",
-          "category": "Baseline Applied Skills",
+          "category": "Foundational & Leadership Skills",
           "subcategory": "Personal Attributes",
           "definition": "Description of the skill: Multitasking refers to the ability to handle several tasks, requests, or interruptions within the same work period while keeping work organized and accurate. It involves shifting attention efficiently, prioritizing what needs immediate action, and maintaining steady progress on routine responsibilities.",
           "utilization": "Office & Admin Supervisors use multitasking to oversee daily office operations while responding to staff questions, scheduling needs, and administrative issues. They balance competing demands so work continues smoothly, deadlines are met, and support remains consistent across the team.",
@@ -4426,7 +4426,7 @@
       "pipelineDropped": [
         {
           "skill": "General Mathematics",
-          "category": "Foundational & Leadership Skills",
+          "category": "Baseline Applied Skills",
           "subcategory": null,
           "label": "Declining Skill",
           "frequency": 0.093,
